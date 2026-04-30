@@ -190,7 +190,8 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - https://www.datacenterdynamics.com/en/news/google-makes-distributed-cloud-edge-hardware-generally-available/
 - https://cloud.google.com/blog/products/infrastructure-modernization/google-distributed-cloud-edge-appliance-use-cases/
 - GDC Edge Appliance is deprecated - https://docs.cloud.google.com/distributed-cloud/edge-appliance/deprecated-notice
-- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview
+- https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
+- https://docs.cloud.google.com/distributed-cloud/sandbox/latest
 
 
 - https://github.com/ObrienlabsDev/secure-private-data-center
