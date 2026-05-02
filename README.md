@@ -227,10 +227,6 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - https://cloud.google.com/customers/rubin-observatory
 
 
-# Lenovo Rack Servers
-## Lenovo SR250 V3 Rack Servers for GDC
-
-
 # Private Cloud: PaaS Kubernetes stack with IaaS provisioning - HA and DR
 - https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
 - https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
