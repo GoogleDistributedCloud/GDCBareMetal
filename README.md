@@ -152,6 +152,14 @@ Storage | PVC/Block | . | NetApp | . | . | [GCNV](https://cloud.google.com/netap
 VM virtualization | VMs on Kubernetes | GCE | VM Manager | . | [KubeVirt](https://kubevirt.io/) | .
 . | . | . | . | . | . | .
 
+Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
+postgreSQL (check alloyDB), Oracle byod
+
+# Personas
+## Infrastructure Operations
+## Platform Administrator
+## Application Operator
+
 ## Kubernetes Installations
 ### AWS - EKS Anywhere
 - see https://aws.amazon.com/pm/eks-anywhere/
