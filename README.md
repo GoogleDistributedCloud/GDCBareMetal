@@ -81,6 +81,8 @@ Power Supply | . | . |
 . | . | . | .
 
 ### GDC Air Gapped Appliance - Hardware Component Mapping
+
+
 In the field GDC AG ruggedized.
 See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview#hardware_components
 
@@ -90,12 +92,35 @@ See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance
 --- | --- | --- | ---
 TOR Switches 10G | . | . | 
 TOR Switches 100-400G | . | . | 
+HSM | | | 
 Identity | . | . | .
 Storage | . | . | . 
 Servers | . | . | . 
 GPUs | . | . | .
 Power Supply | . | . | 
 . | . | . | .
+
+
+#### GDC-AG connectivity
+5 pathways for updates.
+
+Vulnerability signatures
+
+EDR - Incoming Detection and Response updates
+
+Firewall IOC and signature updates
+
+Threat intelligence
+
+Code updates
+(including image updates)
+
+#### Operations Suite Infrastucture
+OSI includes servicenow
+
+#### Multitenant Organizations
+Hardware level isolation with appliance pulg/play into the base 4 to 30 rack GDC
+organizations, projects (no folders), tags, kubernetes taints.
 
 
 ### GDC software only for Bare Metal
