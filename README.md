@@ -94,7 +94,7 @@ TOR Switches 10G | . | . |
 TOR Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
-Storage | . | . | . 
+Storage | NetApp | NetApp ONTAP Select (OTS) | . 
 Servers | . | . | . 
 GPUs | . | . | .
 Power Supply | . | . | 
