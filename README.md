@@ -204,7 +204,9 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - https://github.com/ObrienlabsDev/blog/issues/174
 
 ## GDC Documentation
+- https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
 - https://docs.cloud.google.com/distributed-cloud/docs
+- https://cloud.google.com/distributed-cloud?hl=en
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
