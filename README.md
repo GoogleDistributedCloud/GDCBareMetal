@@ -194,6 +194,8 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 
 # DevOps
 ## Server Setup
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
+- 
 
 
 # Use Cases
