@@ -103,6 +103,8 @@ GPUs | . | . | .
 Power Supply | . | . | 
 . | . | . | .
 
+see - https://buy.hpe.com/ca/en/compute/edgeline-systems/edgeline-systems/hpe-edgeline-el8000t-converged-edge-system/p/1012828509
+
 
 #### GDC-AG connectivity
 5 pathways for updates.
@@ -255,6 +257,9 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - Google internal-only L300 Anthos Migration notes - https://github.com/ObrienlabsDev/gcp-infrastructure-as-code/issues/22
 
 # Finances
+## GDC Costs
+GDC virtual - 25k/m
+
 ## GKE Costs
 GKE control planes are per cluster (regardless of size) - at $0.1/hr - with free credits of 74.4 allocated for a single cluster (autopilot or zonal) - https://cloud.google.com/kubernetes-engine/pricing
 ### Anthos Costs
