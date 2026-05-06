@@ -67,6 +67,9 @@ GPUs | . | . | .
 Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" /> | 
 . | . | . | .
 
+
+unknown - possible HP Edgeline - https://www.hpe.com/ca/en/solutions/edge-computing.html - 
+
 ### GDC Bare Metal - Hardware Component Mapping
 
  Component | Vendor | Model | Alternate 
