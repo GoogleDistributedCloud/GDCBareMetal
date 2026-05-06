@@ -106,6 +106,7 @@ Power Supply | . | . |
 see - https://buy.hpe.com/ca/en/compute/edgeline-systems/edgeline-systems/hpe-edgeline-el8000t-converged-edge-system/p/1012828509
 specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-iot/
 with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el8000-ca/hpe-el8000-server-travel-case
+- https://www.lemondeinformatique.fr/actualites/lire-next2023-google-cloud-muscle-son-infrastructure-pour-l-ia-91415.html
 
 #### GDC-AG connectivity
 5 pathways for updates.
@@ -159,7 +160,7 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | . | [KubeVirt](https:
 . | . | . | . | . | . | .
 
 Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
-postgreSQL (check alloyDB), Oracle byod
+postgreSQL (check alloyDB Omni), Oracle byod
 
 # Personas
 ## Infrastructure Operations
