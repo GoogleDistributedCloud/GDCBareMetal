@@ -104,6 +104,7 @@ Power Supply | . | . |
 . | . | . | .
 
 see - https://buy.hpe.com/ca/en/compute/edgeline-systems/edgeline-systems/hpe-edgeline-el8000t-converged-edge-system/p/1012828509
+specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-iot/
 
 
 #### GDC-AG connectivity
