@@ -232,6 +232,10 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 
 ## GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
+## GDC Traning - Example Sequence
+Get yourself a skillsboost subscription via Google Developer Premium or use your partner training subscription.
+
+- 
 - 
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
