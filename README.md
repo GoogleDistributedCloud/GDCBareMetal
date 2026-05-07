@@ -203,7 +203,13 @@ Currently using TPLink 10gbps rack switches and routers.
 # DevOps
 ## Server Setup
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
-- 
+
+## GKE Enterprise (Anthos) for GDC Bare Metal
+Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/install-prep or Distributed Cloud Edge https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/clusters
+
+
+<img width="1201" height="839" alt="Screenshot 2026-05-07 at 11 35 52" src="https://github.com/user-attachments/assets/32f13055-02d5-4124-8753-3ddfb65d8c86" />
+
 
 
 # Use Cases
