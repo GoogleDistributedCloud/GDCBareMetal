@@ -80,6 +80,10 @@ specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-io
 with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el8000-ca/hpe-el8000-server-travel-case
 - https://www.lemondeinformatique.fr/actualites/lire-next2023-google-cloud-muscle-son-infrastructure-pour-l-ia-91415.html
 
+GDC Air Gapped Appliance - Next 2023
+<img width="1080" height="1342" alt="_edge-cloud-google_next_2023" src="https://github.com/user-attachments/assets/1a352601-d19f-43ad-9808-4c789324a7ec" />
+
+
 #### GDC-AG connectivity
 5 pathways for updates.
 
