@@ -34,6 +34,7 @@ Firewall | Palo Alto | <img width="1143" height="325" alt="_next_26_pa_Screensho
 Identity | Thales | <img width="1171" height="130" alt="_next_26_thales_Screenshot 2026-04-26 at 18 23 59" src="https://github.com/user-attachments/assets/047f752b-b370-4192-ab17-823a40aca636" /> | .
 Storage | NetApp | <img width="1160" height="248" alt="_next_26_netapp_Screenshot 2026-04-26 at 18 23 06" src="https://github.com/user-attachments/assets/dc3f24c0-1367-4cfd-8edc-e059a66c4bd9" /> | . 
 Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screenshot 2026-04-26 at 18 24 36" src="https://github.com/user-attachments/assets/41d37a4c-c273-4e2d-a31d-269462c04639" />  | . 
+Servers | HPE | This looks to be HPE related  <img width="1134" height="141" alt="_next_26_gdcc_question_Screenshot 2026-04-26 at 18 25 02" src="https://github.com/user-attachments/assets/bd0660dd-1568-4136-8061-acc1f1419357" /> | . 
 Servers | Intel | <img width="653" height="506" alt="_next_26_intel_Screenshot 2026-04-26 at 18 27 27" src="https://github.com/user-attachments/assets/607b5c21-95df-4c8e-9303-13a0afdd3a88" />
 GPUs | . | . | .
 Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" /> | 
