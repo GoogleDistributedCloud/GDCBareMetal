@@ -58,7 +58,7 @@ Power Supply | . | . |
 ### GDC Air Gapped Appliance - Hardware Component Mapping
 
 
-In the field GDC AG ruggedized.
+### 5U HPE-EL8000 - In the field GDC AG ruggedized.
 See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview#hardware_components
 
 <img width="842" height="766" alt="gdc_air_gapped_appliance_front_profile" src="https://github.com/user-attachments/assets/28560cab-1702-4d5c-9db3-251425d7e7e7" />
@@ -80,7 +80,7 @@ specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-io
 with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el8000-ca/hpe-el8000-server-travel-case
 - https://www.lemondeinformatique.fr/actualites/lire-next2023-google-cloud-muscle-son-infrastructure-pour-l-ia-91415.html
 
-GDC Air Gapped Appliance - Next 2023
+### 6U HPE-EL8000 - GDC Air Gapped Appliance - Next 2023
 <img width="1080" height="1342" alt="_edge-cloud-google_next_2023" src="https://github.com/user-attachments/assets/1a352601-d19f-43ad-9808-4c789324a7ec" />
 
 
