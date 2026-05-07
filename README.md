@@ -205,6 +205,7 @@ Currently using TPLink 10gbps rack switches and routers.
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
 
 ## GKE Enterprise (Anthos) for GDC Bare Metal
+see https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/install-prep or Distributed Cloud Edge https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/clusters
 
 
@@ -219,18 +220,18 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 # Issues
 - https://github.com/ObrienlabsDev/blog/issues/174
 
-## GDC Documentation
+# GDC Documentation
 - https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
 - https://docs.cloud.google.com/distributed-cloud/docs
 - https://cloud.google.com/distributed-cloud?hl=en
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 
 
-### GDC Training
+## GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
-- https://cloud.google.com/customers/rubin-observatory
 - 
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
@@ -243,6 +244,7 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 - GDC Edge Appliance is deprecated - https://docs.cloud.google.com/distributed-cloud/edge-appliance/deprecated-notice
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
+- - https://cloud.google.com/customers/rubin-observatory
 
 
 - https://github.com/ObrienlabsDev/secure-private-data-center
