@@ -275,6 +275,12 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 ## GDC Costs
 GDC virtual - 25k/m
 
+### Anthos credit
+Can we use this one time credit
+```
+Trial for google/anthos.googleapis.com Expired	$1,025.01 f3c....bafc7 Following SKUs. Anthos (Google Cloud) (services/9186-F79E-3871/skus/03CC-5250-7F51) Anthos (Azure) (services/9186-F79E-3871/skus/688E-3D16-399E) January 24, 2022
+```
+
 ## GKE Costs
 GKE control planes are per cluster (regardless of size) - at $0.1/hr - with free credits of 74.4 allocated for a single cluster (autopilot or zonal) - https://cloud.google.com/kubernetes-engine/pricing
 ### Anthos Costs
