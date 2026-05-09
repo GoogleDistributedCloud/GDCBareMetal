@@ -297,6 +297,7 @@ https://ubuntu.com/certified
 
 ### Dell PowerEdge R260
 - https://www.dell.com/en-ca/shop/dell-poweredge-servers/sr/servers/rack?sortBy=price-ascending&appliedRefinements=35985&_gl=1*16moe3p*_up*MQ..&gclid=CjwKCAjwtvvPBhBuEiwAPMijr4DAm7iLn8rjPO24RTsdAkH_53xFtGjcAbJcx_-pgi34XR4-thi6YhoCM7oQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAACgY6lZxjQ18crNQ2Cp3NDUusWTtj
+- https://www.dell.com/en-ca/shop/servers-storage-and-networking/poweredge-r260/spd/poweredge-r260/pe_r260_tm_vi_vp_sb
 - 
 ### Lenovo SR250 V3
 - https://lenovopress.lenovo.com/lp1802-thinksystem-sr250-v3-server (acoustics - https://pubs.lenovo.com/uefi_xeon_4th/operating_modes)
