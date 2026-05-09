@@ -295,6 +295,9 @@ https://ubuntu.com/certified
 ### QSFP56 NVIDIA DGX Spark
 - https://ca.store.ui.com/ca/en/category/switching-enterprise/collections/enterprise-campus-24/products/ecs-24s-poe
 
+### Dell PowerEdge R260
+- https://www.dell.com/en-ca/shop/dell-poweredge-servers/sr/servers/rack?sortBy=price-ascending&appliedRefinements=35985&_gl=1*16moe3p*_up*MQ..&gclid=CjwKCAjwtvvPBhBuEiwAPMijr4DAm7iLn8rjPO24RTsdAkH_53xFtGjcAbJcx_-pgi34XR4-thi6YhoCM7oQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAACgY6lZxjQ18crNQ2Cp3NDUusWTtj
+- 
 ### Lenovo SR250 V3
 - https://lenovopress.lenovo.com/lp1802-thinksystem-sr250-v3-server (acoustics - https://pubs.lenovo.com/uefi_xeon_4th/operating_modes)
 - https://datacentersupport.lenovo.com/ca/en/products/servers/thinksystem/sr250v3/7dcl/downloads/driver-list/
