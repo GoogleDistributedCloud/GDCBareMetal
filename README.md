@@ -61,6 +61,7 @@ Power Supply | . | . |
 
 ### 5U HPE-EL8000 - In the field GDC AG ruggedized.
 See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview#hardware_components
+- https://www.hpe.com/us/en/collaterals/collateral.a00067727enw.html
 
 <img width="842" height="766" alt="gdc_air_gapped_appliance_front_profile" src="https://github.com/user-attachments/assets/28560cab-1702-4d5c-9db3-251425d7e7e7" />
 
