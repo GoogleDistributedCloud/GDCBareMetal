@@ -199,6 +199,9 @@ For smaller rack depths such as 24 inches - the supplied lenovo specific extenda
 
 SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 
+## Dell Poweredge R260 RAck Servers as GDC Simulators
+- https://www.dell.com/en-ca/shop/servers-storage-and-networking/poweredge-r260/spd/poweredge-r260/pe_r260_tm_vi_vp_sb
+- https://gfx3.senetic.com/akeneo-catalog/a/9/b/d/a9bd7dee0928db53fc2f97c515fbf67a89ab8345_1763587_C26KK_icecat_multimedia_manual_pdf_1_en_GB.pdf
 ### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
 
