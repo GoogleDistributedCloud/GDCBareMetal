@@ -21,6 +21,10 @@ There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Go
 
 There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
 
+### GDC Requirements
+#### Cgroupsv2
+In ubuntu 22.04+
+
 ### GDC Connected - Hardware Component Mapping
 #### Google Distributed Cloud at Next 26
 At the GCP conference in Las Vegas in April 2026 there were 4 GDC related presentations - however the hardware on the showcase floor was where we could talk directly to GDC personnel and the hardware vendor partners like Dell, Intel, NetApp, Palo Alto and Thales.
