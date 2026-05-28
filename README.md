@@ -30,6 +30,7 @@ In ubuntu 22.04+
 ### GDC Data Issues
 #### Low to High side data transfer
 This includes all of periodic connections to exchange metrics or upload image data or for air gapped - unclass to classified data transfer.
+Using a unidirectional diode is one solution.
 
 see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber.gc.ca/en/guidance/cross-domain-solutions-itse80030
 
