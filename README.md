@@ -27,6 +27,12 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 #### Cgroupsv2
 In ubuntu 22.04+
 
+### GDC Data Issues
+#### Low to High side data transfer
+This includes all of periodic connections to exchange metrics or upload image data or for air gapped - unclass to classified data transfer.
+
+see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber.gc.ca/en/guidance/cross-domain-solutions-itse80030
+
 ### GDC Connected - Hardware Component Mapping
 #### Google Distributed Cloud at Next 26
 At the GCP conference in Las Vegas in April 2026 there were 4 GDC related presentations - however the hardware on the showcase floor was where we could talk directly to GDC personnel and the hardware vendor partners like Dell, Intel, NetApp, Palo Alto and Thales.
