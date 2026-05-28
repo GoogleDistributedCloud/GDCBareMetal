@@ -243,13 +243,23 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 
 ## GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
-## GDC Traning - Example Sequence
+## GDC Training - Example Sequence
 Get yourself a skillsboost subscription via Google Developer Premium or use your partner training subscription.
 
+###
+### GDC Connected
+- https://partner.skills.google/paths/1682?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660049
 - Google Distributed Cloud Introduction - https://partner.skills.google/paths/1682
 - Google Distributed Cloud Connected L200 - 8h - https://partner.skills.google/paths/1682/course_templates/1129
 - Google Distributed Cloud Connected L300 - 4h - https://partner.skills.google/paths/1682/course_templates/1128
 - SecOps on GDC for Tier 3 Analysts - https://partner.skills.google/course_templates/1197?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659311
+
+### GDC Air-gapped
+- GDC Air-gapped Practitioner - 4h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
+- https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
+- Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1033
+- Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1035
+- Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034
 - 
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
