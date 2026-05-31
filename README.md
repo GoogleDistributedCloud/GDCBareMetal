@@ -11,6 +11,7 @@ See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud D
 
 ## GDC - Google Distributed Cloud
 - https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
+- https://cloud.google.com/gov/federal-defense-and-intel
 - 
 GDC is Google's version of private or hybrid cloud within your own data center. 
 There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal).
