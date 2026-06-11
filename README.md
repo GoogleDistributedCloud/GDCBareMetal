@@ -132,6 +132,7 @@ see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-
 
 
 # GDC Software
+- GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
 ## gdcloud commands
 admin
 alpha
@@ -269,6 +270,7 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
+- https://cloud.google.com/terms/gdcag/services
 
 
 ## GDC Training
