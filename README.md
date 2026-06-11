@@ -134,7 +134,7 @@ see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-
 # GDC Software
 ## gdcloud commands
 admin
-aloha
+alpha
 appliance
 artifacts
 auth
