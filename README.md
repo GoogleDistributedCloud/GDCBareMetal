@@ -131,7 +131,28 @@ see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-
 
 
 
-# Software
+# GDC Software
+## gdcloud commands
+admin
+aloha
+appliance
+artifacts
+auth
+clusters
+completion
+components
+config
+database
+help
+iam
+init
+kms
+organizations
+plugin
+storage
+system
+version
+
 
 ## GDC Software Component Mapping
 
