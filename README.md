@@ -271,10 +271,12 @@ Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-en
 - https://cloud.google.com/distributed-cloud?hl=en
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
-- https://docs.cloud.google.com/distributed-cloud/sandbox/latest
+- GDC Sandbox https://docs.cloud.google.com/distributed-cloud/sandbox/latest
+- GDC Air-gapped https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
+- GDC Software only - bare metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 - https://cloud.google.com/terms/gdcag/services
-
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
 
 ## GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
