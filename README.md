@@ -304,9 +304,13 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - https://github.com/ObrienlabsDev/blog/issues/174
 - Google internal-only L300 Anthos Migration notes - https://github.com/ObrienlabsDev/gcp-infrastructure-as-code/issues/22
 
-# Finances
+# Finances / FinOps
 ## GDC Costs
-GDC virtual - 25k/m
+### GDC virtual
+25k/m
+### GDC connected
+35/m per vCPU - min 96 vCPU
+
 
 ### Anthos credit
 Can we use this one time credit
@@ -316,6 +320,7 @@ Trial for google/anthos.googleapis.com Expired	$1,025.01 f3c....bafc7 Following 
 
 ## GKE Costs
 GKE control planes are per cluster (regardless of size) - at $0.1/hr - with free credits of 74.4 allocated for a single cluster (autopilot or zonal) - https://cloud.google.com/kubernetes-engine/pricing
+
 ### Anthos Costs
 Anthos has a one time credit of 1000US - getting details for new accounts.
 <img width="910" height="43" alt="Screenshot 2026-03-31 at 16 17 50" src="https://github.com/user-attachments/assets/9b7dfaef-3bc3-404e-93c9-5338951201d2" />
