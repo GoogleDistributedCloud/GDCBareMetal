@@ -167,6 +167,7 @@ IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
 Observability | . | . | . | . | Prometheus / OpenTelemetry | .
+Monitoring | Loki spec | . | Grafana | . | Grafana . 
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | . | Istio | .
