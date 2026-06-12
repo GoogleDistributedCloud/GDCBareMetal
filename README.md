@@ -159,7 +159,7 @@ version
 
 ## GDC Software Component Mapping
 
-A large portion of GDC specific functionality is implemented as kubernetes operators against custom resource definitions in KRM.  For example Operators can be implemented to extend the base kubernetes API usinf the Java Operator SDK - https://github.com/operator-framework/java-operator-sdk
+A large portion of GDC specific functionality is implemented as kubernetes operators against custom resource definitions in KRM - such as the [Network Function Operator - for GDC Connected](https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/network-function).  For example Operators can be implemented to extend the base kubernetes API usinf the Java Operator SDK - https://github.com/operator-framework/java-operator-sdk
 
  Component | Use Case | GCP | GDC  | Spec | OSS | Commercial
 --- | --- | --- | --- | --- | --- | ---
