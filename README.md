@@ -137,26 +137,29 @@ see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-
 - GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
 - For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
 ## gdcloud commands
-admin
-alpha
-appliance
-artifacts
-auth
-clusters
-completion
-components
-config
-database
-help
-iam
-init
-kms
-organizations
-plugin
-storage
-system
-version
 
+ GDC | GCP analogs | OSS sim
+--- | --- | --- 
+admin | . | .
+alpha | . | .
+appliance | . | .
+artifacts | . | .
+auth | . | .
+clusters | . | .
+completion | . | .
+components | . | .
+config | . | .
+database | . | .
+help | . | .
+iam | . | .
+init | . | .
+kms | . | .
+organizations | . | .
+plugin | . | .
+storage | . | .
+system | . | .
+version | . | .
+. | . | .
 
 ## GDC Software Component Mapping
 
