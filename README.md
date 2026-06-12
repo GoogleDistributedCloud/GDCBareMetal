@@ -307,7 +307,6 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - https://www.datacenterdynamics.com/en/news/google-makes-distributed-cloud-edge-hardware-generally-available/
 - https://cloud.google.com/blog/products/infrastructure-modernization/google-distributed-cloud-edge-appliance-use-cases/
 - GDC Edge Appliance is deprecated - https://docs.cloud.google.com/distributed-cloud/edge-appliance/deprecated-notice
-- https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
 - - https://cloud.google.com/customers/rubin-observatory
 
