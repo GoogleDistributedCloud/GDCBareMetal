@@ -135,6 +135,7 @@ see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-
 
 # GDC Software
 - GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
+- For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
 ## gdcloud commands
 admin
 alpha
