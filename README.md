@@ -191,6 +191,8 @@ postgreSQL (check alloyDB Omni), Oracle byod
 - https://github.com/kubernetes-sigs/cluster-api
 CAPI is used under the cover by Anthos.
 
+## Identity
+GDC provides only predifined roles.  The OIDC provider has preloaded fake identities and associated JWT tokens.
 ## KubeVirt
 - https://kubevirt.io/
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
