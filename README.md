@@ -1,7 +1,7 @@
 Main blog - https://github.com/ObrienlabsDev/blog
 
 # Secure Private Data Center
-Conslidated private data center artifacts.
+Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
 
 
