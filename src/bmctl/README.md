@@ -2,6 +2,40 @@
 
 - https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/3
 
+### Update kubectl
+Currently v1.31
+
+```
+gcloud components install kubectl
+┌──────────────────────────────────────────────────────────────────┐
+│               These components will be installed.                │
+├────────────────────────────────────────────┬─────────┬───────────┤
+│                    Name                    │ Version │    Size   │
+├────────────────────────────────────────────┼─────────┼───────────┤
+│ gke-gcloud-auth-plugin (Platform Specific) │  0.5.15 │   3.5 MiB │
+│ kubectl                                    │  1.35.3 │   < 1 MiB │
+│ kubectl (Platform Specific)                │  1.35.3 │ 123.6 MiB │
+└────────────────────────────────────────────┴─────────┴───────────┘
+
+kubectl version
+Client Version: v1.31.3
+Kustomize Version: v5.4.2
+
+which kubectl
+/opt/homebrew/bin/kubectl
+
+brew upgrade kubectl
+==> Upgraded 2 outdated packages
+kubectl 1.31.3 -> 1.36.2
+minikube 1.34.0 -> 1.38.1
+
+kubectl version
+Client Version: v1.36.2
+Kustomize Version: v5.8.1
+```
+
+### Run anthos script
+
 ```
 michael@cloudshell:~$ gcloud config set project gdc-anthos-oty
 [environment: untagged] Read more to tag: g.co/cloud/project-env-tag.
