@@ -87,5 +87,175 @@ versions:
 - version: 1.16.12
 - version: 1.16.11
 
+
+anthos-bm-gcp-bash % ./install_admin_cluster.sh                                       
+
+✅ Using Project [gdc-anthos-olt], Zone [northamerica-northeast1-a], Cluster name [gdc-admin] and Anthos bare metal version [1.35.0-gke.525].
+
+1) All-(Setup-and-Install)  3) Quit
+2) Setup-Only
+
+Please select an installation mode: 2
+
+
+michaelobrien@mbp8 anthos-bm-gcp-bash % ./install_admin_cluster.sh                                       
+
+✅ Using Project [gdc-anthos-olt], Zone [northamerica-northeast1-a], Cluster name [gdc-admin] and Anthos bare metal version [1.35.0-gke.525].
+
+1) All-(Setup-and-Install)  3) Quit
+2) Setup-Only
+
+Please select an installation mode: 2
+
+You chose 'Setup-Only'.This will only set up the GCE infrastructure; Anthos bare metal cluster creation will be skipped.
+Please confirm selection. (Use 'Y' or 'y' for Yes and 'N' or 'n' for No) Y
+🔄 Creating Service Account and Service Account key...
+Created service account [baremetal-gcr].
+created key [9da509cfeb1595da7664bf062fd9e800cf0e4968] of type [json] as [bm-gcr.json] for [baremetal-gcr@gdc-anthos-olt.iam.gserviceaccount.com]
+✅ Successfully created Service Account and downloaded key file.
+
+🔄 Enabling GCP Service APIs...
+Operation "operations/acat.p2-783485922039-f3944c65-bca3-4e63-a18a-a24981f0af20" finished successfully.
+✅ Successfully enabled GCP Service APIs.
+
+🔄 Adding IAM roles to the default compute engine Service Account for metadata management...
+Updated IAM policy for project [gdc-anthos-olt].
+bindings:
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/compute.instanceAdmin.v1
+- members:
+  - serviceAccount:783485922039@cloudservices.gserviceaccount.com
+  role: roles/compute.instanceGroupManagerServiceAgent
+- members:
+  - serviceAccount:service-783485922039@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-gkeonprem.iam.gserviceaccount.com
+  role: roles/gkeonprem.serviceAgent
+- members:
+  - user:michael@obrienlabs.tech
+  role: roles/owner
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+etag: BwZUO65ooJg=
+version: 1
+Updated IAM policy for project [gdc-anthos-olt].
+bindings:
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/compute.instanceAdmin.v1
+- members:
+  - serviceAccount:783485922039@cloudservices.gserviceaccount.com
+  role: roles/compute.instanceGroupManagerServiceAgent
+- members:
+  - serviceAccount:service-783485922039@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-gkeonprem.iam.gserviceaccount.com
+  role: roles/gkeonprem.serviceAgent
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/iam.serviceAccountUser
+- members:
+  - user:michael@obrienlabs.tech
+  role: roles/owner
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+etag: BwZUO66LGj4=
+version: 1
+Updated IAM policy for project [gdc-anthos-olt].
+bindings:
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/compute.instanceAdmin.v1
+- members:
+  - serviceAccount:783485922039@cloudservices.gserviceaccount.com
+  role: roles/compute.instanceGroupManagerServiceAgent
+- members:
+  - serviceAccount:service-783485922039@compute-system.iam.gserviceaccount.com
+  role: roles/compute.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@container-engine-robot.iam.gserviceaccount.com
+  role: roles/container.serviceAgent
+- members:
+  - serviceAccount:service-783485922039@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-gkeonprem.iam.gserviceaccount.com
+  role: roles/gkeonprem.serviceAgent
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/iam.serviceAccountKeyAdmin
+- members:
+  - serviceAccount:783485922039-compute@developer.gserviceaccount.com
+  role: roles/iam.serviceAccountUser
+- members:
+  - user:michael@obrienlabs.tech
+  role: roles/owner
+- members:
+  - serviceAccount:service-783485922039@gcp-sa-pubsub.iam.gserviceaccount.com
+  role: roles/pubsub.serviceAgent
+etag: BwZUO66sPvg=
+version: 1
+✅ Successfully added metadata permissions to default compute SA.
+
+🔄 Adding IAM roles to the Service Account...
+✅ Successfully added the requires IAM roles to the Service Account.
+
+🔄 Setting up array variables for the VM names and IP addresses...
+✅ Variables for the VM names and IP addresses setup.
+
+🔄 Creating GCE VMs...
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+---
+code: ZONE_RESOURCE_POOL_EXHAUSTED
+errorDetails:
+- help:
+    links:
+    - description: Troubleshooting documentation
+      url: https://cloud.google.com/compute/docs/resource-error
+- localizedMessage:
+    locale: en-US
+    message: A n1-standard-8 VM instance is currently unavailable in the northamerica-northeast1-a
+      zone. Alternatively, you can try your request again with a different VM hardware
+      configuration or at a later time. For more information, see the troubleshooting
+      documentation.
+- errorInfo:
+    domain: compute.googleapis.com
+    metadatas:
+      attachment: ''
+      vmType: n1-standard-8
+      zone: northamerica-northeast1-a
+      zonesAvailable: ''
+    reason: resource_availability
+message: The zone 'projects/gdc-anthos-olt/zones/northamerica-northeast1-a' does not
+  have enough resources available to fulfill the request.  Try a different zone, or
+  try again later.
+
+
+  checking quota and/or switch region
+```
+
+#### Clone anthos-samples fork
+
+https://github.com/GoogleDistributedCloud/anthos-samples
+
+```
+https://github.com/GoogleDistributedCloud/anthos-samples
 ```
 

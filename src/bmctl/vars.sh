@@ -23,4 +23,6 @@ export ON_PREM_API_REGION=$REGION
 export BMCTL_VERSION=1.35.0-gke.525
 #export ZONE=
 
+  gcloud config set project ${PROJECT_ID}
+  gcloud config set compute/zone ${ZONE}
 

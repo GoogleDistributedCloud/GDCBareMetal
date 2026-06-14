@@ -33,6 +33,12 @@ deployment() {
 
   echo "list anthos API versions"
   gcloud container bare-metal admin-clusters query-version-config --location=$ON_PREM_API_REGION 
+
+  # git clone git@github.com:GoogleDistributedCloud/anthos-samples
+  # cd anthos-samples/anthos-bm-gcp-bash
+  # source ../../GDCBareMetal/src/bmctl/vars.sh 
+  # ./install_admin_cluster.sh 
+
 }
 
 
