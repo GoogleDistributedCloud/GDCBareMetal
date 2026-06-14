@@ -3,7 +3,7 @@
 
 
 CIDR_KCC_VPC=192.168.0.0/16
-REGION=us-central1
+REGION=northamerica-northeast1
 # used for vpc, subnet, KCC cluster
 PREFIX=olt
 #export PROJECT_ID=$DEVSHELL_PROJECT_ID
@@ -15,8 +15,12 @@ export ZONE=$REGION-a
 export VPC=$NETWORK-vpc
 
 export CIDR_VPC=192.168.0.0/16
-export GKE_MONOLITH=cymbal-monolith-cluster
-export CLUSTER=$GKE_MONOLITH
+
+# https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
+#export PROJECT_ID=
+export ADMIN_CLUSTER_NAME=gdc-admin
+export ON_PREM_API_REGION=$REGION
+export BMCTL_VERSION=1.35.0-gke.525
+#export ZONE=
 
 
-gcloud config set compute/zone ${ZONE}

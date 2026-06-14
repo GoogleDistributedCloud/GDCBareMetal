@@ -132,6 +132,16 @@ organizations, projects (no folders), tags, kubernetes taints.
 This GDC software-only for BM looks to be a rebrand of Anthos where on prem CPUs are billed back to the GCP Project.
 see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-bare-metal-are-now-gdc-virtual
 
+#### Anthos BMCTL install
+- 20260614 on org obrienlabs.tech
+
+```
+gcloud services enable anthos.googleapis.com
+gcloud services enable gkeonprem.googleapis.com
+gcloud container bare-metal admin-clusters query-version-config --location=$ON_PREM_API_REGION 
+export BMCTL_VERSION=1.35.0-gke.525
+
+```
 
 
 

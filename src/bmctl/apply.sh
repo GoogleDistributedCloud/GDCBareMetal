@@ -15,17 +15,28 @@ EOF
 # for ease of override - key/value pairs for constants - shared by all scripts
 source ./vars.sh
 
+one-time-service-enables() {
+gcloud services enable anthos.googleapis.com
+gcloud services enable gkeonprem.googleapis.com
+}
+
 deployment() {
   echo "Date: $(date)"
   echo "Timestamp: $(date +%s)"
-  echo "running with: -u $UNIQUE -c $CREATE_KCC -d $DELETE_KCC -p $PROJECT_ID"
+  echo "running with: -u $UNIQUE -c $CREATE_KCC -d $DELETE_KCC -p $PROJECT_ID $ZONE"
 
   startd=`date +%s`
   echo "Start: ${startd}"
+
+  gcloud config set project ${PROJECT_ID}
+  gcloud config set compute/zone ${ZONE}
+
+  echo "list anthos API versions"
+  gcloud container bare-metal admin-clusters query-version-config --location=$ON_PREM_API_REGION 
 }
 
 
-UNIQUE=
+UNIQUE=olt
 CREATE_KCC=false
 DELETE_KCC=false
 
