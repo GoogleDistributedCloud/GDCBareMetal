@@ -3,11 +3,12 @@
 
 
 CIDR_KCC_VPC=192.168.0.0/16
-REGION=northamerica-northeast1
+REGION=northamerica-northeast2
 # used for vpc, subnet, KCC cluster
 PREFIX=olt
 #export PROJECT_ID=$DEVSHELL_PROJECT_ID
-PROJECT_ID=gdc-anthos-olt
+#PROJECT_ID=gdc-anthos-olt
+PROJECT_ID=gdc-anthos2-old
 export NETWORK=$REGION
 export SUBNET=$NETWORK-sn
 

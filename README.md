@@ -198,6 +198,8 @@ VM virtualization | VMs on Kubernetes | GCE | VM Manager | . | [KubeVirt](https:
 Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
 postgreSQL (check alloyDB Omni), Oracle byod
 
+## Gemini Enterprise
+Gemini Enterprise models will run locally on GDC - see https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs/requirements#hardware
 
 ## CAPI - Cluster API
 - https://github.com/kubernetes-sigs/cluster-api

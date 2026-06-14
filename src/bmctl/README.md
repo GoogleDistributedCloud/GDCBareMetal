@@ -249,6 +249,34 @@ message: The zone 'projects/gdc-anthos-olt/zones/northamerica-northeast1-a' does
 
 
   checking quota and/or switch region
+  is nane1 related (tried ol.dev) - switching to nane2 then us
+
+
+  nane2-a working - but need more quota
+
+  🔄 Creating GCE VMs...
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-ws].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME    ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-ws  northamerica-northeast2-a  n1-standard-8               10.188.0.2   34.130.38.140  RUNNING
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-admin-cluster-cp].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME                  ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-admin-cluster-cp  northamerica-northeast2-a  n1-standard-8               10.188.0.3   34.130.175.94  RUNNING
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+ERROR: (gcloud.compute.instances.create) Could not fetch resource:
+ - Quota 'SSD_TOTAL_GB' exceeded.  Limit: 500.0 in region northamerica-northeast2.
+	metric name = compute.googleapis.com/ssd_total_storage
+	limit name = SSD-TOTAL-GB-per-project-region
+	limit = 500.0
+	dimensions = region: northamerica-northeast2
+Try your request in another zone, or view documentation on how to increase quotas: https://cloud.google.com/compute/quotas.
 ```
 
 #### Clone anthos-samples fork
