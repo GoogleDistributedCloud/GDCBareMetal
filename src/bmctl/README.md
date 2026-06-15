@@ -36,6 +36,10 @@ Kustomize Version: v5.8.1
 
 ### Run anthos script
 
+Ask for 1000G up from the default of 500 for SSD quota first
+ask for 40 vCPUs globally and at the region level
+
+
 ```
 michael@cloudshell:~$ gcloud config set project gdc-anthos-oty
 [environment: untagged] Read more to tag: g.co/cloud/project-env-tag.
@@ -251,7 +255,6 @@ message: The zone 'projects/gdc-anthos-olt/zones/northamerica-northeast1-a' does
   checking quota and/or switch region
   is nane1 related (tried ol.dev) - switching to nane2 then us
 
-
   nane2-a working - but need more quota
 
   🔄 Creating GCE VMs...
@@ -277,6 +280,30 @@ ERROR: (gcloud.compute.instances.create) Could not fetch resource:
 	limit = 500.0
 	dimensions = region: northamerica-northeast2
 Try your request in another zone, or view documentation on how to increase quotas: https://cloud.google.com/compute/quotas.
+
+our quota request for gdc-anthos2-old has been approved and your project quota has been adjusted according to the following requested limits:
+
++--------------+--------------------------------+-------------------------+-----------------+----------------+
+| NAME         | DIMENSIONS                     | REGION                  | REQUESTED LIMIT | APPROVED LIMIT |
++--------------+--------------------------------+-------------------------+-----------------+----------------+
+| SSD_TOTAL_GB | region=northamerica-northeast2 | northamerica-northeast2 |            1000 |           1000 |
++--------------+--------------------------------+-------------------------+-----------------+----------------+
+```
+
+ 500 to 1000G
+ https://console.cloud.google.com/iam-admin/quotas?orgonly=true&project=gdc-anthos2-old&supportedpurview=organizationId,folder,project
+
+```
+set vCPUs to 40
+Quota 'CPUS_ALL_REGIONS' exceeded.  Limit: 32.0 globally.
+
+Your quota request for gdc-anthos2-old has been approved and your project quota has been adjusted according to the following requested limits:
+
++------------------+------------+--------+-----------------+----------------+
+| NAME             | DIMENSIONS | REGION | REQUESTED LIMIT | APPROVED LIMIT |
++------------------+------------+--------+-----------------+----------------+
+| CPUS_ALL_REGIONS |            | GLOBAL |              64 |             64 |
++------------------+------------+--------+-----------------+----------------+
 ```
 
 #### Clone anthos-samples fork
