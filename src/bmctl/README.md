@@ -34,7 +34,16 @@ Client Version: v1.36.2
 Kustomize Version: v5.8.1
 ```
 
-### Run anthos script
+
+#### Clone anthos-samples fork
+
+https://github.com/GoogleDistributedCloud/anthos-samples
+
+```
+https://github.com/GoogleDistributedCloud/anthos-samples
+```
+
+#### Run anthos script
 
 Ask for 1000G up from the default of 500 for SSD quota first
 ask for 40 vCPUs globally and at the region level
@@ -351,13 +360,24 @@ Updating project ssh metadata...⠧U
 | abm-user-cluster-w2   | 10.200.0.6            | 🌟 Ready for use as worker for the user cluster         |
 |---------------------------------------------------------------------------------------------------------|
 
+list all the VMs
+michaelobrien@mbp8 GDCBareMetal % gcloud compute instances list | grep 'abm'
+abm-admin-cluster-cp  northamerica-northeast2-a  n1-standard-8               10.188.0.10  34.130.38.140   RUNNING
+abm-user-cluster-cp   northamerica-northeast2-a  n1-standard-8               10.188.0.11  34.130.175.94   RUNNING
+abm-user-cluster-w1   northamerica-northeast2-a  n1-standard-8               10.188.0.12  34.130.68.157   RUNNING
+abm-user-cluster-w2   northamerica-northeast2-a  n1-standard-8               10.188.0.13  34.130.44.189   RUNNING
+abm-ws                northamerica-northeast2-a  n1-standard-8               10.188.0.9   34.124.121.141  RUNNING
 ```
 
-#### Clone anthos-samples fork
-
-https://github.com/GoogleDistributedCloud/anthos-samples
+download bmctl
 
 ```
-https://github.com/GoogleDistributedCloud/anthos-samples
+gcloud storage cp gs://anthos-baremetal-release/bmctl/$BMCTL_VERSION/linux-amd64/bmctl .
+Copying gs://anthos-baremetal-release/bmctl/1.35.0-gke.525/linux-amd64/bmctl to file://./bmctl
+  Completed files 1/1 | 139.0MiB/139.0MiB                                      
+
+Average throughput: 49.0MiB/s
+ls -la
+-rw-r--r--   1 mic...  staff  145767283 Jun 14 20:34 bmctl
 ```
 
