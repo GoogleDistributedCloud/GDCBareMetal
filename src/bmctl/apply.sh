@@ -16,8 +16,13 @@ EOF
 source ./vars.sh
 
 one-time-service-enables() {
-gcloud services enable anthos.googleapis.com
-gcloud services enable gkeonprem.googleapis.com
+  gcloud services enable anthos.googleapis.com
+  gcloud services enable gkeonprem.googleapis.com
+}
+
+delete-vms() {
+
+  gcloud compute instances list --format="value(name)" | grep 'abm' | xargs gcloud compute instances delete --quiet --zone $ZONE
 }
 
 deployment() {
