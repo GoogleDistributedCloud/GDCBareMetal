@@ -277,11 +277,30 @@ Currently using TPLink 10gbps rack switches and routers.
 see https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 Creating a GKE cluster on Bare Metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/install-prep or Distributed Cloud Edge https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/clusters
 
-
 <img width="1201" height="839" alt="Screenshot 2026-05-07 at 11 35 52" src="https://github.com/user-attachments/assets/32f13055-02d5-4124-8753-3ddfb65d8c86" />
 
+Make sure to increase default quotas before running the 5 vm script - and don't use northamerica-northeast1 (montreal - it is at capacity)
+```
+| NAME             | DIMENSIONS | REGION | REQUESTED LIMIT | APPROVED LIMIT |
++------------------+------------+--------+-----------------+----------------+
+| CPUS_ALL_REGIONS |            | GLOBAL |              64 |             64 |
+| SSD_TOTAL_GB | region=northamerica-northeast2 | northamerica-northeast2 |            1000 |           1000 |
+```
+<img width="1927" height="252" alt="Screenshot 2026-06-14 at 20 25 06" src="https://github.com/user-attachments/assets/1a0ec381-6aad-4955-b2ca-25a9d3c3d2f5" />
 
 
+<img width="1964" height="485" alt="Screenshot 2026-06-14 at 20 22 04" src="https://github.com/user-attachments/assets/92064424-1130-4a6d-a828-0790c2715ef9" />
+
+```
+|---------------------------------------------------------------------------------------------------------|
+| VM Name               | L2 Network IP (VxLAN) | INFO                                                    |
+|---------------------------------------------------------------------------------------------------------|
+| abm-admin-cluster-cp  | 10.200.0.3            | 🌟 Ready for use as control plane for the admin cluster |
+| abm-user-cluster-cp   | 10.200.0.4            | 🌟 Ready for use as control plane for the user cluster  |
+| abm-user-cluster-w1   | 10.200.0.5            | 🌟 Ready for use as worker for the user cluster         |
+| abm-user-cluster-w2   | 10.200.0.6            | 🌟 Ready for use as worker for the user cluster         |
+|---------------------------------------------------------------------------------------------------------|
+```
 # Use Cases
 - https://github.com/ObrienlabsDev/drone-streaming-extraction?tab=readme-ov-file
 - https://github.com/ObrienlabsDev/blog/wiki/Drone-Streaming-Extraction
