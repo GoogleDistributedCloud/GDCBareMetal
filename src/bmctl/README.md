@@ -304,6 +304,53 @@ Your quota request for gdc-anthos2-old has been approved and your project quota 
 +------------------+------------+--------+-----------------+----------------+
 | CPUS_ALL_REGIONS |            | GLOBAL |              64 |             64 |
 +------------------+------------+--------+-----------------+----------------+
+
+
+🔄 Creating GCE VMs...
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-ws].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME    ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP     STATUS
+abm-ws  northamerica-northeast2-a  n1-standard-8               10.188.0.9   34.124.121.141  RUNNING
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-admin-cluster-cp].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME                  ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-admin-cluster-cp  northamerica-northeast2-a  n1-standard-8               10.188.0.10  34.130.38.140  RUNNING
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-user-cluster-cp].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME                 ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-user-cluster-cp  northamerica-northeast2-a  n1-standard-8               10.188.0.11  34.130.175.94  RUNNING
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-user-cluster-w1].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME                 ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-user-cluster-w1  northamerica-northeast2-a  n1-standard-8               10.188.0.12  34.130.68.157  RUNNING
+Created [https://www.googleapis.com/compute/v1/projects/gdc-anthos2-old/zones/northamerica-northeast2-a/instances/abm-user-cluster-w2].
+WARNING: Some requests generated warnings:
+ - Disk size: '200 GB' is larger than image size: '10 GB'. You might need to resize the root repartition manually if the operating system does not support automatic resizing. See https://cloud.google.com/compute/docs/disks/add-persistent-disk#resize_pd for details.
+
+NAME                 ZONE                       MACHINE_TYPE   PREEMPTIBLE  INTERNAL_IP  EXTERNAL_IP    STATUS
+abm-user-cluster-w2  northamerica-northeast2-a  n1-standard-8               10.188.0.13  34.130.44.189  RUNNING
+✅ Successfully created GCE VMs.
+
+🔄 Checking SSH access to the GCE VMs...
+Updating project ssh metadata...⠧U
+
+|---------------------------------------------------------------------------------------------------------|
+| VM Name               | L2 Network IP (VxLAN) | INFO                                                    |
+|---------------------------------------------------------------------------------------------------------|
+| abm-admin-cluster-cp  | 10.200.0.3            | 🌟 Ready for use as control plane for the admin cluster |
+| abm-user-cluster-cp   | 10.200.0.4            | 🌟 Ready for use as control plane for the user cluster  |
+| abm-user-cluster-w1   | 10.200.0.5            | 🌟 Ready for use as worker for the user cluster         |
+| abm-user-cluster-w2   | 10.200.0.6            | 🌟 Ready for use as worker for the user cluster         |
+|---------------------------------------------------------------------------------------------------------|
+
 ```
 
 #### Clone anthos-samples fork
