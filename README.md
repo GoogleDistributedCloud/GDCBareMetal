@@ -335,14 +335,20 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - SecOps on GDC for Tier 3 Analysts - https://partner.skills.google/course_templates/1197?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659311
 
 ### GDC Air-gapped
+- overall GDC AG - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=89628698
 - GDC air-gapped Practitioner - 4h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
 - - gdcloud cli demo - IAM predefined roles - https://partner.skills.google/paths/1552/course_templates/1192/video/521958
 - GDC air-gapped - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
-- Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035
+- Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
 - 
-- Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033
-- Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034
-- 
+- Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033 (no non-partner access)
+- Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034 (same partner link for non-partner)
+
+- Note for non-partner - the L200 GDC Air-gapped course is N/A
+https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=89628698
+
+<img width="1860" height="1087" alt="Screenshot 2026-06-19 at 11 43 35" src="https://github.com/user-attachments/assets/90b06027-4fd1-4864-8de8-f29a6ddd4080" />
+
 - 
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
