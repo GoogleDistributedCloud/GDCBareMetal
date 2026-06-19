@@ -323,8 +323,10 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 
 # Training
 ## GCD - Google Cloud Dedicated - EU only
-https://rsvp.withgoogle.com/events/partner-learning/sovereign - https://drive.google.com/file/d/1003b5ehP5E1-5uCAyWryEOJQwc1FxMOK/edit
-
+GCD is of interest and alignment - but we are concentrating on GDC here in Canada
+- https://rsvp.withgoogle.com/events/partner-learning/sovereign - https://drive.google.com/file/d/1003b5ehP5E1-5uCAyWryEOJQwc1FxMOK/edit
+- https://partner.skills.google/course_templates/1710
+- 
 ## GDC - Google Distibuted Cloud Training
 - https://partner.skills.google/catalog?keywords=GDC
 ## GDC Training - Example Sequence
