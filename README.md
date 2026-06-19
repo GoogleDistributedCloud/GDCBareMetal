@@ -323,6 +323,7 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 
 ## GDC Training
 - https://partner.skills.google/catalog?keywords=GDC
+- https://rsvp.withgoogle.com/events/partner-learning/sovereign
 ## GDC Training - Example Sequence
 Get yourself a skillsboost subscription via Google Developer Premium or use your partner training subscription.
 
