@@ -321,9 +321,12 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 - https://cloud.google.com/terms/gdcag/services
 - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
 
-## GDC Training
+# Training
+## GCD - Google Cloud Dedicated - EU only
+https://rsvp.withgoogle.com/events/partner-learning/sovereign - https://drive.google.com/file/d/1003b5ehP5E1-5uCAyWryEOJQwc1FxMOK/edit
+
+## GDC - Google Distibuted Cloud Training
 - https://partner.skills.google/catalog?keywords=GDC
-- https://rsvp.withgoogle.com/events/partner-learning/sovereign
 ## GDC Training - Example Sequence
 Get yourself a skillsboost subscription via Google Developer Premium or use your partner training subscription.
 
