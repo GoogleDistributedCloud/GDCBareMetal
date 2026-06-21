@@ -183,12 +183,12 @@ API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress |
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
 Identity/SSO | RBAC | . | . | OIDC | KeyCloak | AD (Active Directory), IBM Verify
-OIDC | . | . | Fake OIDC | . | . | .
+OIDC | . | . | Fake OIDC <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> | . | . | .
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
 Observability | . | . | . | . | Prometheus / OpenTelemetry | .
-Open Policy Agent | . | . | OPA GK | . | OPA | . 
+Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
