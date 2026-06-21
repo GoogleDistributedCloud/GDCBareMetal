@@ -187,6 +187,7 @@ IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
 Observability | . | . | . | . | Prometheus / OpenTelemetry | .
+Open Policy Agent | . | . | OPA GK | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
@@ -309,6 +310,7 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 - https://github.com/ObrienlabsDev/blog/issues/174
 
 # GDC Documentation
+- GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
 - https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
 - https://docs.cloud.google.com/distributed-cloud/docs
 - https://cloud.google.com/distributed-cloud?hl=en
