@@ -144,16 +144,22 @@ export BMCTL_VERSION=1.35.0-gke.525
 ```
 
 
-
-# GDC Software
-- GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
-- For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
-
+# GDC DevOps
 ## GDC API Access
 ### GCD Console
 ### GDC gdcloud CLI
 ### GDC Kubectl CLI
 ### GDC Terraform
+- GCP Terraform Provider - https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/using_list_resources_with_terraform_query
+- GDC Terraform Provider
+- Kubernetes Operator for Terraform - https://developer.hashicorp.com/terraform/cloud-docs/integrations/kubernetes
+
+### TBD: GDC Ansible
+
+# GDC Software
+- GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
+- For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
+
 ## gdcloud commands
 
  GDC | GCP analogs | OSS sim
