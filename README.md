@@ -14,7 +14,7 @@ See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud D
 - https://cloud.google.com/gov/federal-defense-and-intel
 - 
 GDC is Google's version of private or hybrid cloud within your own data center. 
-There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal).
+There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal".
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
@@ -129,7 +129,7 @@ organizations, projects (no folders), tags, kubernetes taints.
 
 - start with gdc software only for bare metal - bmctl based - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 
-This GDC software-only for BM looks to be a rebrand of Anthos where on prem CPUs are billed back to the GCP Project.
+This GDC software-only for BM looks to be a rebrand of Anthos (Anthos clusters on-prem or bare metal) where on prem CPUs are billed back to the GCP Project.
 see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-bare-metal-are-now-gdc-virtual
 
 #### Anthos BMCTL install
