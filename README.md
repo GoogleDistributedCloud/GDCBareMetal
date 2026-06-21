@@ -14,7 +14,7 @@ See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud D
 - https://cloud.google.com/gov/federal-defense-and-intel
 - 
 GDC is Google's version of private or hybrid cloud within your own data center. 
-There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal".
+There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal" - see the older 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
@@ -182,8 +182,7 @@ A large portion of GDC specific functionality is implemented as kubernetes opera
 API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress | 
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
-Identity/SSO | RBAC | . | . | OIDC | KeyCloak | AD (Active Directory), IBM Verify
-OIDC | . | . | Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> | . | . | .
+Identity/SSO | RBAC / Identity Federation / WIF | . | . | Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | KeyCloak | AD (Active Directory), IBM Verify
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
@@ -310,6 +309,8 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 # Issues
 - https://github.com/ObrienlabsDev/blog/issues/174
 
+# GCP Documentation
+- For reference - GCP services superset - https://cloud.google.com/terms/services?hl=en
 # GDC Documentation
 - GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
 - https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
@@ -452,6 +453,7 @@ https://ubuntu.com/certified
 # References
 - ONAP - https://onap.org/
 - GoC/SSC Aurora (Cross CSP Kubernetes based LZ for use in Public Sector)  - https://github.com/gccloudone-aurora including helm charts - https://github.com/gccloudone-aurora/aurora-platform-charts (not https://github.com/gccloudone/aurora) - tracking https://github.com/ObrienlabsDev/blog/issues/176
+- 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
 
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
