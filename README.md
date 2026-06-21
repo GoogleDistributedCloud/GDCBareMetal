@@ -148,6 +148,12 @@ export BMCTL_VERSION=1.35.0-gke.525
 # GDC Software
 - GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
 - For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
+
+## GDC API Access
+### GCD Console
+### GDC gdcloud CLI
+### GDC Kubectl CLI
+### GDC Terraform
 ## gdcloud commands
 
  GDC | GCP analogs | OSS sim
@@ -193,6 +199,7 @@ Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | . | Istio | .
 Storage | PVC/Block | . | NetApp | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+Terraform IaC | . | . | yes | . | . | .
 VM virtualization | VMs on Kubernetes | GCE | VM Manager | . | [KubeVirt](https://kubevirt.io/) | .
 VM APT and RPM package management | . | . | yes | . | . | .
 . | . | . | . | . | . | .
