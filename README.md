@@ -183,6 +183,7 @@ API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress |
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
 Identity/SSO | RBAC | . | . | OIDC | KeyCloak | AD (Active Directory), IBM Verify
+OIDC | . | . | Fake OIDC | . | . | .
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
@@ -207,7 +208,7 @@ Gemini Enterprise models will run locally on GDC - see https://docs.cloud.google
 CAPI is used under the cover by Anthos.
 
 ## Identity
-GDC provides only predifined roles.  The OIDC provider has preloaded fake identities and associated JWT tokens.
+GDC provides only predifined roles.  The Fake OIDC provider has preloaded fake identities and associated JWT tokens.
 GDC Authorization uses Kubernetes Identities via RBAC
 ## KubeVirt
 - https://kubevirt.io/
