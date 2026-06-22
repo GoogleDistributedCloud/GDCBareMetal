@@ -199,7 +199,7 @@ Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <im
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Networking/eBPF/CNI | . | . | . | . | Cilium | . 
-Observability | . | . | . | . | Prometheus / OpenTelemetry | .
+Observability | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
@@ -265,6 +265,16 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 ## Platform Administrator
 ## Application Operator
 
+# GDC - Helm Simulation
+## Helm Charts
+
+Chart | Site | notes
+--- | --- | ---
+Grafana | . | .
+KeyCloak | . | .
+Open Policy Agent | . | .
+Prometheus | . | .
+. | . | .
 
 # GDC - Simulated Local Rack
 
