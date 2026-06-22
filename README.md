@@ -150,6 +150,7 @@ export BMCTL_VERSION=1.35.0-gke.525
 ### GDC gdcloud CLI
 ### GDC Kubectl CLI
 ### GDC Terraform
+- Setting up Terraform on GDC - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/get-started/terraform
 - GCP Terraform Provider - https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/using_list_resources_with_terraform_query
 - GDC Terraform Provider
 - Kubernetes Operator for Terraform - https://developer.hashicorp.com/terraform/cloud-docs/integrations/kubernetes
@@ -223,6 +224,18 @@ CAPI is used under the cover by Anthos.
 ## Identity
 GDC provides only predifined roles.  The Fake OIDC provider has preloaded fake identities and associated JWT tokens.
 GDC Authorization uses Kubernetes Identities via RBAC
+
+## Kubernetes
+### GDC Custom Resource Definitions
+There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM
+
+CRD | API | notes
+--- | --- | --- 
+[VirtualMachineBackupRequest](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform-application/pa-ao-operations/vm-backup/backup-plans/manage-backups#kubectl_1) | VMs | .
+. | . | .
+
+
+
 ## KubeVirt
 - https://kubevirt.io/
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
