@@ -231,7 +231,9 @@ There are CRDs that implement analogs of traditional GCP operations specific to 
 
 CRD | API | notes
 --- | --- | --- 
+VirtualMachineBackupPlanTemplate | . | .
 [VirtualMachineBackupRequest](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform-application/pa-ao-operations/vm-backup/backup-plans/manage-backups#kubectl_1) | VMs | .
+VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
 . | . | .
 
 
