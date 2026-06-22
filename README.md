@@ -219,7 +219,7 @@ Gemini Enterprise models will run locally on GDC - see https://docs.cloud.google
 
 ## CAPI - Cluster API
 - https://github.com/kubernetes-sigs/cluster-api
-CAPI is used under the cover by Anthos.
+CAPI is used under the covers by Anthos via the organization admin cluster in the case of GDC
 
 ## Identity
 GDC provides only predifined roles.  The Fake OIDC provider has preloaded fake identities and associated JWT tokens.
