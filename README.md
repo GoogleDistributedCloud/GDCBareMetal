@@ -45,6 +45,7 @@ see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber
 
 #### BRK2-195: AI at the edge: Transform operations with Google Distributed Cloud
 - https://www.googlecloudevents.com/next-vegas/session/3913167/ai-at-the-edge-transform-operations-with-google-distributed-cloud?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
+- https://content-cdn.sessionboard.com/content/7xG897FQsCh5LUxY3FAJ_BRK2-195.pdf
 
 #### BRK2-194: Build Agentic AI with Gemini and developer platforms on GDC
 - https://www.googlecloudevents.com/next-vegas/session/3913076/build-agentic-ai-with-gemini-and-developer-platforms-on-gdc?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
@@ -52,6 +53,7 @@ see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber
 
 #### Sovereign-ready infrastructure: Architecting workloads for the public sector
 - https://content-cdn.sessionboard.com/content/avVUf4YrSzyimc9pcWye_BRK2-193.pdf
+- 
 #### Google Distributed Cloud at Next 26
 
 
