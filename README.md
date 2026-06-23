@@ -38,7 +38,23 @@ Using a unidirectional data diode is one solution - like the BAE https://www.bae
 see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber.gc.ca/en/guidance/cross-domain-solutions-itse80030
 
 ### GDC Connected - Hardware Component Mapping
+#### Google Distributed Cloud at Next 26 - Sessions
+##### BRK1-075: Whats new with Google Distributed Cloud
+- https://www.googlecloudevents.com/next-vegas/session/3913111/what's-new-with-google-distributed-cloud?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
+- https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf
+
+#### BRK2-195: AI at the edge: Transform operations with Google Distributed Cloud
+- https://www.googlecloudevents.com/next-vegas/session/3913167/ai-at-the-edge-transform-operations-with-google-distributed-cloud?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
+
+#### BRK2-194: Build Agentic AI with Gemini and developer platforms on GDC
+- https://www.googlecloudevents.com/next-vegas/session/3913076/build-agentic-ai-with-gemini-and-developer-platforms-on-gdc?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
+- https://content-cdn.sessionboard.com/content/jPZPYqhpSyWclfUi99XU_BRK2-194.pdf
+
+#### Sovereign-ready infrastructure: Architecting workloads for the public sector
+- https://content-cdn.sessionboard.com/content/avVUf4YrSzyimc9pcWye_BRK2-193.pdf
 #### Google Distributed Cloud at Next 26
+
+
 At the GCP conference in Las Vegas in April 2026 there were 4 GDC related presentations - however the hardware on the showcase floor was where we could talk directly to GDC personnel and the hardware vendor partners like Dell, Intel, NetApp, Palo Alto and Thales.
 <img width="414" height="850" alt="_next_26_gdcc_Screenshot 2026-04-26 at 18 20 10" src="https://github.com/user-attachments/assets/87785c7e-421c-41c0-a077-cf4c5734dcfe" />
 
