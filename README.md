@@ -58,6 +58,9 @@ see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber
 
 - New innovations in Google Distributed Cloud - 20260422 - https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-at-next26?e=48754805
 
+<img width="737" height="277" alt="Screenshot 2026-06-23 at 16 12 50" src="https://github.com/user-attachments/assets/23f67071-5820-404e-ac8d-3923f5ae411c" />
+
+
 At the GCP conference in Las Vegas in April 2026 there were 4 GDC related presentations - however the hardware on the showcase floor was where we could talk directly to GDC personnel and the hardware vendor partners like Dell, Intel, NetApp, Palo Alto and Thales.
 <img width="414" height="850" alt="_next_26_gdcc_Screenshot 2026-04-26 at 18 20 10" src="https://github.com/user-attachments/assets/87785c7e-421c-41c0-a077-cf4c5734dcfe" />
 
