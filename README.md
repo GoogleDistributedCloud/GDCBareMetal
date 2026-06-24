@@ -339,8 +339,14 @@ SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 Currently using TPLink 10gbps rack switches and routers.
 
 ## Kubernetes Installation
+- https://github.com/ObrienlabsDev/blog/wiki/Kubernetes
+### docker desktoop
+- single node with storage provisioner - only for testing out images and helm charts locally
 ### kubeadm
 ### minikube
+### microk8s
+### GCP GKE
+
 ### Rancher RKE2 / K3S
 
 #### VM test install
