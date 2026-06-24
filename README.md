@@ -338,6 +338,25 @@ SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 ### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
 
+## Kubernetes Installation
+### kubeadm
+### minikube
+### Rancher RKE2 / K3S
+
+#### VM test install
+It has been a while since Rancher 1.6 and RKE1.
+tracking via https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/6
+
+https://docs.rke2.io/install/quickstart
+
+```
+root@ubuntuvm01:/var/lib/rancher/rke2/bin# history
+    1  curl -sfL https://get.rke2.io | sh -
+    2  systemctl enable rke2-server.service
+    3  systemctl start rke2-server.service
+root@ubuntuvm01:/var/lib/rancher/rke2/bin# journalctl -u rke2-server
+```
+
 # DevOps
 ## Server Setup
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
@@ -429,7 +448,6 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=89628698
 
 <img width="1860" height="1087" alt="Screenshot 2026-06-19 at 11 43 35" src="https://github.com/user-attachments/assets/90b06027-4fd1-4864-8de8-f29a6ddd4080" />
-
 
 ### Become a GCP Partner
 - https://partners.cloud.google.com/learn
