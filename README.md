@@ -343,6 +343,8 @@ Currently using TPLink 10gbps rack switches and routers.
 ### docker desktoop
 - single node with storage provisioner - only for testing out images and helm charts locally
 ### kubeadm
+- https://github.com/ObrienlabsDev/blog/issues/50
+- https://github.com/ObrienlabsDev/blog/issues/54
 ### minikube
 ### microk8s
 ### GCP GKE
