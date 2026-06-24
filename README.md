@@ -535,6 +535,8 @@ https://ubuntu.com/certified
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected)
 
 # Partner Companies
+## Cirrascale for Gemini GDC deployment
+- https://www.cirrascale.com/
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 - 
