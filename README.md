@@ -210,7 +210,7 @@ version | . | .
 
 ## GDC Software Component Mapping - Airgapped
 
-A large portion of GDC specific functionality is implemented as kubernetes operators against custom resource definitions in KRM - such as the [Network Function Operator - for GDC Connected](https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/network-function).  For example Operators can be implemented to extend the base kubernetes API usinf the Java Operator SDK - https://github.com/operator-framework/java-operator-sdk
+A large portion of GDC specific functionality is implemented as kubernetes operators against custom resource definitions in KRM - such as the [Network Function Operator - for GDC Connected](https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/network-function).  For example Operators can be implemented to extend the base kubernetes API using the Java Operator SDK - https://github.com/operator-framework/java-operator-sdk - see https://github.com/ObrienlabsDev/blog/issues/189
 
  Component | Use Case | GCP | GDC  | Spec | OSS | Commercial
 --- | --- | --- | --- | --- | --- | ---
@@ -250,15 +250,21 @@ GDC Authorization uses Kubernetes Identities via RBAC
 
 ## Kubernetes
 ### GDC Custom Resource Definitions
-There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM
+There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM.
 
 CRD | API | notes
 --- | --- | --- 
+? | Node Maintenance | type of node role for kubernetes upgrades which include unscheduling nodes.
 VirtualMachineBackupPlanTemplate | . | .
 [VirtualMachineBackupRequest](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform-application/pa-ao-operations/vm-backup/backup-plans/manage-backups#kubectl_1) | VMs | .
 VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
 . | . | .
 
+### GDC Kubernetes APIs
+Storage Classes (ReadWriteMany and ReadWriteOnce)
+### GDC Kubernetes and Project relations
+Kubernetes clusters in GDC can be 1:n (1 to many) n:m (many to many) or n:1 (many to 1) for project to cluster mappings. 
+Limits are 16 user clusters per org with 42 nodes per user cluster - for a total of 640 + 32 = 672 nodes per org.
 
 
 ## KubeVirt
