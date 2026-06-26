@@ -222,6 +222,7 @@ GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernet
 Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | . | KeyCloak | AD (Active Directory), IBM Verify
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
+Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription | . | . | .
 Networking/eBPF/CNI | . | . | GKE Dataplane 2 | . | Cilium | . 
 Observability | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
