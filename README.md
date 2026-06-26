@@ -164,7 +164,11 @@ gcloud container bare-metal admin-clusters query-version-config --location=$ON_P
 export BMCTL_VERSION=1.35.0-gke.525
 
 ```
-
+# GDC Air Gapped Architecture
+## GDC-AG Projects
+## GDC-AG Networking
+### VPC Flow logs are Kubernetes network policies audit logging
+## GDC-AG IAM
 
 # GDC DevOps
 ## GDC API Access
@@ -225,6 +229,7 @@ IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Logging | . | . | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription | . | . | .
 Networking/eBPF/CNI | . | . | GKE Dataplane 2 | . | Cilium | . 
+Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
 Observability | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
