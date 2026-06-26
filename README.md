@@ -185,7 +185,7 @@ export BMCTL_VERSION=1.35.0-gke.525
 
 ## gdcloud commands
 
- GDC | GCP analogs | OSS sim
+ GDC | GCP analogs | OSS sim / L300 source
 --- | --- | --- 
 admin | . | .
 alpha | . | .
@@ -201,6 +201,7 @@ help | . | .
 iam | . | .
 init | . | .
 kms | . | .
+maintenance (db) | . | . 1552/1198/522208
 organizations | . | .
 plugin | . | .
 storage | . | .
@@ -216,7 +217,7 @@ A large portion of GDC specific functionality is implemented as kubernetes opera
 --- | --- | --- | --- | --- | --- | ---
 API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress | 
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
-Database | . | Cloud SQL | Database Service | . | . | .
+Database | . | Cloud SQL | DBaaS Database Service (PostgreSQL, oracle byol, AlloyDB Omni | . | . | .
 Distributed Database | . | Spanner | Spanner Omni (see [NEXT 26](https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf) <img width="136" height="136" alt="Screenshot 2026-06-23 at 16 04 13" src="https://github.com/user-attachments/assets/13183470-ded4-464b-9ad4-74663b2997ad" /> | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
 Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | . | KeyCloak | AD (Active Directory), IBM Verify
@@ -443,7 +444,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 
 ### GDC Air-gapped
 - overall GDC AG - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=89628698
-- GDC air-gapped Practitioner - 4h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
+- GDC air-gapped Practitioner - 6h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
 - - gdcloud cli demo - IAM predefined roles - https://partner.skills.google/paths/1552/course_templates/1192/video/521958
 - - Demo 1: GUI Create a user and create a project - https://partner.skills.google/paths/1552/course_templates/1192/video/521963
   - Demo 3: VM Creation - https://partner.skills.google/paths/1552/course_templates/1192/video/521970
