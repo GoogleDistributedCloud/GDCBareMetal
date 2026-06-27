@@ -558,19 +558,39 @@ https://ubuntu.com/certified
 ### SFP28
 - https://ca.store.ui.com/ca/en/category/switching-professional-max-xg/products/usw-pro-xg-24
 
-# TODO
-- lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected)
+# Frameworks
+## Private and Mirrored Repositories
+
+## PSPF
+- Australia - https://www.protectivesecurity.gov.au/
+
+## ISM
+## Esential Eight
 
 # Partner Companies
 ## Cirrascale for Gemini GDC deployment
 - https://www.cirrascale.com/
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
-- 
+
+# Partner CSPs
+## Amazon Outposts
+## Azure Stack
+## Oracle
+
+
+# Keywords
+## ACM (GitOps)
+## Anthos
+## GKE
+
+## SIT/UAT
+
 # References
 - ONAP - https://onap.org/
 - GoC/SSC Aurora (Cross CSP Kubernetes based LZ for use in Public Sector)  - https://github.com/gccloudone-aurora including helm charts - https://github.com/gccloudone-aurora/aurora-platform-charts (not https://github.com/gccloudone/aurora) - tracking https://github.com/ObrienlabsDev/blog/issues/176
 - 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
+
 
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
@@ -578,3 +598,9 @@ https://ubuntu.com/certified
 # Links
 - 2025 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - 
+
+
+# TODO
+- lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected).  A: EU focused
+- 
+
