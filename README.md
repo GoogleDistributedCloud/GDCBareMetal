@@ -30,6 +30,9 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 #### Cgroupsv2
 In ubuntu 22.04+
 
+#### HSM
+#### PKI
+
 ### GDC Data Issues
 #### Low to High side data transfer
 This includes all of periodic connections to exchange metrics or upload image data or for air gapped - unclass to classified data transfer.
