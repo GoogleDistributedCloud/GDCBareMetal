@@ -472,7 +472,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - - Networking https://partner.skills.google/paths/1552/course_templates/1198/video/522212
 - - KMS Symmetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522222
 - - KMS Asymmetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522223
-- - GDC-AG practitioner - air gapped - networking notes: https://storage.googleapis.com/cloud-training/T-GDCPR-I/course%202/On-Demand%20C2%20M1_%20Kubernetes%20in%20GDC%20air-gapped%20.pdf
+- - GDC-AG practitioner - air gapped - compute/network/storage notes: https://storage.googleapis.com/cloud-training/T-GDCPR-I/course%202/On-Demand%20C2%20M1_%20Kubernetes%20in%20GDC%20air-gapped%20.pdf
 - 
 - Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033 (no non-partner access)
 - Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034 (same partner link for non-partner)
