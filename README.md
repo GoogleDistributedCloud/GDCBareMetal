@@ -166,8 +166,15 @@ export BMCTL_VERSION=1.35.0-gke.525
 ```
 # GDC Air Gapped Architecture
 ## GDC-AG Projects
+Project network connectivity is via ProjectNetworkPolicy CRDs - similar to peering (unidirectional)
+
 ## GDC-AG Networking
 ### VPC Flow logs are Kubernetes network policies audit logging
+### Load Balancers
+ILB - Internal LB
+ELB - External LB (check l7) and ingres CRD capability
+### DNS
+External Authortive server, Internal authorative server, forwarder (check DNS peering?)
 ## GDC-AG IAM
 
 # GDC DevOps
@@ -262,10 +269,13 @@ There are CRDs that implement analogs of traditional GCP operations specific to 
 
 CRD | API | notes
 --- | --- | --- 
+ProjectNetworkPolicy | cross project peering | is it transitive? no
 ? | Node Maintenance | type of node role for kubernetes upgrades which include unscheduling nodes.
+OrganizationNetworkPolicy | . | .
 VirtualMachineBackupPlanTemplate | . | .
 [VirtualMachineBackupRequest](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform-application/pa-ao-operations/vm-backup/backup-plans/manage-backups#kubectl_1) | VMs | .
 VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
+. | . | VMNetworkPolicy (see k8s workloads as well)
 . | . | .
 
 ### GDC Kubernetes APIs
