@@ -468,6 +468,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - - Demo 3: VM Creation - https://partner.skills.google/paths/1552/course_templates/1192/video/521970
 - - course 2 of 3 - K8S clusters / Node Pools - https://partner.skills.google/paths/1552/course_templates/1198/video/522193
 - - Networking https://partner.skills.google/paths/1552/course_templates/1198/video/522212
+- - KMS Symetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522222
 - GDC air-gapped - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
 - Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
 - 
