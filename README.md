@@ -482,7 +482,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - SecOps on GDC for Tier 3 Analysts - https://partner.skills.google/course_templates/1197?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659311
 
 ### GDC Air-gapped
-- Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
+- (NOTE: Partner specific content) - Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
 - overall GDC air-gapped (only for partner sales) - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
 - GDC air-gapped Practitioner - 6h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
 - - gdcloud cli demo - IAM predefined roles - https://partner.skills.google/paths/1552/course_templates/1192/video/521958
@@ -494,7 +494,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - - KMS Asymmetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522223
 - - GDC-AG practitioner - air gapped - compute/network/storage notes: https://storage.googleapis.com/cloud-training/T-GDCPR-I/course%202/On-Demand%20C2%20M1_%20Kubernetes%20in%20GDC%20air-gapped%20.pdf
 - 
-- Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033 (no non-partner access)
+- (Note: Partner specific content) - Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033 (no non-partner access)
 - Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034 (same partner link for non-partner)
 
 - Note for non-partner - the L200 GDC Air-gapped course is N/A
