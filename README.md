@@ -269,6 +269,12 @@ VM APT and RPM package management | . | . | yes | . | . | .
 Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
 postgreSQL (check alloyDB Omni), Oracle byod
 
+## Comparison GDC vs GCP Services
+
+Service | Sub Service | GDC | GCP 
+--- | --- | --- | ---
+Vertex AI | Vision AI/ML | OCR | OCR, Image, facial, and crop hint recognition
+
 ## Gemini Enterprise
 Gemini Enterprise models will run locally on GDC - see https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs/requirements#hardware
 
