@@ -4,6 +4,7 @@ Main blog - https://github.com/ObrienlabsDev/blog
 Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
 
+
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 
@@ -26,6 +27,13 @@ There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Go
 There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
 
 ### GDC Requirements
+### GDC Air Gapped Requirements
+
+Operational responsibities include instance installation, operation, infrastructure management, L1/L2 support, SLDC.
+All personnel involved with the GDC Air gapped instance must be local - and not remotely accessible by an external client, partner or google team.
+The differentiation between Google Distributed Cloud air-gapped and GDC connected - is the operational and SRE aspect - GDC-AG is locally operated and under local SRE.
+
+Therefore, all the operational responsibilities, including facilitating, operating the instances, managing the infrastructure, L1/L2 support cycle, and software lifecycle, need to be done by the Operator.
 #### Cgroupsv2
 In ubuntu 22.04+
 
