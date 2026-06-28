@@ -4,6 +4,14 @@ Main blog - https://github.com/ObrienlabsDev/blog
 Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
 
+# Architecture
+## 
+```mermaid
+flowchart LR
+  reg[("helm charts")] -->|"deploy"| wh["GDC GKE Management Cluster<br/>/based-on Anthos"]
+  wh -->|"Intent reconcile loop"| wh
+  wh -->|"Policy validated?"| sync["kubectl apply<br/>+ signatures"]
+```
 
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
