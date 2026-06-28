@@ -633,6 +633,13 @@ https://ubuntu.com/certified
 - 2025 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - 
 
+# GDC Training Content of Interest
+The following slides are from the GDC Practitioner, L200 and L300 air-gapped training above - from my previous employeer - Google
+
+## GDC Use Cases
+
+<img width="928" height="473" alt="Screenshot 2026-06-27 at 22 13 21" src="https://github.com/user-attachments/assets/4353d42b-64a4-4759-8880-ea30431a72e9" />
+
 
 # TODO
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected).  A: EU focused
