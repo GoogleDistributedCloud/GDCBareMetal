@@ -212,7 +212,7 @@ Vertex AI
 
 Service | Sub Service | GDC | GCP 
 --- | --- | --- | ---
-Vertex AI | Vision AI/ML | OCR | OCR, Image, facial, and crop hint recognition
+Vertex AI | Vision AI/ML | OCR BatchAnnotateFiles, BatchAnnotateImages | OCR, Image, facial, and crop hint recognition
 
 
 ## gdcloud commands
