@@ -639,7 +639,7 @@ The following slides are from the GDC Practitioner, L200 and L300 air-gapped tra
 ## GDC Use Cases
 
 <img width="928" height="473" alt="Screenshot 2026-06-27 at 22 13 21" src="https://github.com/user-attachments/assets/4353d42b-64a4-4759-8880-ea30431a72e9" />
-
+https://partner.skills.google/paths/1681/course_templates/1035/video/500364
 
 # TODO
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected).  A: EU focused
