@@ -635,6 +635,10 @@ https://ubuntu.com/certified
 
 # GDC Training Content of Interest
 The following slides are from the GDC Practitioner, L200 and L300 air-gapped training above - from my previous employeer - Google
+## GDC Types
+
+<img width="906" height="332" alt="Screenshot 2026-06-27 at 22 21 35" src="https://github.com/user-attachments/assets/c0e7a079-92a5-46e2-9a82-7aa6e352596c" />
+
 
 ## GDC Use Cases
 
