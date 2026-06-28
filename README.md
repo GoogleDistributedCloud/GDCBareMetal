@@ -635,7 +635,11 @@ https://ubuntu.com/certified
 
 # GDC Training Content of Interest
 The following slides are from the GDC Practitioner, L200 and L300 air-gapped training above - from my previous employeer - Google
-## GDC Types
+## GDC Partner and Vendor Roles
+
+<img width="925" height="467" alt="Screenshot 2026-06-27 at 22 24 47" src="https://github.com/user-attachments/assets/e823d7ca-c83b-4d40-8ee9-168ac3c237c0" />
+https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = https://www.youtube.com/watch?v=sVsdfqV5-7g
+## GDC Types/Solutions
 
 <img width="906" height="332" alt="Screenshot 2026-06-27 at 22 21 35" src="https://github.com/user-attachments/assets/c0e7a079-92a5-46e2-9a82-7aa6e352596c" />
 https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = https://www.youtube.com/watch?v=sVsdfqV5-7g
