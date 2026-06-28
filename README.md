@@ -502,6 +502,14 @@ https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num
 
 <img width="1860" height="1087" alt="Screenshot 2026-06-19 at 11 43 35" src="https://github.com/user-attachments/assets/90b06027-4fd1-4864-8de8-f29a6ddd4080" />
 
+### Workarounds for GDC training specific to partner logins
+I am a GCP partner so I have access to all the L200/L300 GDC training, however if you are in the middle of attaining partner status or do not yet have a login - some of the content is available without a partner login.
+Some of the partner content is searchable in non partner skillsboost.
+Another option is to get the youtube URL for each course video (this will not solve the section and module tests and credit for the course - but are a workaround).  You will need a correlation of course videos.
+For example the L200 GDC Air-Gapped course is ony available to partners - however the following intro to start is available on generic youtube.
+
+https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = https://www.youtube.com/watch?v=sVsdfqV5-7g
+
 ### Become a GCP Partner
 - https://partners.cloud.google.com/learn
 - or ask for a request to join an existing company
