@@ -4,15 +4,6 @@ Main blog - https://github.com/ObrienlabsDev/blog
 Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
 
-# Architecture
-## 
-```mermaid
-flowchart LR
-  reg[("helm charts")] -->|"deploy"| wh["GDC GKE Management Cluster<br/>/based-on Anthos"]
-  wh -->|"Intent reconcile loop"| wh
-  wh -->|"Policy validated?"| sync["kubectl apply<br/>+ signatures"]
-```
-
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 
@@ -164,6 +155,14 @@ organizations, projects (no folders), tags, kubernetes taints.
 
 This GDC software-only for BM looks to be a rebrand of Anthos (Anthos clusters on-prem or bare metal) where on prem CPUs are billed back to the GCP Project.
 see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-bare-metal-are-now-gdc-virtual
+
+##### Architecture 
+```mermaid
+flowchart LR
+  reg[("helm charts")] -->|"deploy"| wh["GDC GKE Management Cluster<br/>/based-on Anthos"]
+  wh -->|"Intent reconcile loop"| wh
+  wh -->|"Policy validated?"| sync["kubectl apply<br/>+ signatures"]
+```
 
 #### Anthos BMCTL install
 - 20260614 on org obrienlabs.tech
