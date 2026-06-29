@@ -198,7 +198,7 @@ External Authortive server, Internal authorative server, forwarder (check DNS pe
 # GDC DevOps
 ## GDC API Access
 ### HTTP2/gRPC protocol APIs
-Vertex AI
+Vertex AI - use grpcurl via golang.
 
 
 ### GCD Console
