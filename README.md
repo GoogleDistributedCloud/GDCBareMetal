@@ -298,9 +298,31 @@ GDC Authorization uses Kubernetes Identities via RBAC
 ## Kubernetes
 ### GDC Custom Resource Definitions
 There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM.
+found/reading https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/apis/service-api-overview
 
-CRD | API | notes
+CRD group | API | notes
 --- | --- | --- 
+Alloy DB omni | . | .
+Artifact Registry / Harbor | . | .
+Backup | . | .
+billing | . | .
+cluster | . | .
+hsm | . | .
+iam | . | .
+ipam | . | .
+kms | . | .
+marketplace | . | .
+networking | . | .
+logging | . | .
+Org policies | . | .
+pki | . | .
+Resource mAnager | . | .
+Storage | . | .
+upgrade | . | .
+Vertex AI | . | .
+VM Manager | . | .
+. | . | .
+. | . | .
 ProjectNetworkPolicy | cross project peering | is it transitive? no
 ? | Node Maintenance | type of node role for kubernetes upgrades which include unscheduling nodes.
 OrganizationNetworkPolicy | . | .
@@ -309,6 +331,7 @@ VirtualMachineBackupPlanTemplate | . | .
 VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
 . | . | VMNetworkPolicy (see k8s workloads as well)
 . | . | .
+
 
 ### GDC Kubernetes APIs
 Storage Classes (ReadWriteMany and ReadWriteOnce)
