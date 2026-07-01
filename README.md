@@ -541,6 +541,9 @@ https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num
 
 <img width="1860" height="1087" alt="Screenshot 2026-06-19 at 11 43 35" src="https://github.com/user-attachments/assets/90b06027-4fd1-4864-8de8-f29a6ddd4080" />
 
+### Partner Delivery Readiness Portal
+Go over specific course and labs for L300 certification specific to GDC and associated services (GKE, LLM training/RAG ...) - https://delivery-readiness-portal.cloud.google/app/gcp-projects/manage-dri-attribute
+
 ### Workarounds for GDC training specific to partner logins
 I am a GCP partner so I have access to all the L200/L300 GDC training (paths 1681/1033), however if you are in the middle of attaining partner status or do not yet have a login from your org - some of the content is available without a partner login - for example the L300 air gapped training (paths 1681/1034) does not need a partner login.
 Some of the partner content (paths 1681/1035 is searchable in non partner skillsboost such as the air gapped introduction (paths 1552).
