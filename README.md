@@ -542,7 +542,8 @@ https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num
 <img width="1860" height="1087" alt="Screenshot 2026-06-19 at 11 43 35" src="https://github.com/user-attachments/assets/90b06027-4fd1-4864-8de8-f29a6ddd4080" />
 
 ### Partner Delivery Readiness Portal
-Go over specific course and labs for L300 certification specific to GDC and associated services (GKE, LLM training/RAG ...) - https://delivery-readiness-portal.cloud.google/app/gcp-projects/manage-dri-attribute
+Go over specific course and labs for CEPF L300 certifications specific to GDC and associated services (GKE, LLM training/RAG ...) - https://delivery-readiness-portal.cloud.google/app/gcp-projects/manage-dri-attribute
+For example the LLM evaluation on GKE using L4s (these are close to the google specific L300 labs except 2h instead of the normal 10h timeline, max 3 tries without VP reset and complexity (80% pass rate required) - https://partner.skills.google/course_templates/1720
 
 ### Workarounds for GDC training specific to partner logins
 I am a GCP partner so I have access to all the L200/L300 GDC training (paths 1681/1033), however if you are in the middle of attaining partner status or do not yet have a login from your org - some of the content is available without a partner login - for example the L300 air gapped training (paths 1681/1034) does not need a partner login.
