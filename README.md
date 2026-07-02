@@ -381,6 +381,9 @@ Prometheus | . | .
 
 # GDC - Simulated Local Rack
 
+## GDC Bare Metal - Official Google config samples
+https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/reference/config-samples
+
 <img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
 
 
@@ -560,6 +563,7 @@ https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = ht
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 -  GDC on bare metal - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
+-  Official Google GDC config samples for bare metal - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/reference/config-samples
 - https://www.supermicro.com/en/solutions/google-distributed-cloud-virtual
 - https://cloud.google.com/blog/products/infrastructure-modernization/google-distributed-cloud-edge-appliance-use-cases/
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
