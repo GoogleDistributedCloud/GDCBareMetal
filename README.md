@@ -319,6 +319,7 @@ iam | . | .
 ipam | . | .
 kms | . | .
 marketplace | . | .
+monitoring | . | .
 networking | . | .
 logging | . | .
 Org policies | . | .
@@ -330,6 +331,7 @@ Vertex AI | . | .
 VM Manager | . | .
 . | . | .
 . | . | .
+MontoringTarget | . | .
 ProjectNetworkPolicy | cross project peering | is it transitive? no
 ? | Node Maintenance | type of node role for kubernetes upgrades which include unscheduling nodes.
 OrganizationNetworkPolicy | . | .
