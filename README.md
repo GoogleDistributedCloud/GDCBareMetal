@@ -436,16 +436,22 @@ Spin up 3 generation 2 VMs on either a 128g 14900k desktop or a Lenovo P1gen6 96
 
 https://ubuntu.com/download/desktop or https://ubuntu.com/download/server
 
-Now, there may be an issue running without secure boot once we get into bmctl - for now the bios settings disallow it.
-
-<img width="1614" height="705" alt="image" src="https://github.com/user-attachments/assets/3a92e5ca-1e77-419c-85eb-68543ef76de4" />
-
 AFter creating the VMs, attach to the ext network and disable secure boot in order to allow boot from the ISO.
 
 Add a new SCSI network adapter for "ext"
 
 <img width="1257" height="965" alt="image" src="https://github.com/user-attachments/assets/a23d80a8-424d-46c7-b9c4-0ed3f3516bac" />
 
+Now, there may be an issue running without secure boot once we get into bmctl - for now the bios settings disallow it.
+
+<img width="1614" height="705" alt="image" src="https://github.com/user-attachments/assets/3a92e5ca-1e77-419c-85eb-68543ef76de4" />
+
+Add net-tools and openssh-server
+```
+sudo apt install net-tools
+sudo apt install openssh-server -y
+
+```
 
 #### GDC via VMWare Workstation
 
