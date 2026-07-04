@@ -311,21 +311,24 @@ GDC Authorization uses Kubernetes Identities via RBAC
 Namespace | Use Cases | notes
 --- | --- | --- 
 gpc-system | . | .
+obs-system | . | .
+infra-obs-obs-system | . | verify
+platform-obs-obs-system | . | verify
 . | . | .
 
 ### GDC Special Projects
 
 Namespace | Project | Use Cases | notes
 --- | --- | --- | ---
-. | Infra-obs | IO personna logs/metrics | .
-. | Platform-obs | PA personna logs/metrics | .
+. | Infra-obs | IO personna infra scopped logs/metrics | .
+. | Platform-obs | PA personna org scopped logs/metrics | .
 
 ### GDC Organization and Platform Deployments
 
 Namespace | Deployment | Use Cases | notes
 --- | --- | --- | ---
 gpc-system | . | . | .
-. | . | . | .
+obs-system | grafana (obs) | . | .
 
 ### GDC Custom Resource Definitions
 There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM.
@@ -367,8 +370,6 @@ VirtualMachineBackupPlanTemplate | . | .
 VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
 . | . | VMNetworkPolicy (see k8s workloads as well)
 . | . | .
-
-
 
 ### GDC Kubernetes APIs
 Storage Classes (ReadWriteMany and ReadWriteOnce)
@@ -656,6 +657,8 @@ I would recommend prioritizing the documentation over the training - as GDC and 
 - https://cloud.google.com/customers/rubin-observatory
 - Spanner Omni for GDC Airgapped - Next 2026 BRK1-075 - https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf
 
+Errors
+- https://partner.skills.google/paths/1552/course_templates/1193/video/522174 3:35 obs bs system
 # Private Cloud: PaaS Kubernetes stack with IaaS provisioning - HA and DR
 - https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
 - https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
