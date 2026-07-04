@@ -653,6 +653,14 @@ SLA/SLO/SLIs
 
 ## HA Testing
 
+## Failure Testing
+- data corruption
+- exponential backoff, circuit breaker
+- power failures
+- pod OOM killed (memory limit)
+
+# SRE Run Books
+
 # Frameworks
 ## Open Source Frameworks / Specifications
 
