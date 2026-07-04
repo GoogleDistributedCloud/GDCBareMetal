@@ -647,7 +647,16 @@ https://ubuntu.com/certified
 ### SFP28
 - https://ca.store.ui.com/ca/en/category/switching-professional-max-xg/products/usw-pro-xg-24
 
+# Operational Testing
+## DR: Disaster Recovery
+SLA/SLO/SLIs
+
+## HA Testing
+
 # Frameworks
+## Open Source Frameworks / Specifications
+
+https://prometheus.io/docs/specs/om/open_metrics_spec/
 ## Private and Mirrored Repositories
 
 ## PSPF
@@ -667,9 +676,6 @@ https://ubuntu.com/certified
 ## Azure Stack
 ## Oracle
 
-# Open Source Frameworks / Specifications
-
-https://prometheus.io/docs/specs/om/open_metrics_spec/
 
 # Keywords
 ## ACM (GitOps)
