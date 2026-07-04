@@ -304,6 +304,12 @@ GDC provides only predifined roles.  The Fake OIDC provider has preloaded fake i
 GDC Authorization uses Kubernetes Identities via RBAC
 
 ## Kubernetes
+### GDC Namespaces
+
+Namespace | Use Cases | notes
+--- | --- | --- 
+gpc-system | . | .
+. | . | .
 ### GDC Custom Resource Definitions
 There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM.
 found/reading https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/apis/service-api-overview
@@ -319,6 +325,7 @@ hsm | . | .
 iam | . | .
 ipam | . | .
 kms | . | .
+maintenancewindow | . | Verify
 marketplace | . | .
 monitoring | . | .
 networking | . | .
@@ -341,6 +348,7 @@ VirtualMachineBackupPlanTemplate | . | .
 VirtualMachineRestoreRequest | . | ```kubectl get virtualmachine.virtualmachine.gdc.goog -n PROJECT```
 . | . | VMNetworkPolicy (see k8s workloads as well)
 . | . | .
+
 
 
 ### GDC Kubernetes APIs
