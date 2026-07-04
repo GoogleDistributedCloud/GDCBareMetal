@@ -312,6 +312,21 @@ Namespace | Use Cases | notes
 --- | --- | --- 
 gpc-system | . | .
 . | . | .
+
+### GDC Special Projects
+
+Namespace | Project | Use Cases | notes
+--- | --- | --- | ---
+. | Infra-obs | IO personna logs/metrics | .
+. | Platform-obs | PA personna logs/metrics | .
+
+### GDC Organization and Platform Deployments
+
+Namespace | Deployment | Use Cases | notes
+--- | --- | --- | ---
+gpc-system | . | . | .
+. | . | . | .
+
 ### GDC Custom Resource Definitions
 There are CRDs that implement analogs of traditional GCP operations specific to GDC via KRM.
 found/reading https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/apis/service-api-overview
