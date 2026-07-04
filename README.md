@@ -276,7 +276,7 @@ Logging | . | . | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | .
 Networking/eBPF/CNI | . | . | GKE Dataplane 2 | . | Cilium | . 
 Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
-Observability | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry | .
+Observability | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/)| .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
