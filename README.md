@@ -567,7 +567,12 @@ https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = ht
 ### Become a GCP Partner
 - https://partners.cloud.google.com/learn
 - or ask for a request to join an existing company
-- 
+
+
+## Training Deprecation
+Some of the GDC training is 1 to 2 years old.  There are sections that are older than 2023 such as the reference to spinnaker CICD which is no longer used at Google.
+I would recommend prioritizing the documentation over the training - as GDC and GCP documentation are regularly updated.
+- https://partner.skills.google/paths/1552/course_templates/1193/video/522163 = https://www.youtube.com/watch?v=uH1Y9kQyfOs @ 4:16
 # Links
 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 -  GDC on bare metal - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/downloads
