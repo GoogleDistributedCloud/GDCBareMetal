@@ -329,6 +329,7 @@ maintenancewindow | . | Verify
 marketplace | . | .
 monitoring | . | .
 networking | . | .
+nodeUpgrade | . | .
 logging | . | .
 Org policies | . | .
 pki | . | .
