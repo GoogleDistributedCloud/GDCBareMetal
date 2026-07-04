@@ -203,6 +203,10 @@ External Authortive server, Internal authorative server, forwarder (check DNS pe
 
 # GDC DevOps
 ## GDC API Access
+
+### Cortex APIs
+/cortex,  /prometheus /(alert manager) subsets
+
 ### HTTP2/gRPC protocol APIs
 Vertex AI - use grpcurl via golang.
 
@@ -796,6 +800,22 @@ https://partner.skills.google/paths/1681/course_templates/1033/video/523528 = ht
 
 <img width="928" height="473" alt="Screenshot 2026-06-27 at 22 13 21" src="https://github.com/user-attachments/assets/4353d42b-64a4-4759-8880-ea30431a72e9" />
 https://partner.skills.google/paths/1681/course_templates/1035/video/500364
+
+## GDC Monitoring, Alerting and Metrics
+
+Metrics Data flow
+
+<img width="2407" height="1196" alt="Screenshot 2026-07-04 at 16 28 54" src="https://github.com/user-attachments/assets/67b5c460-aa9d-4a5e-99b6-66590cd30d56" />
+
+Monitoring deployment
+
+<img width="921" height="527" alt="Screenshot 2026-07-04 at 17 57 03" src="https://github.com/user-attachments/assets/9ad1a6b5-1e01-451a-8320-2ab2ccce7861" />
+
+Monitoring data flow
+
+<img width="908" height="479" alt="Screenshot 2026-07-04 at 17 57 21" src="https://github.com/user-attachments/assets/d11bfe97-9709-45a0-aed1-366e053c1101" />
+
+https://partner.skills.google/paths/1552/course_templates/1193/video/522175
 
 # TODO
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected).  A: EU focused
