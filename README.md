@@ -578,6 +578,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - - Demo 1: GUI Create a user and create a project - https://partner.skills.google/paths/1552/course_templates/1192/video/521963
 - - Demo 3: VM Creation - https://partner.skills.google/paths/1552/course_templates/1192/video/521970
 - - course 2 of 3 - K8S clusters / Node Pools - https://partner.skills.google/paths/1552/course_templates/1198/video/522193
+  - Node Pool upgrade - https://partner.skills.google/paths/1552/course_templates/1193/video/522170
 - - Networking https://partner.skills.google/paths/1552/course_templates/1198/video/522212
 - - KMS Symmetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522222
 - - KMS Asymmetric keys - https://partner.skills.google/paths/1552/course_templates/1198/video/522223
