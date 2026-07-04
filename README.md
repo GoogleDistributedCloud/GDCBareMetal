@@ -387,21 +387,33 @@ Open Policy Agent | . | .
 Prometheus | . | .
 . | . | .
 
-# GDC - Simulated Local Rack
+# GDC Simulation
 
-## GDC Bare Metal - Official Google config samples
+## GDC Base Hardware Simulation
+### GDC - Virtulized Hardware Simulation
+#### GDC via Microsoft Hyper-V
+https://github.com/ObrienlabsDev/blog/issues/59
+
+#### GDC via VMWare Workstation
+
+#### GDC via VMWare Fusion
+Not really applicable except for generic kubernetes clusters as GDC binaries are only in Intel CPU format not ARMv64
+
+### GDC - Bare Metal - Simulated Local Rack
+
+### GDC Bare Metal - Official Google config samples
 https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/reference/config-samples
 
 <img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
 
 
-## Lenovo BMC Rack Servers as GDC Simulators
+#### Lenovo BMC Rack Servers as GDC Simulators
 - https://www.lenovo.com/ca/lenovopro/en/p/servers-storage/servers/racks/thinksystem-sr250-v3-rack-server/7dcla053na
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
 - https://lenovopress.lenovo.com/lp1215.pdf#:~:text=Lenovo%20has%20certified%20the%20ThinkAgile%20VX%20solution,an%20Anthos%20Ready%20virtualized%20platform%2C%20with%20bare%2Dmetal
 
-### Lenovo SR250 V3 Rack Server
+#### Lenovo SR250 V3 Rack Server
 Lenovo Intel Xeon 6325P blades are cost effective for GDC simulation and include a secondary management CPU/Software stack for configuraiton - lead time is 30 days for shipping.
 The following SR250 V3 server can run either Redhat or Ubuntu.
 
@@ -416,27 +428,27 @@ For smaller rack depths such as 24 inches - the supplied lenovo specific extenda
 
 SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 
-## Dell Poweredge R260 Rack Servers as GDC Simulators
+### Dell Poweredge R260 Rack Servers as GDC Simulators
 - https://www.dell.com/en-ca/shop/servers-storage-and-networking/poweredge-r260/spd/poweredge-r260/pe_r260_tm_vi_vp_sb
 - https://gfx3.senetic.com/akeneo-catalog/a/9/b/d/a9bd7dee0928db53fc2f97c515fbf67a89ab8345_1763587_C26KK_icecat_multimedia_manual_pdf_1_en_GB.pdf
 
-### TOR Networking
+#### TOR Networking
 Currently using TPLink 10gbps rack switches and routers.
 
-## Kubernetes Installation
+### Kubernetes Installation
 - https://github.com/ObrienlabsDev/blog/wiki/Kubernetes
-### docker desktoop
+#### docker desktoop
 - single node with storage provisioner - only for testing out images and helm charts locally
 ### kubeadm
 - https://github.com/ObrienlabsDev/blog/issues/50
 - https://github.com/ObrienlabsDev/blog/issues/54
-### minikube
-### microk8s
-### GCP GKE
+#### minikube
+#### microk8s
+#### GCP GKE
 
-### Rancher RKE2 / K3S
+#### Rancher RKE2 / K3S
 
-#### VM test install
+##### VM test install
 It has been a while since Rancher 1.6 and RKE1.
 tracking via https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/6
 
