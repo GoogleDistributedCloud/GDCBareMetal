@@ -261,7 +261,9 @@ A large portion of GDC specific functionality is implemented as kubernetes opera
 
  Component | Use Case | GCP | GDC  | Spec | OSS | Commercial
 --- | --- | --- | --- | --- | --- | ---
+Alerts | . | . | . | . | . | .
 API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress | 
+Billing | . | . | . | . | . | .
 Configure (maintenance..) | . | . | Configure | . | . | .
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 Database | . | Cloud SQL | DBaaS Database Service (PostgreSQL, oracle byol, AlloyDB Omni | . | . | .
