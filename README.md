@@ -394,6 +394,23 @@ Prometheus | . | .
 #### GDC via Microsoft Hyper-V
 https://github.com/ObrienlabsDev/blog/issues/59
 
+We are deferring to Hyperv on windows OS machines primarily because VMWare no longer does nested virtualization on 13 and 14 generation Intel chips.  Hyperv is also a pseudo level 1 hypervisor over level 2 for workstation.  The best scenario is to install ubuntu directly on intel hardware - like the Lenovo SR250 blade, however the p1gen6 provides for a portable cluster on 1 machine.
+
+Spin up 3 generation 2 VMs on either a 128g 14900k desktop or a Lenovo P1gen6 96g laptop.  Make sure to disable secure boot when initially installing ubuntu.  Add an external network via one of the wired ethernet controllers by first creating a reference in virtual switch manager.
+
+https://ubuntu.com/download/desktop or https://ubuntu.com/download/server
+
+Now, there may be an issue running without secure boot once we get into bmctl - for now the bios settings disallow it.
+
+<img width="1614" height="705" alt="image" src="https://github.com/user-attachments/assets/3a92e5ca-1e77-419c-85eb-68543ef76de4" />
+
+AFter creating the VMs, attach to the ext network and disable secure boot in order to allow boot from the ISO.
+
+Add a new SCSI network adapter for "ext"
+
+<img width="1257" height="965" alt="image" src="https://github.com/user-attachments/assets/a23d80a8-424d-46c7-b9c4-0ed3f3516bac" />
+
+
 #### GDC via VMWare Workstation
 
 #### GDC via VMWare Fusion
