@@ -667,6 +667,9 @@ https://ubuntu.com/certified
 ## Azure Stack
 ## Oracle
 
+# Open Source Frameworks / Specifications
+
+https://prometheus.io/docs/specs/om/open_metrics_spec/
 
 # Keywords
 ## ACM (GitOps)
