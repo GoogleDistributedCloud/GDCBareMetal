@@ -322,10 +322,10 @@ platform-obs-obs-system | . | verify
 
 ### GDC Special Projects
 
-Namespace | Project | Use Cases | notes
+Namespace | Project | Use Cases | Headers | Storage | notes
 --- | --- | --- | ---
-. | Infra-obs | IO personna infra scopped logs/metrics | .
-. | Platform-obs | PA personna org scopped logs/metrics | .
+. | Infra-obs | IO personna infra scopped logs/metrics | x-scope-orgIDinfraOBS. | PV then Cortex .
+. | Platform-obs | PA personna org scopped logs/metrics |  | PV then Cortex | .
 
 ### GDC Organization and Platform Deployments
 
