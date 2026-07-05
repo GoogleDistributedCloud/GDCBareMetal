@@ -290,7 +290,7 @@ Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | . | Istio | .
-Storage | PVC/Block | . | NetApp, [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
 Terraform IaC | . | . | yes | . | . | .
 VM virtualization | VMs on Kubernetes | GCE | GDC VM Manager <img width="1880" height="702" alt="Screenshot 2026-06-21 at 22 32 35" src="https://github.com/user-attachments/assets/39546184-cc6d-4956-8344-e1d3ae71fbeb" /> <img width="1156" height="467" alt="Screenshot 2026-06-21 at 22 16 50" src="https://github.com/user-attachments/assets/2fbba3da-3357-4c20-aafd-944630c951db" /> [N2](https://docs.cloud.google.com/compute/docs/general-purpose-machines#n2_series), N3, [A4](https://docs.cloud.google.com/compute/docs/accelerator-optimized-machines#a4-machine-type), [M2](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m2_series), [M3](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m3_series) | . | [KubeVirt](https://kubevirt.io/) | .
 VM APT and RPM package management | . | . | yes | . | . | .
@@ -388,11 +388,14 @@ Limits are 16 user clusters per org with 42 nodes per user cluster - for a total
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
 
 ## Storage
-### Cortext
+### Cortex
+- Prometheus and Loki metrics/logs storage
 
 ### NetApp
 - [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
 - https://github.com/ObrienlabsDev/blog/issues/183
+- https://docs.netapp.com/us-en/storagegrid/primer/
+- 
 ### Rakuten
 - Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
 - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines#configure_symcloud_storage
@@ -421,7 +424,7 @@ Cortex | . | (AlertManager)
 Fluentbit sidecar | . | . 
 Grafana | . | .
 KeyCloak | . | .
-loki | . | .
+loki | . | LogQL
 Open Policy Agent | . | .
 Prometheus | . | PromQL
 . | . | .
@@ -569,7 +572,9 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 The monitoring stack itself must me monitored
 
 ## DI02: Use of Persistent Volumes on monitoring stack startup
-PV sizes are limited - to 20Gb (verify).  Loki and Cortex use PVs on bootstrap - this must be modified to use Object Storage.
+PV sizes are limited - to 20Gb (verify).  Loki and Cortex use PVs on bootstrap - this must be modified to use Object Storage via Storage Grid.
+
+https://partner.skills.google/paths/1552/course_templates/1193/video/522176
 
 # Use Cases
 - https://github.com/ObrienlabsDev/drone-streaming-extraction?tab=readme-ov-file
@@ -757,7 +762,7 @@ SLA/SLO/SLIs
 - [Cortex](https://cortexmetrics.io/docs/) storage
 - Fluentbit
 - Grafana
-- Loki
+- Loki (LogQL)
 - Prometheus - https://prometheus.io/docs/specs/om/open_metrics_spec/
 - 
 ## Private and Mirrored Repositories
@@ -773,6 +778,9 @@ SLA/SLO/SLIs
 - https://www.cirrascale.com/
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
+
+## NetApp
+- NetApp StorageGRID - https://www.netapp.com/newsroom/press-releases/news-rel-20260415-184580/
 
 # Partner CSPs
 ## Amazon Outposts
