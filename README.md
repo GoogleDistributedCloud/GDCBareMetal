@@ -595,25 +595,28 @@ https://partner.skills.google/paths/1552/course_templates/1193/video/522176
 # GCP Documentation
 - For reference - GCP services superset - https://cloud.google.com/terms/services?hl=en
 # GDC Documentation
-## GDC Documentaion - Data Sheets
+- https://docs.cloud.google.com/distributed-cloud/docs
+- https://cloud.google.com/distributed-cloud?hl=en
+- See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
+- GDC Software only - bare metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
 
+
+## GDC Documentation - Air Gapped
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
+- https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
+- GDC Sandbox https://docs.cloud.google.com/distributed-cloud/sandbox/latest
+- GDC Air-gapped https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
+- https://cloud.google.com/terms/gdcag/services
+- GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
+- 
+## GDC Documentation - Data Sheets
 - https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
 - - GDC Air Gapped - Platform - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_platform_datasheet.pdf
 -  - GDC Air Gapped - IaaS - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_iaas_datasheet.pdf
 -  - GDC Air Gapped - PaaS - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_paas_datasheet.pdf
 -  - GDC Air Gapped - Storage - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_storage_services_product_datasheet.pdf
 -  - GDC Software Only - https://services.google.com/fh/files/misc/gdc_software_only_product_datasheet.pdf
-- GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
-- https://docs.cloud.google.com/distributed-cloud/docs
-- https://cloud.google.com/distributed-cloud?hl=en
-- See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
-- https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
-- GDC Sandbox https://docs.cloud.google.com/distributed-cloud/sandbox/latest
-- GDC Air-gapped https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
-- GDC Software only - bare metal https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
-- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
-- https://cloud.google.com/terms/gdcag/services
-- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/overview
 
 # Training
 ## GCD - Google Cloud Dedicated - EU only
@@ -635,6 +638,8 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 - SecOps on GDC for Tier 3 Analysts - https://partner.skills.google/course_templates/1197?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659311
 
 ### GDC Air-gapped
+Note: as of July 2026 - the partner L300 GDC Air Gapped training is still at Hardware 3.0 released around Feb 2024. For GDC Connected - we are at GDC Hardware 4.0
+
 - (NOTE: Partner specific content) - Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
 - overall GDC air-gapped (only for partner sales) - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
 - GDC air-gapped Practitioner - 6h - https://partner.skills.google/paths/1552?catalog_rank=%7B%22rank%22%3A3%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&search_id=86660079
