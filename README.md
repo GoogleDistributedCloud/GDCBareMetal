@@ -283,9 +283,9 @@ Logging | . | . | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | .
 Networking/eBPF/CNI | . | . | GKE Dataplane 2 | . | Cilium | . 
 Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
-Observability / Metrics / Time Series | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
+Observability / Metrics / Time Series | . | . | Prometheus / Grafana (per project) <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
-Monitoring | Loki spec | . | Grafana | . | Grafana . 
+Monitoring | Loki spec | . | Grafana (per project) | . | Grafana . 
 Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
@@ -354,7 +354,7 @@ kms | . | .
 maintenancewindow | . | Verify
 marketplace | . | .
 monitoring | . | .
-networking | . | .
+networking | . | MonitoringRule
 nodeUpgrade | . | .
 logging | . | audit logs pulled node file system (DaemonSet), operational and audit logs - user project logs and user workload logs - stored on WORM bucket 1y+
 Org policies | . | .
@@ -430,7 +430,7 @@ Chart | Site | notes
 --- | --- | ---
 Cortex | . | (AlertManager)
 Fluentbit sidecar | . | . 
-Grafana | . | .
+Grafana | . | per project
 KeyCloak | . | .
 loki | . | LogQL
 Open Policy Agent | . | .
@@ -537,7 +537,7 @@ root@ubuntuvm01:/var/lib/rancher/rke2/bin# journalctl -u rke2-server
 
 # Development
 ## GDC Provided Developer tools
-- Mesh routing? check on Istio service mesh
+- Istio Mesh routing? check on Istio service mesh for mTLS, ZTA, 
 - Prometheus
 - Grafana
 
