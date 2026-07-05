@@ -571,8 +571,8 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 ## DI01: Meta Monitoring Stack
 The monitoring stack itself must me monitored
 
-## DI02: Use of Persistent Volumes on monitoring stack startup
-PV sizes are limited - to 20Gb (verify).  Loki and Cortex use PVs on bootstrap - this must be modified to use Object Storage via Storage Grid.
+## DI02: Use of Persistent Volumes on monitoring stack startup - manual IS override required
+PV sizes are limited - to 20Gb (verify).  Loki and Cortex use PVs on bootstrap - this must be modified to use Object Storage via NetApp StorageGRID.  As of 202606 this is a manual process that must be automated on cluster startup (TODO: verify which cluster or every cluster down to user clusters)
 
 https://partner.skills.google/paths/1552/course_templates/1193/video/522176
 
