@@ -4,11 +4,11 @@ Main blog - https://github.com/ObrienlabsDev/blog
 Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
 
-
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 Only Intel processors are supported by GDC as of mid 2026 - x86-64 CPUs at microarchitecture level v3 (x86-64-v3) or higher.  This excludes all ARM based machines including M series and the GB10 from NVidia in the DGX Spark. https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/minimal-infrastructure
-
+## Networking
+400Gb/s switches
 
 ## GDC - Google Distributed Cloud
 - https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
