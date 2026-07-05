@@ -286,6 +286,7 @@ Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies 
 Observability / Metrics | . | . | Prometheus / Grafana <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana | . | Grafana . 
+Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | . | Istio | .
@@ -387,6 +388,8 @@ Limits are 16 user clusters per org with 42 nodes per user cluster - for a total
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
 
 ## Storage
+### Cortext
+
 ### NetApp
 - [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
 - https://github.com/ObrienlabsDev/blog/issues/183
@@ -560,10 +563,18 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 | abm-user-cluster-w2   | 10.200.0.6            | 🌟 Ready for use as worker for the user cluster         |
 |---------------------------------------------------------------------------------------------------------|
 ```
+
+# Design Issues
+## DI01: Meta Monitoring Stack
+The monitoring stack itself must me monitored
+
+## DI02: Use of Persistent Volumes on monitoring stack startup
+PV sizes are limited - to 20Gb (verify).  Loki and Cortex use PVs on bootstrap - this must be modified to use Object Storage.
+
 # Use Cases
 - https://github.com/ObrienlabsDev/drone-streaming-extraction?tab=readme-ov-file
 - https://github.com/ObrienlabsDev/blog/wiki/Drone-Streaming-Extraction
-- 
+  
 # Issues
 - https://github.com/ObrienlabsDev/blog/issues/174
 
