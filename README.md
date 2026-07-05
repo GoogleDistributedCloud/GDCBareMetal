@@ -704,8 +704,10 @@ I would recommend prioritizing the documentation over the training - as GDC and 
 - https://cloud.google.com/customers/rubin-observatory
 - Spanner Omni for GDC Airgapped - Next 2026 BRK1-075 - https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf
 
-Errors
+# Errors
 - https://partner.skills.google/paths/1552/course_templates/1193/video/522174 3:35 obs bs system
+- alto to Palo Alto in https://partner.skills.google/paths/1681/course_templates/1034/video/519973 1:37
+
 # Private Cloud: PaaS Kubernetes stack with IaaS provisioning - HA and DR
 - https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
 - https://github.com/ObrienlabsDev/blog/blob/main/private-cloud.md
