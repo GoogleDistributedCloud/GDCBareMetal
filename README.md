@@ -291,7 +291,8 @@ Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Service Mesh | . | . | . | . | Istio | .
 Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
-Terraform IaC | . | . | yes | . | . | .
+Service | . | . | ServiceNow (check PagerDuty integration) | . | . | .
+Terraform IaC | . | . | yes but KRM is the primary IaC| . | . | .
 VM virtualization | VMs on Kubernetes | GCE | GDC VM Manager <img width="1880" height="702" alt="Screenshot 2026-06-21 at 22 32 35" src="https://github.com/user-attachments/assets/39546184-cc6d-4956-8344-e1d3ae71fbeb" /> <img width="1156" height="467" alt="Screenshot 2026-06-21 at 22 16 50" src="https://github.com/user-attachments/assets/2fbba3da-3357-4c20-aafd-944630c951db" /> [N2](https://docs.cloud.google.com/compute/docs/general-purpose-machines#n2_series), N3, [A4](https://docs.cloud.google.com/compute/docs/accelerator-optimized-machines#a4-machine-type), [M2](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m2_series), [M3](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m3_series) | . | [KubeVirt](https://kubevirt.io/) | .
 VM APT and RPM package management | . | . | yes | . | . | .
 . | . | . | . | . | . | .
