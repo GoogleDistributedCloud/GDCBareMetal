@@ -355,7 +355,7 @@ marketplace | . | .
 monitoring | . | .
 networking | . | .
 nodeUpgrade | . | .
-logging | . | .
+logging | . | audit logs pulled node file system (DaemonSet), operational and audit logs - user project logs and user workload logs - stored on WORM bucket 1y+
 Org policies | . | .
 pki | . | .
 Resource mAnager | . | .
@@ -387,6 +387,13 @@ Limits are 16 user clusters per org with 42 nodes per user cluster - for a total
 - https://kubevirt.io/
 KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/distributed-cloud/connected/latest/docs/virtual-machines
 
+## Logging Sources
+- Kubernetes API
+- Istio
+- Harbor
+- Cluster VMs
+- deployments
+- 
 ## Storage
 ### Cortex
 - Prometheus and Loki metrics/logs storage
@@ -586,8 +593,15 @@ https://partner.skills.google/paths/1552/course_templates/1193/video/522176
 # GCP Documentation
 - For reference - GCP services superset - https://cloud.google.com/terms/services?hl=en
 # GDC Documentation
-- GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
+## GDC Documentaion - Data Sheets
+
 - https://services.google.com/fh/files/misc/google_distributed_cloud_datasheets_all.pdf
+- - GDC Air Gapped - Platform - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_platform_datasheet.pdf
+-  - GDC Air Gapped - IaaS - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_iaas_datasheet.pdf
+-  - GDC Air Gapped - PaaS - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_paas_datasheet.pdf
+-  - GDC Air Gapped - Storage - https://services.google.com/fh/files/misc/gdc_air-gapped_racks_storage_services_product_datasheet.pdf
+-  - GDC Software Only - https://services.google.com/fh/files/misc/gdc_software_only_product_datasheet.pdf
+- GDC Air Gapped - Kubernetes Shared Clusters (organization scope) - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/clusters
 - https://docs.cloud.google.com/distributed-cloud/docs
 - https://cloud.google.com/distributed-cloud?hl=en
 - See [VM Runtime](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable) (wraps Redhat [KubeVirt)](https://kubevirt.io/) https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/vm-runtime/enable-disable
