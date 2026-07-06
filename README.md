@@ -224,6 +224,7 @@ Vertex AI - use grpcurl via golang.
 
 # GDC Software
 - GDC Air Gapped Services - https://cloud.google.com/terms/gdcag/services
+- 
 - For reference there is a superset of GCP services in https://docs.cloud.google.com/docs/get-started/aws-azure-gcp-service-comparison
 
 ## Comparison GDC vs GCP Services
@@ -231,6 +232,8 @@ Vertex AI - use grpcurl via golang.
 Service | Sub Service | GDC | GCP 
 --- | --- | --- | ---
 Vertex AI | Vision AI/ML | OCR BatchAnnotateFiles, BatchAnnotateImages | OCR, Image, facial, and crop hint recognition
+
+. | . | . | .
 
 
 ## gdcloud commands
@@ -272,7 +275,7 @@ Configure (maintenance..) | . | . | Configure | . | . | .
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 Database | . | Cloud SQL | DBaaS Database Service (PostgreSQL, oracle byol, AlloyDB Omni | . | . | .
 Distributed Database | . | Spanner | Spanner Omni (see [NEXT 26](https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf) <img width="136" height="136" alt="Screenshot 2026-06-23 at 16 04 13" src="https://github.com/user-attachments/assets/13183470-ded4-464b-9ad4-74663b2997ad" /> | . | . | .
-DNS | private/public DNS, DNS peering/forwarding | DNS | DNS | .
+DNS | private/public DNS, DNS peering/forwarding | DNS | [DNS](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/dns/dns-overview) | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
 Git repos | . | Secure Source Repositories $1k/m or legacy CSR Cloud Source Repositories | GDC? | . | Gerrit | ADO, Bitbucket, Github, Gitlab
 Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | . | KeyCloak | AD (Active Directory), IBM Verify
