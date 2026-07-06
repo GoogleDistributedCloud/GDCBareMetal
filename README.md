@@ -648,6 +648,7 @@ Get yourself a skillsboost subscription via Google Developer Premium or use your
 
 ### GDC Air-gapped
 Note: as of July 2026 - the partner L300 GDC Air Gapped training is still at Hardware 3.0 released around Feb 2024. For GDC Connected - we are at GDC Hardware 4.0
+The exams are a bit like certification exams - you need 80% and have a limited set of tries (5) - if you launch the test without any interaction - this counts as 1 attempt (attempt 2-5 is blocked by 48-72h gaps
 
 - (NOTE: Partner specific content) - Google Distributed Cloud Air-gapped Introduction - https://partner.skills.google/paths/1681/course_templates/1035 (non-partner link - https://partner.skills.google/paths/1552)
 - overall GDC air-gapped (only for partner sales) - https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=86659706
@@ -673,6 +674,10 @@ https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num
 ### Partner Delivery Readiness Portal
 Go over specific course and labs for CEPF L300 certifications specific to GDC and associated services (GKE, LLM training/RAG ...) - https://delivery-readiness-portal.cloud.google/app/gcp-projects/manage-dri-attribute
 For example the LLM evaluation on GKE using L4s (these are close to the google specific L300 labs except 2h instead of the normal 10h timeline, max 3 tries without VP reset and complexity (80% pass rate required) - https://partner.skills.google/course_templates/1720
+
+## CEPF labs
+These are the CE labs that have a maxiumum of 3 tries, are timed at 2-10 hours and only available via specific account RBAC.  I would recommend pre-automating the labs using at least gcloud IaC first before using up one attempt. 80% is required as usual.
+GPU Bencharking for Ingerence - GKE Node pools - https://partner.skills.google/course_templates/1720/labs/629704
 
 ### Workarounds for GDC training specific to partner logins
 I am a GCP partner so I have access to all the L200/L300 GDC training (paths 1681/1033), however if you are in the middle of attaining partner status or do not yet have a login from your org - some of the content is available without a partner login - for example the L300 air gapped training (paths 1681/1034) does not need a partner login.
