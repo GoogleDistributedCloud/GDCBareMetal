@@ -7,6 +7,12 @@ This repo details various approaches to standing up an air gapped data center th
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 Only Intel processors are supported by GDC as of mid 2026 - x86-64 CPUs at microarchitecture level v3 (x86-64-v3) or higher.  This excludes all ARM based machines including M series and the GB10 from NVidia in the DGX Spark. https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/minimal-infrastructure
+
+## Google Cloud Distributed Air Gapped - 3 Rack - Hardware 3.0 (Feb 2024)
+see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/1681/course_templates/1034/video/519973 or https://www.youtube.com/watch?v=uE7kC3IXqF0
+<img width="934" height="487" alt="Screenshot 2026-07-06 at 11 40 14" src="https://github.com/user-attachments/assets/54c48ba9-ea34-4111-8dac-67dd494067a6" />
+
+
 ## Networking
 400Gb/s switches
 
