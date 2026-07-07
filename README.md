@@ -359,7 +359,8 @@ billing | . | .
 cluster | . | .
 hsm | . | .
 iam | . | .
-ipam | . | .
+ipam | . | <img width="834" height="506" alt="Screenshot 2026-07-07 at 00 29 56" src="https://github.com/user-attachments/assets/a11d31f7-87f4-442b-abf7-d4cdd7587597" />
+
 kms | . | .
 maintenancewindow | . | Verify
 marketplace | . | .
