@@ -287,6 +287,7 @@ Git repos | . | Secure Source Repositories $1k/m or legacy CSR Cloud Source Repo
 Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | . | KeyCloak | AD (Active Directory), IBM Verify
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Ingress | public/private LB | LB, ingress, gateway API | GDC Ingress gateway (is this K8S Gateway API?) | L4/L7 | MetalB | .
+IPAM | . | . | . | . | . | .
 KMS | Symmetric/Asymmetric encryption | KMS | KMS | . | OpenSSL | .
 Logging | . | . | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | .
@@ -359,7 +360,7 @@ billing | . | .
 cluster | . | .
 hsm | . | .
 iam | . | .
-ipam | . | <img width="834" height="506" alt="Screenshot 2026-07-07 at 00 29 56" src="https://github.com/user-attachments/assets/a11d31f7-87f4-442b-abf7-d4cdd7587597" />
+ipam | . | <img width="834" height="506" alt="Screenshot 2026-07-07 at 00 29 56" src="https://github.com/user-attachments/assets/a11d31f7-87f4-442b-abf7-d4cdd7587597" /> https://partner.skills.google/paths/1681/course_templates/1034/video/519978
 
 kms | . | .
 maintenancewindow | . | Verify
