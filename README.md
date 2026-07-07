@@ -429,6 +429,10 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 
 
 # Personas
+From GDC L300 - Physical Networking - https://partner.skills.google/paths/1681/course_templates/1034/video/519975
+
+<img width="933" height="436" alt="Screenshot 2026-07-06 at 13 01 05" src="https://github.com/user-attachments/assets/56499ed9-f63d-458a-95c6-85c583b19792" />
+
 ## Infrastructure Operations
 ## Platform Administrator
 ## Application Operator
@@ -828,6 +832,9 @@ SLA/SLO/SLIs
 # Keywords
 ## ACM (GitOps)
 ## Anthos
+## GENEVE
+- https://docs.cloud.google.com/network-security-integration/docs/understand-geneve
+- GDC uses GENEVE (Generic Network Encapsulation) with GKE and Anthos networking overlays between applications in the same VPC and VXLAN between VM nodes in the same org - where this traffic can use IPSEC.
 ## GKE
 ## SIT/UAT
 ## VRF
