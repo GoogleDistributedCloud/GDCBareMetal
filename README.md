@@ -829,8 +829,9 @@ SLA/SLO/SLIs
 ## ACM (GitOps)
 ## Anthos
 ## GKE
-
 ## SIT/UAT
+## VRF
+Virtual Routing and Forwarding (GDC provides separate VRFs for each organization) - https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/vrf/design/guide/vrfDesignGuide.html
 
 # References
 - ONAP - https://onap.org/
