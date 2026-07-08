@@ -221,10 +221,16 @@ Vertex AI - use grpcurl via golang.
 ### GDC gdcloud CLI
 ### GDC Kubectl CLI
 ### GDC Terraform
+Terraform can be used to deploy VMs on GDC via the underlying KubeVirt CRD running on the kubernetes cluster
+- https://github.com/kubevirt/terraform-provider-kubevirt
 - Setting up Terraform on GDC - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/get-started/terraform
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/terraform
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/configure-terraform
 - GCP Terraform Provider - https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/using_list_resources_with_terraform_query
+- https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/manifest
 - GDC Terraform Provider
 - Kubernetes Operator for Terraform - https://developer.hashicorp.com/terraform/cloud-docs/integrations/kubernetes
+- 
 
 ### TBD: GDC Ansible
 
