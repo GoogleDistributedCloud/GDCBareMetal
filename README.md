@@ -435,6 +435,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 ## Open Nebula
 - Open Nebula - https://en.wikipedia.org/wiki/OpenNebula
 
+##
 
 # Personas
 From GDC L300 - Physical Networking - https://partner.skills.google/paths/1681/course_templates/1034/video/519975
@@ -597,6 +598,9 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 | abm-user-cluster-w2   | 10.200.0.6            | 🌟 Ready for use as worker for the user cluster         |
 |---------------------------------------------------------------------------------------------------------|
 ```
+## CICD
+Git and build containers on GDC may differ from normal GCP public where Cloud Build, CSR, SSR or SaaS providers like ADO, Github Actions are used.
+Essentially anything that can be containerized or have a CRD developed around can be used for git storage and build systems 
 
 # Design Issues
 ## DI01: Meta Monitoring Stack
