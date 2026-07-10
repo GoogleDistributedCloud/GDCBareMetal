@@ -862,6 +862,8 @@ Virtual Routing and Forwarding (GDC provides separate VRFs for each organization
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
 
+# GDC Release Notes
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/release-notes-1152
 # Links
 - 2025 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - 
