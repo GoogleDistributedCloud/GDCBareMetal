@@ -2,7 +2,7 @@ Main blog - https://github.com/ObrienlabsDev/blog
 
 # Secure Private Data Center
 Consolidated sovereign private data center artifacts.
-This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air gapped and air gapped appliance (formerly edge) solutions.
+This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air-gapped and air gapped appliance (formerly edge) solutions.
 
 # Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
@@ -22,6 +22,7 @@ see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/16
 - 
 GDC is Google's version of private or hybrid cloud within your own data center. 
 There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal" - see the older 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
+In late 2025 GKE took over the functions of GKE Enterprise which was itself a rebrand of Anthos in late 2023.  When we did the L300 CEPF 10 hour lab for L300 certification in DevOps at Google (max 3 tries only) we needed to use Anthos to bring in functionality such as config sync and Anthos service mesh.  The current GDC L300 trsining is nearly 2 years old from H1 2024. Therefore use the latesr 1.16.1 documentation as the final reference and not the partner traininf until it is updated for 2026. https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga 
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
@@ -857,7 +858,7 @@ Virtual Routing and Forwarding (GDC provides separate VRFs for each organization
 - ONAP - https://onap.org/
 - GoC/SSC Aurora (Cross CSP Kubernetes based LZ for use in Public Sector)  - https://github.com/gccloudone-aurora including helm charts - https://github.com/gccloudone-aurora/aurora-platform-charts (not https://github.com/gccloudone/aurora) - tracking https://github.com/ObrienlabsDev/blog/issues/176
 - 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
-
+- GDC previously Anthos that was rebranded GKE Enterprise late 2023 and consolidated as additions to GKE late 2025 - https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga
 
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
