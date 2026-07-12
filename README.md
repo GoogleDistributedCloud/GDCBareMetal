@@ -298,7 +298,7 @@ IPAM | . | . | . | . | . | .
 KMS | Symmetric/Asymmetric encryption | KMS | KMS | . | OpenSSL | .
 Logging | . | . | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | .
-Networking/eBPF/CNI | . | . | GKE Dataplane 2 | . | Cilium | . 
+Networking/eBPF/CNI | . | . | [GKE Dataplane 2](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2) | . | Cilium | . 
 Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
 Observability / Metrics / Time Series | . | . | Prometheus / Grafana (per project) <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
@@ -543,6 +543,7 @@ Currently using TPLink 10gbps rack switches and routers.
 #### minikube
 #### microk8s
 #### GCP GKE
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2 on top of Cilium
 
 #### Rancher RKE2 / K3S
 
@@ -695,7 +696,7 @@ For example the LLM evaluation on GKE using L4s (these are close to the google s
 
 ## CEPF labs
 These are the CE labs that have a maxiumum of 3 tries, are timed at 2-10 hours and only available via specific account RBAC.  I would recommend pre-automating the labs using at least gcloud IaC first before using up one attempt. 80% is required as usual.
-GPU Bencharking for Ingerence - GKE Node pools - https://partner.skills.google/course_templates/1720/labs/629704
+GPU Bencharking for Inference - GKE Node pools - https://partner.skills.google/course_templates/1720/labs/629704
 
 ### Workarounds for GDC training specific to partner logins
 I am a GCP partner so I have access to all the L200/L300 GDC training (paths 1681/1033), however if you are in the middle of attaining partner status or do not yet have a login from your org - some of the content is available without a partner login - for example the L300 air gapped training (paths 1681/1034) does not need a partner login.
@@ -846,6 +847,8 @@ SLA/SLO/SLIs
 # Keywords
 ## ACM (GitOps)
 ## Anthos
+## eBPF
+Extended Berkeley Packet Filter - part of cilium ehich is part of GKE Enterprise -  https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2
 ## GENEVE
 - https://docs.cloud.google.com/network-security-integration/docs/understand-geneve
 - GDC uses GENEVE (Generic Network Encapsulation) with GKE and Anthos networking overlays between applications in the same VPC and VXLAN between VM nodes in the same org - where this traffic can use IPSEC.
