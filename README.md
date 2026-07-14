@@ -605,6 +605,14 @@ Git and build containers on GDC may differ from normal GCP public where Cloud Bu
 Essentially anything that can be containerized or have a CRD developed around can be used for git storage and build systems 
 
 # Design Issues
+## DI00: Differences between Hardware level 3.0 in 2024H1 and 2026H1
+### OIRv2 
+Optical Interconnect Rack V2 differences from V1
+### CIQ - Customer Intake Questionaire
+- https://docs.cloud.google.com/distributed-cloud/connected/1.12.0/docs/order
+### OIQ - 
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/plan-ip-architecture
+
 ## DI01: Meta Monitoring Stack
 The monitoring stack itself must me monitored
 
