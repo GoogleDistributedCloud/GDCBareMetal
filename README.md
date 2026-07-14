@@ -684,6 +684,7 @@ The exams are a bit like certification exams - you need 80% and have a limited s
 - 
 - (Note: Partner specific content) - Google Distributed Cloud Air-gapped L200 - 8h - https://partner.skills.google/paths/1681/course_templates/1033 (no non-partner access)
 - Google Distributed Cloud Air-gapped L300 - 12 - https://partner.skills.google/paths/1681/course_templates/1034 (same partner link for non-partner)
+- - architecture - https://partner.skills.google/paths/1681/course_templates/1034/video/519991
 
 - Note for non-partner - the L200 GDC Air-gapped course is N/A
 https://partner.skills.google/paths/1681?catalog_rank=%7B%22rank%22%3A2%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=89628698
