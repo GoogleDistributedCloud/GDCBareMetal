@@ -866,6 +866,8 @@ Extended Berkeley Packet Filter - part of cilium ehich is part of GKE Enterprise
 ## VRF
 Virtual Routing and Forwarding (GDC provides separate VRFs for each organization) - https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/vrf/design/guide/vrfDesignGuide.html
 
+## Universe
+1 to 6 zones (10 to 100 km apart - with 50 km max separation between p2 primary zones) -(representing 2 regions each with an operations center).  If zone distance is greater than 100 km - this is another universe.  2 zones in a universe can only do manual as opposed to automated recovery.  See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/video/519991 or 
 # References
 - ONAP - https://onap.org/
 - GoC/SSC Aurora (Cross CSP Kubernetes based LZ for use in Public Sector)  - https://github.com/gccloudone-aurora including helm charts - https://github.com/gccloudone-aurora/aurora-platform-charts (not https://github.com/gccloudone/aurora) - tracking https://github.com/ObrienlabsDev/blog/issues/176
