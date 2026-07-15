@@ -13,6 +13,43 @@ see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/16
 <img width="934" height="487" alt="Screenshot 2026-07-06 at 11 40 14" src="https://github.com/user-attachments/assets/54c48ba9-ea34-4111-8dac-67dd494067a6" />
 
 
+## Google Distributed Cloud - Air-gapped Appliance
+This is the in-field version of GDC Air-gapped
+
+### GDC Air Gapped Appliance - Hardware Component Mapping
+https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
+
+### 5U HPE-EL8000 - In the field GDC AG ruggedized.
+See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview#hardware_components
+
+https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device
+
+- https://www.hpe.com/us/en/collaterals/collateral.a00067727enw.html
+
+<img width="842" height="766" alt="gdc_air_gapped_appliance_front_profile" src="https://github.com/user-attachments/assets/28560cab-1702-4d5c-9db3-251425d7e7e7" />
+
+ Component | Vendor | Model | Alternate 
+--- | --- | --- | ---
+TOR Switches 10G | . | . | 
+TOR Switches 100-400G | . | . | 
+HSM | | | 
+Identity | . | . | .
+Storage | NetApp | NetApp ONTAP Select (OTS) | . 
+Servers | . | . | . 
+GPUs | . | . | .
+Power Supply | . | . | 
+. | . | . | .
+
+see - https://buy.hpe.com/ca/en/compute/edgeline-systems/edgeline-systems/hpe-edgeline-el8000t-converged-edge-system/p/1012828509
+specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-iot/
+with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el8000-ca/hpe-el8000-server-travel-case
+- https://www.lemondeinformatique.fr/actualites/lire-next2023-google-cloud-muscle-son-infrastructure-pour-l-ia-91415.html
+
+### 6U HPE-EL8000 - GDC Air Gapped Appliance - Next 2023
+<img width="1080" height="1342" alt="_edge-cloud-google_next_2023" src="https://github.com/user-attachments/assets/1a352601-d19f-43ad-9808-4c789324a7ec" />
+
+
+
 ## Networking
 400Gb/s switches
 
@@ -26,7 +63,7 @@ In late 2025 GKE took over the functions of GKE Enterprise which was itself a re
 
 [GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
 
-[GDCAG](https://docs.cloud.google.com/distributed-cloud/hosted/docs/ga/gdch) - Google Distributed Cloud air-gapped
+[GDCAG](https://docs.cloud.google.com/distributed-cloud/hosted/docs/ga/gdch) - Google Distributed Cloud air-gapped - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
 
 [GDGAGA](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device) - Google Distributed Cloud air-gapped Appliance
 
@@ -113,38 +150,6 @@ Servers | . | . | .
 GPUs | . | . | .
 Power Supply | . | . | 
 . | . | . | .
-
-### GDC Air Gapped Appliance - Hardware Component Mapping
-
-
-### 5U HPE-EL8000 - In the field GDC AG ruggedized.
-See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/overview#hardware_components
-
-https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device
-
-- https://www.hpe.com/us/en/collaterals/collateral.a00067727enw.html
-
-<img width="842" height="766" alt="gdc_air_gapped_appliance_front_profile" src="https://github.com/user-attachments/assets/28560cab-1702-4d5c-9db3-251425d7e7e7" />
-
- Component | Vendor | Model | Alternate 
---- | --- | --- | ---
-TOR Switches 10G | . | . | 
-TOR Switches 100-400G | . | . | 
-HSM | | | 
-Identity | . | . | .
-Storage | NetApp | NetApp ONTAP Select (OTS) | . 
-Servers | . | . | . 
-GPUs | . | . | .
-Power Supply | . | . | 
-. | . | . | .
-
-see - https://buy.hpe.com/ca/en/compute/edgeline-systems/edgeline-systems/hpe-edgeline-el8000t-converged-edge-system/p/1012828509
-specifically the HPE - Edglone E8000 https://wiseit.com.ua/en/hpe-server-dlya-iot/
-with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el8000-ca/hpe-el8000-server-travel-case
-- https://www.lemondeinformatique.fr/actualites/lire-next2023-google-cloud-muscle-son-infrastructure-pour-l-ia-91415.html
-
-### 6U HPE-EL8000 - GDC Air Gapped Appliance - Next 2023
-<img width="1080" height="1342" alt="_edge-cloud-google_next_2023" src="https://github.com/user-attachments/assets/1a352601-d19f-43ad-9808-4c789324a7ec" />
 
 
 #### GDC-AG connectivity
