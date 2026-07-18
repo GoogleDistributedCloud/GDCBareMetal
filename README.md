@@ -191,8 +191,9 @@ flowchart LR
 ```
 
 #### Anthos BMCTL install
-- 20260614 on org obrienlabs.tech
+- 20260614 on org obrienlabs.tech from .technology to .old
 - https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/3
+- https://github.com/GoogleDistributedCloud/GDCBareMetal/tree/main/src/bmctl
 
 ```
 gcloud services enable anthos.googleapis.com
