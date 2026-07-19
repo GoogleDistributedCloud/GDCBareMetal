@@ -178,8 +178,9 @@ organizations, projects (no folders), tags, kubernetes taints.
 - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal
 
 - start with gdc software only for bare metal - bmctl based - https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/try/admin-user-gce-vms
+- https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/reference/config-samples
 
-This GDC software-only for BM looks to be a rebrand of Anthos (Anthos clusters on-prem or bare metal) where on prem CPUs are billed back to the GCP Project.
+This GDC software-only for BM is a rebrand of Anthos (Anthos clusters on-prem or bare metal) where on prem CPUs are billed back to the GCP Project.
 see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-bare-metal-are-now-gdc-virtual
 
 ##### Architecture 
