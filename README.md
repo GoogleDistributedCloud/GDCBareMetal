@@ -30,7 +30,7 @@ https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/adm
 
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
-TOR Switches 10G | [Mellanox SN2010](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture#physical_network) | . | 
+TOR Switches 10G | [Mellanox](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture#physical_network) | [SN2010](https://network.nvidia.com/files/doc-2020/pb-sn2010.pdf) | 
 TOR Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
