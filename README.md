@@ -6,8 +6,7 @@ This repo details various approaches to standing up an air gapped data center th
 
 ## GDC - Google Distributed Cloud
 - https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
-- https://cloud.google.com/gov/federal-defense-and-intel
-- 
+  
 GDC is Google's version of private or hybrid cloud within your own data center. 
 There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal" - see the older 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
 In late 2025 GKE took over the functions of GKE Enterprise which was itself a rebrand of Anthos in late 2023.  When we did the L300 CEPF 10 hour lab for L300 certification in DevOps at Google (max 3 tries only) we needed to use Anthos to bring in functionality such as config sync and Anthos service mesh.  The current GDC L300 trsining is nearly 2 years old from H1 2024. Therefore use the latesr 1.16.1 documentation as the final reference and not the partner traininf until it is updated for 2026. https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga 
@@ -743,7 +742,7 @@ I would recommend prioritizing the documentation over the training - as GDC and 
 - GDC Edge Appliance is deprecated - https://docs.cloud.google.com/distributed-cloud/edge-appliance/deprecated-notice
 - https://docs.cloud.google.com/distributed-cloud/sandbox/latest
 - - https://cloud.google.com/customers/rubin-observatory
-
+- https://cloud.google.com/gov/federal-defense-and-intel
 
 - https://github.com/ObrienlabsDev/secure-private-data-center
 - https://github.com/ObrienlabsDev/blog/blob/main/google-distributed-cloud.md
