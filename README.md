@@ -30,7 +30,7 @@ https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/adm
 
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
-TOR Switches 10G | . | . | 
+TOR Switches 10G | Mellanox SN2010 | . | 
 TOR Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
