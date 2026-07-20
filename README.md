@@ -4,7 +4,27 @@ Main blog - https://github.com/ObrienlabsDev/blog
 Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air-gapped and air gapped appliance (formerly edge) solutions.
 
-# Hardware
+## GDC - Google Distributed Cloud
+- https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
+- https://cloud.google.com/gov/federal-defense-and-intel
+- 
+GDC is Google's version of private or hybrid cloud within your own data center. 
+There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal" - see the older 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
+In late 2025 GKE took over the functions of GKE Enterprise which was itself a rebrand of Anthos in late 2023.  When we did the L300 CEPF 10 hour lab for L300 certification in DevOps at Google (max 3 tries only) we needed to use Anthos to bring in functionality such as config sync and Anthos service mesh.  The current GDC L300 trsining is nearly 2 years old from H1 2024. Therefore use the latesr 1.16.1 documentation as the final reference and not the partner traininf until it is updated for 2026. https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga 
+
+[GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
+
+[GDCAG](https://docs.cloud.google.com/distributed-cloud/hosted/docs/ga/gdch) - Google Distributed Cloud air-gapped - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
+
+[GDGAGA](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device) - Google Distributed Cloud air-gapped Appliance
+
+[GDCSO](https://docs.cloud.google.com/distributed-cloud/docs/overview#gdcv) - Google Distributed Cloud software only - [Bare Metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal)
+
+[GDCS](https://docs.cloud.google.com/distributed-cloud/sandbox/latest) - Google Distributed Cloud Sandbox - the PA and AO personna based simulator (25 licenses - cleared every 30d) https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
+
+There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
+
+## Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 Only Intel processors are supported by GDC as of mid 2026 - x86-64 CPUs at microarchitecture level v3 (x86-64-v3) or higher.  This excludes all ARM based machines including M series and the GB10 from NVidia in the DGX Spark. https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/minimal-infrastructure
 
@@ -52,26 +72,6 @@ with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el
 
 ## Networking
 400Gb/s switches
-
-## GDC - Google Distributed Cloud
-- https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
-- https://cloud.google.com/gov/federal-defense-and-intel
-- 
-GDC is Google's version of private or hybrid cloud within your own data center. 
-There are 3 main versions of GDC - where GDC Connected and GDC air-gapped are Google provided hardware and software.  We will concentrate on [GDC software only - for bare metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal) formerly branded as "Anthos clusters on-prem or bare metal" - see the older 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
-In late 2025 GKE took over the functions of GKE Enterprise which was itself a rebrand of Anthos in late 2023.  When we did the L300 CEPF 10 hour lab for L300 certification in DevOps at Google (max 3 tries only) we needed to use Anthos to bring in functionality such as config sync and Anthos service mesh.  The current GDC L300 trsining is nearly 2 years old from H1 2024. Therefore use the latesr 1.16.1 documentation as the final reference and not the partner traininf until it is updated for 2026. https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga 
-
-[GDCC](https://docs.cloud.google.com/distributed-cloud/edge/latest/docs/overview) - Google Distributed Cloud connected (edge)
-
-[GDCAG](https://docs.cloud.google.com/distributed-cloud/hosted/docs/ga/gdch) - Google Distributed Cloud air-gapped - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
-
-[GDGAGA](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device) - Google Distributed Cloud air-gapped Appliance
-
-[GDCSO](https://docs.cloud.google.com/distributed-cloud/docs/overview#gdcv) - Google Distributed Cloud software only - [Bare Metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal)
-
-[GDCS](https://docs.cloud.google.com/distributed-cloud/sandbox/latest) - Google Distributed Cloud Sandbox - the PA and AO personna based simulator (25 licenses - cleared every 30d) https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
-
-There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
 
 ### GDC Requirements
 ### GDC Air Gapped Requirements
