@@ -1,4 +1,46 @@
-## 20260614 bmctl for Google Distributed Cloud - Software Only - bare metal
+## 20260720 bmctl for Google Distributed Cloud - Software Only - bare metal - RKE on-prem cluster
+
+### Server config prerequisites 
+### Static IP Ubuntu
+```
+# currently dhcp
+ifconfig
+enp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.69  netmask 255.255.255.0  broadcast 192.168.0.255
+
+sudo vi /etc/netplan/00-installer-config.yaml
+from
+network:
+  ethernets:
+    enp4s0:
+      dhcp4: true
+      dhcp6: true
+
+to
+network:
+  ethernets:
+    enp4s0:
+      dhcp4: false
+      dhcp6: false
+      addresses:
+        - 192.168.0.203/24
+      routes:
+        - to: default
+          via: 192.168.0.1
+      nameservers:
+        addresses:
+          - 192.168.0.1
+          - 8.8.8.8
+esc-wq
+
+sudo netplan apply
+
+# check
+ifconfig | grep 192
+        inet 192.168.0.203  netmask 255.255.255.0  broadcast 192.168.0.255
+```
+
+## 20260614 bmctl for Google Distributed Cloud - Software Only - bare metal - GCP VMs
 
 - https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/3
 
