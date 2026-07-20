@@ -69,7 +69,7 @@ In late 2025 GKE took over the functions of GKE Enterprise which was itself a re
 
 [GDCSO](https://docs.cloud.google.com/distributed-cloud/docs/overview#gdcv) - Google Distributed Cloud software only - [Bare Metal](https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/concepts/about-bare-metal)
 
-[GDCS](https://docs.cloud.google.com/distributed-cloud/sandbox/latest) - Google Distributed Cloud Sandbox
+[GDCS](https://docs.cloud.google.com/distributed-cloud/sandbox/latest) - Google Distributed Cloud Sandbox - the PA and AO personna based simulator (25 licenses - cleared every 30d) https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 
 There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
 
