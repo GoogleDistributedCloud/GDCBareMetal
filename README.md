@@ -510,6 +510,8 @@ https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/doc
 
 <img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
 
+#### Lenovo m90q tiny PCs as GDC Simulators
+- reimaged with Ubuntu or Rocky Linux - https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M90q_Gen_6/ThinkCentre_M90q_Gen_6_Spec.PDF
 
 #### Lenovo BMC Rack Servers as GDC Simulators
 - https://www.lenovo.com/ca/lenovopro/en/p/servers-storage/servers/racks/thinksystem-sr250-v3-rack-server/7dcla053na
