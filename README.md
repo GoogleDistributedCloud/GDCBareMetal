@@ -848,22 +848,37 @@ SLA/SLO/SLIs
 - Australia - https://www.protectivesecurity.gov.au/
 
 ## ISM
-## Esential Eight
+## Essential Eight
 
 # Partner Companies 
 ## Cisco
+## Cisco 1G switches
 - https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html
+- 
+## Cisco 10G switches
+## Cisco 400G switches
+- https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/400g-switches/index.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-9332d-gx2b-switch/model.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-9364d-gx2a-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-9336c-fx2-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-9348gc-fxp-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx3-switch/model.html
-- 
-- 
+## Cisco 800G switches
+- https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/400g-switches/index.html#accordion-686858bf93-item-948e007e63
+
 ## Cirrascale for Gemini GDC deployment
 - https://www.cirrascale.com/
 
-## 
+## HPE
+- Open Network Install Environment - https://www.shi.com/product/32772671/HPE-Altoline-6941-32QSFP-x86-ONIE-AC-Front-to-Back-Switch
+
+## Palo Alto
+- PA-3410
+- PA-5260
+- PA-5420
+- PA-500 - https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/pa-500-series-firewall-overview
+- PA-850 - https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet https://www.amazon.ca/Generation-Firewall-Security-Appliance-Renewed/dp/B0D76ZVK9W/ref=sr_1_8?crid=1DHEE2OAPG0K5&dib=eyJ2IjoiMSJ9.6GFvlmPJHpg27Oc3ckMtDDW5WmgbBly-Ld4QENnRXMOsV7MguGVSiZ1Pu6LBa334OMzP-474XiyjOfRhprabG2axU9ff_mtchT44V9yr5PCnQspbmV-szSIm_STdGqds3msB4Nx7vuEK1Uv6FsfEBfqsTtWoD3gzSYPxSEPMbtQgvniNc1nR2GAg5paweFXLayXGMaFTc7o7pGKGKoKBXfd1t8xtDy0FyB2F5fKZk084uFWDd0hb8q_NlGqUljJH8HSqJbqtUL4ovgqC6u8Rw9wwQ8LnUeCou4QduZjZPEc.NCg17FpTo1eqmBsJ-sS0dDiSUctM-CrLcYiqe3Wssa8&dib_tag=se&keywords=palo+alto+firewall&qid=1785257421&s=electronics&sprefix=palo+alto+firewall%2Celectronics%2C93&sr=1-8
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 
