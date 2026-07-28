@@ -853,6 +853,9 @@ SLA/SLO/SLIs
 # Partner Companies 
 ## Cisco
 - https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-9332d-gx2b-switch/model.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-9336c-fx2-switch/model.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-9348gc-fxp-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx-switch/model.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx3-switch/model.html
 - 
