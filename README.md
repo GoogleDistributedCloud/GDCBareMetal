@@ -124,8 +124,8 @@ At the GCP conference in Las Vegas in April 2026 there were 4 GDC related presen
 --- | --- | --- | ---
 TOR Switches 10G | . | . | 
 TOR Switches 100-400G | . | . | 
-Firewall | Palo Alto | <img width="1143" height="325" alt="_next_26_pa_Screenshot 2026-04-26 at 18 23 45" src="https://github.com/user-attachments/assets/19853c04-c9ac-458b-9557-4e2b9c675cda" /> | .
-Identity | Thales | <img width="1171" height="130" alt="_next_26_thales_Screenshot 2026-04-26 at 18 23 59" src="https://github.com/user-attachments/assets/047f752b-b370-4192-ab17-823a40aca636" /> | .
+Firewall | Palo Alto | PA-5260<img width="1143" height="325" alt="_next_26_pa_Screenshot 2026-04-26 at 18 23 45" src="https://github.com/user-attachments/assets/19853c04-c9ac-458b-9557-4e2b9c675cda" /> | .
+Identity | Thales | K570 HSM <img width="1171" height="130" alt="_next_26_thales_Screenshot 2026-04-26 at 18 23 59" src="https://github.com/user-attachments/assets/047f752b-b370-4192-ab17-823a40aca636" /> | .
 Storage | NetApp | <img width="1160" height="248" alt="_next_26_netapp_Screenshot 2026-04-26 at 18 23 06" src="https://github.com/user-attachments/assets/dc3f24c0-1367-4cfd-8edc-e059a66c4bd9" /> | . 
 Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screenshot 2026-04-26 at 18 24 36" src="https://github.com/user-attachments/assets/41d37a4c-c273-4e2d-a31d-269462c04639" />  | . 
 Servers | HPE | This looks to be HPE related - like the HPE ProLiant DL100 series - https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl100-servers/hpe-proliant-dl145-gen11/p/1014845266  <img width="1134" height="141" alt="_next_26_gdcc_question_Screenshot 2026-04-26 at 18 25 02" src="https://github.com/user-attachments/assets/bd0660dd-1568-4136-8061-acc1f1419357" /> | . 
