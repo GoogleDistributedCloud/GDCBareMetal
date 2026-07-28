@@ -851,8 +851,16 @@ SLA/SLO/SLIs
 ## Esential Eight
 
 # Partner Companies 
+## Cisco
+- https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx-switch/model.html
+- https://www.cisco.com/c/en/us/support/switches/nexus-93180yc-fx3-switch/model.html
+- 
+- 
 ## Cirrascale for Gemini GDC deployment
 - https://www.cirrascale.com/
+
+## 
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 
