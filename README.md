@@ -873,6 +873,10 @@ SLA/SLO/SLIs
 ## HPE
 - Open Network Install Environment - https://www.shi.com/product/32772671/HPE-Altoline-6941-32QSFP-x86-ONIE-AC-Front-to-Back-Switch
 
+## Opengear
+- Console port concentrators
+- IM7248-2-DAC console/infrastructure manager - https://www.kvm-switches-online.com/im7248-2-dac-us.html
+- CM8000 https://opengear.com/products/cm8000-console-manager/
 ## Palo Alto
 - PA-3410 - https://www.paloguard.com/firewall-pa-3410.asp
 - PA-5260
