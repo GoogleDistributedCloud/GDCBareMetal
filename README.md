@@ -126,7 +126,7 @@ TOR Switches 10G | . | . |
 TOR Switches 100-400G | . | . | 
 Firewall | Palo Alto | PA-5260<img width="1143" height="325" alt="_next_26_pa_Screenshot 2026-04-26 at 18 23 45" src="https://github.com/user-attachments/assets/19853c04-c9ac-458b-9557-4e2b9c675cda" /> | .
 Identity | Thales | K570 HSM <img width="1171" height="130" alt="_next_26_thales_Screenshot 2026-04-26 at 18 23 59" src="https://github.com/user-attachments/assets/047f752b-b370-4192-ab17-823a40aca636" /> | .
-Storage | NetApp | <img width="1160" height="248" alt="_next_26_netapp_Screenshot 2026-04-26 at 18 23 06" src="https://github.com/user-attachments/assets/dc3f24c0-1367-4cfd-8edc-e059a66c4bd9" /> | . 
+Storage | NetApp | AFF-A250 <img width="1160" height="248" alt="_next_26_netapp_Screenshot 2026-04-26 at 18 23 06" src="https://github.com/user-attachments/assets/dc3f24c0-1367-4cfd-8edc-e059a66c4bd9" /> | . 
 Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screenshot 2026-04-26 at 18 24 36" src="https://github.com/user-attachments/assets/41d37a4c-c273-4e2d-a31d-269462c04639" />  | . 
 Servers | HPE | This looks to be HPE related - like the HPE ProLiant DL100 series - https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl100-servers/hpe-proliant-dl145-gen11/p/1014845266  <img width="1134" height="141" alt="_next_26_gdcc_question_Screenshot 2026-04-26 at 18 25 02" src="https://github.com/user-attachments/assets/bd0660dd-1568-4136-8061-acc1f1419357" /> | . 
 Servers | Dell | At the Intel booth at Next 26 - https://www.dell.com/en-ca/lp/dt/industry-telecom-xr8000 <img width="653" height="506" alt="_next_26_intel_Screenshot 2026-04-26 at 18 27 27" src="https://github.com/user-attachments/assets/607b5c21-95df-4c8e-9303-13a0afdd3a88" />
@@ -874,9 +874,9 @@ SLA/SLO/SLIs
 - Open Network Install Environment - https://www.shi.com/product/32772671/HPE-Altoline-6941-32QSFP-x86-ONIE-AC-Front-to-Back-Switch
 
 ## Palo Alto
-- PA-3410
+- PA-3410 - https://www.paloguard.com/firewall-pa-3410.asp
 - PA-5260
-- PA-5420
+- PA-5420 - https://docs.paloaltonetworks.com/hardware/pa-5400-hardware-reference/pa-5400-series-firewall-overview
 - PA-500 - https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/pa-500-series-firewall-overview
 - PA-850 - https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet https://www.amazon.ca/Generation-Firewall-Security-Appliance-Renewed/dp/B0D76ZVK9W/ref=sr_1_8?crid=1DHEE2OAPG0K5&dib=eyJ2IjoiMSJ9.6GFvlmPJHpg27Oc3ckMtDDW5WmgbBly-Ld4QENnRXMOsV7MguGVSiZ1Pu6LBa334OMzP-474XiyjOfRhprabG2axU9ff_mtchT44V9yr5PCnQspbmV-szSIm_STdGqds3msB4Nx7vuEK1Uv6FsfEBfqsTtWoD3gzSYPxSEPMbtQgvniNc1nR2GAg5paweFXLayXGMaFTc7o7pGKGKoKBXfd1t8xtDy0FyB2F5fKZk084uFWDd0hb8q_NlGqUljJH8HSqJbqtUL4ovgqC6u8Rw9wwQ8LnUeCou4QduZjZPEc.NCg17FpTo1eqmBsJ-sS0dDiSUctM-CrLcYiqe3Wssa8&dib_tag=se&keywords=palo+alto+firewall&qid=1785257421&s=electronics&sprefix=palo+alto+firewall%2Celectronics%2C93&sr=1-8
 ## Thales
@@ -884,6 +884,9 @@ SLA/SLO/SLIs
 
 ## NetApp
 - NetApp StorageGRID - https://www.netapp.com/newsroom/press-releases/news-rel-20260415-184580/
+### NetApp File Block Storage
+- AFF-A250 - https://www.netapp.com/aff-a-series/aff-a250/
+- AFF-90 - https://docs.netapp.com/us-en/ontap-systems/a70-90/a90-key-specifications.html 
 
 # Partner CSPs
 ## Amazon Outposts
