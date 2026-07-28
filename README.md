@@ -322,6 +322,8 @@ VM virtualization | VMs on Kubernetes | GCE | GDC VM Manager <img width="1880" h
 VM APT and RPM package management | . | . | yes | . | . | .
 . | . | . | . | . | . | .
 
+ServiceNow uses MariaDB under the covers.
+
 Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
 postgreSQL (check alloyDB Omni), Oracle byod
 
