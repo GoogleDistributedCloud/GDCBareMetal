@@ -315,7 +315,7 @@ Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Quota | . | . | [quota](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/observe-quota-enforcement) [Billing Reports dashboard](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/billing/track-resource-consumption) | . | . | 
 Service Mesh | . | . | . | . | Istio | .
-Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage)
+Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage) [NetApp Trident](https://github.com/NetApp/Trident)
 Service | . | . | ServiceNow (check PagerDuty integration) | . | . | .
 Terraform IaC | . | . | yes but KRM is the primary IaC| . | . | .
 VM virtualization | VMs on Kubernetes | GCE | GDC VM Manager <img width="1880" height="702" alt="Screenshot 2026-06-21 at 22 32 35" src="https://github.com/user-attachments/assets/39546184-cc6d-4956-8344-e1d3ae71fbeb" /> <img width="1156" height="467" alt="Screenshot 2026-06-21 at 22 16 50" src="https://github.com/user-attachments/assets/2fbba3da-3357-4c20-aafd-944630c951db" /> [N2](https://docs.cloud.google.com/compute/docs/general-purpose-machines#n2_series), N3, [A4](https://docs.cloud.google.com/compute/docs/accelerator-optimized-machines#a4-machine-type), [M2](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m2_series), [M3](https://docs.cloud.google.com/compute/docs/memory-optimized-machines#m3_series) | . | [KubeVirt](https://kubevirt.io/) | .
@@ -387,7 +387,7 @@ logging | . | audit logs pulled node file system (DaemonSet), operational and au
 Org policies | . | .
 pki | . | .
 Resource mAnager | . | .
-Storage | . | .
+Storage | . | [NetApp Trident](https://github.com/NetApp/Trident)
 upgrade | . | .
 Vertex AI | . | .
 VM Manager | . | .
@@ -430,6 +430,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
 - https://github.com/ObrienlabsDev/blog/issues/183
 - https://docs.netapp.com/us-en/storagegrid/primer/
+- [NetApp Trident](https://github.com/NetApp/Trident)
 - Alternate [QNAP TS-433eU-US](https://www.qnap.com/en-ca/product/ts-433eu) 2.5G NAS [QNAP-CSI](https://github.com/qnap-dev/QNAP-CSI-PlugIn) 
 - 
 ### Rakuten
