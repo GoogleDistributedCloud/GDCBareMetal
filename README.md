@@ -53,7 +53,7 @@ TOR Switches 25-100G | [Mellanox](https://docs.cloud.google.com/distributed-clou
 TOR Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
-Storage | NetApp | NetApp ONTAP Select (OTS) | . 
+Storage | NetApp | NetApp ONTAP Select (OTS) | [QNAP TS-433eU-US](https://www.qnap.com/en-ca/product/ts-433eu) 2.5G NAS [QNAP-CSI](https://github.com/qnap-dev/QNAP-CSI-PlugIn) 
 Servers | . | . | . 
 GPUs | . | . | .
 Power Supply | . | . | 
@@ -430,6 +430,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 - [GCNV](https://cloud.google.com/netapp-volumes?hl=en)
 - https://github.com/ObrienlabsDev/blog/issues/183
 - https://docs.netapp.com/us-en/storagegrid/primer/
+- Alternate [QNAP TS-433eU-US](https://www.qnap.com/en-ca/product/ts-433eu) 2.5G NAS [QNAP-CSI](https://github.com/qnap-dev/QNAP-CSI-PlugIn) 
 - 
 ### Rakuten
 - Symcloud Storage is used by GDC - https://symphony.rakuten.com/telecom-cloud/cloud-native-storage
