@@ -314,7 +314,7 @@ Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Quota | . | . | [quota](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/observe-quota-enforcement) [Billing Reports dashboard](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/billing/track-resource-consumption) | . | . | 
-SecOps | . | . |  Siem (splunk, Grafana) Vuln (Nesso, Burp Suite) Endpoint (Defender, ClamAV, Trelis) ServiceNow, GitLab | . | . | .
+SecOps | . | . |  Siem (Splunk, Grafana) Vuln (Tenable, Nesso, Burp Suite) Endpoint EDP (Defender, ClamAV, Trellix) SOAR (ServiceNow, GitLab) | . | . | .
 Service Mesh | . | . | . | . | Istio | .
 Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage) [NetApp Trident](https://github.com/NetApp/Trident)
 Service | . | . | ServiceNow (check PagerDuty integration) | . | . | .
@@ -848,7 +848,15 @@ SLA/SLO/SLIs
 - Grafana
 - Loki (LogQL)
 - Prometheus - https://prometheus.io/docs/specs/om/open_metrics_spec/
-- 
+
+## Commercial Source
+- Siem (Splunk, Grafana)
+- Vulnerability Management (Tenable, Nesso, Burp Suite)
+- Endpoint Detection and Response EDR (Defender, ClamAV, Trellix)
+- Security Orchestration Automated Response SOAR via SecOps (ServiceNow, GitLab)
+
+
+
 ## Private and Mirrored Repositories
 
 ## PSPF
