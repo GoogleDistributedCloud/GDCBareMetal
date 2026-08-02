@@ -314,7 +314,7 @@ Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Quota | . | . | [quota](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/observe-quota-enforcement) [Billing Reports dashboard](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/billing/track-resource-consumption) | . | . | 
-SecOps | . | . |  Siem (splunk, Grafana) Vuln (Nesso, Burp Suite) Endpoint (Defender, ClamAV, Trelis)| . | . | .
+SecOps | . | . |  Siem (splunk, Grafana) Vuln (Nesso, Burp Suite) Endpoint (Defender, ClamAV, Trelis) ServiceNow, GitLab | . | . | .
 Service Mesh | . | . | . | . | Istio | .
 Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage) [NetApp Trident](https://github.com/NetApp/Trident)
 Service | . | . | ServiceNow (check PagerDuty integration) | . | . | .
@@ -324,6 +324,8 @@ VM APT and RPM package management | . | . | yes | . | . | .
 . | . | . | . | . | . | .
 
 ServiceNow uses MariaDB under the covers.
+SecOps uses Gitlab and ServiceNow.
+
 
 Gemini Enterprise (formerly VertexAI) - translate, speech-to-text, workbench
 postgreSQL (check alloyDB Omni), Oracle byod
