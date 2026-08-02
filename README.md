@@ -166,7 +166,7 @@ Code updates
 (including image updates)
 
 #### Operations Suite Infrastucture
-OSI includes servicenow
+OSI includes ServiceNow
 
 #### Multitenant Organizations
 Hardware level isolation with appliance pulg/play into the base 4 to 30 rack GDC
@@ -314,7 +314,7 @@ Meta Monitoring | type of HA for the monitoring stack | . | . | . | . | .
 Org Policies | . | . | . | . | Open Policy Agent/Kyverno
 Project | . | . | . | . | K8s Namespaces or clusters | .
 Quota | . | . | [quota](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/observe-quota-enforcement) [Billing Reports dashboard](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/billing/track-resource-consumption) | . | . | 
-SecOps | . | . |  Siem (Splunk, Grafana) Vuln (Tenable, Nesso, Burp Suite) Endpoint EDP (Defender, ClamAV, Trellix) SOAR (ServiceNow, GitLab) | . | . | .
+SecOps | . | . |  Siem (Splunk Enterprise, Grafana) Vuln (Tenable Security Center, Nesso, Burp Suite) Endpoint EDP (Defender, ClamAV, Trellix HX) SOAR (ServiceNow, GitLab) | . | . | .
 Service Mesh | . | . | . | . | Istio | .
 Storage | PVC/Block | . | NetApp [StorageGRID](https://docs.netapp.com/us-en/storagegrid/primer/), [Cortex](https://cortexmetrics.io/docs/) storage | . | . | [GCNV](https://cloud.google.com/netapp-volumes?hl=en) [Symcloud](https://symphony.rakuten.com/telecom-cloud/cloud-native-storage) [NetApp Trident](https://github.com/NetApp/Trident)
 Service | . | . | ServiceNow (check PagerDuty integration) | . | . | .
