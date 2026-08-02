@@ -928,6 +928,16 @@ See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/v
 - 2022 GCP services list referencing Anthos - https://cloud.google.com/terms/services/index-20220713
 - GDC previously Anthos that was rebranded GKE Enterprise late 2023 and consolidated as additions to GKE late 2025 - https://cloud.google.com/blog/products/containers-kubernetes/gke-enterprise-is-now-ga
 
+## HBOM
+(derived across 3 gdc and 1 oirV2 racks
+
+## SBOM
+(derived - including dependencies)
+
+## VRF
+
+## VXLAN
+
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
 
