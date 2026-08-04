@@ -568,6 +568,7 @@ SR250 V3 noise levels - https://youtu.be/E6iNi3QMMcE
 
 ### Dell Poweredge R260 Rack Servers as GDC Simulators
 - https://www.dell.com/en-ca/shop/servers-storage-and-networking/poweredge-r260/spd/poweredge-r260/pe_r260_tm_vi_vp_sb
+- https://www.delltechnologies.com/assetlink/doc/en-us/poweredge-rack-quick-reference-guide-en-dl1lsje-original.pdf
 - https://gfx3.senetic.com/akeneo-catalog/a/9/b/d/a9bd7dee0928db53fc2f97c515fbf67a89ab8345_1763587_C26KK_icecat_multimedia_manual_pdf_1_en_GB.pdf
 
 #### TOR Networking
