@@ -41,6 +41,9 @@ see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/ad5f65ef-b742-4bdf-9387-62b155b4f922" />
 
+### KIND cluster for CAPI bootstrap
+- see https://github.com/ObrienlabsDev/blog/issues/112 and https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/14
+- 
 
 ## Google Distributed Cloud - Air-gapped Appliance
 This is the in-field version of GDC Air-gapped
