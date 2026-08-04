@@ -478,6 +478,18 @@ Prometheus | . | PromQL
 # GDC Simulation
 
 ## GDC Base Hardware Simulation
+### Personal GDC Rack
+
+Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini) and a 4 HD QNAP NAS rack - with associated older Cisco switches/routers and new TPLink switches/routers.
+I am missing a Palo Alto firewall and console concentrator
+
+<img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/5ec04105-15ae-43c3-af2b-7e4dad54b0d7" />
+
+
+<img width="537" height="943" alt="Screenshot 2026-08-03 at 22 53 40" src="https://github.com/user-attachments/assets/e103c3c4-f51e-4861-9d45-f25b719592b0" />
+
+
+
 ### GDC - Virtulized Hardware Simulation
 #### GDC via Microsoft Hyper-V
 https://github.com/ObrienlabsDev/blog/issues/59
