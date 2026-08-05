@@ -66,6 +66,12 @@ ifconfig | grep 192
         inet 192.168.0.203  netmask 255.255.255.0  broadcast 192.168.0.255
 ```
 
+### hosts file
+```
+sudo vi /etc/hosts
+add ip and name rows
+```
+
 ## 20260614 bmctl for Google Distributed Cloud - Software Only - bare metal - GCP VMs
 
 - https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/3
