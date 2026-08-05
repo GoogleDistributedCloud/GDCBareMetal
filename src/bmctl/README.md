@@ -1,6 +1,32 @@
 ## 20260720 bmctl for Google Distributed Cloud - Software Only - bare metal - RKE on-prem cluster
 
 ### Server config prerequisites 
+### Password less ssh access
+transfer keys to remote system
+
+```
+scp ~/keys/obr.. ubuntu@192.168.0.21:/home/ubuntu
+ssh-keygen -t ed25519
+chmod 400 ~/.ssh/id_
+
+# use ssh-copy-id or just scp
+scp ~/.ssh/id_.pub ubuntu@192.168.0.21:/home/ubuntu/.ssh/
+
+or
+ssh-copy-id ubuntu@192.168.0.21                                   
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: ssh-add -L
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+ubuntu@192.168.0.21's password: 
+
+Number of key(s) added:        1
+
+Now try logging into the machine, with: "ssh 'ubuntu@192.168.0.21'"
+and check to make sure that only the key(s) you wanted were added.
+ssh ubuntu@192.168.0.21                                           
+Welcome to Ubuntu 26.04 LTS (GNU/Linux 7.0.0-28-generic x86_64)
+
+```
 ### Static IP Ubuntu
 ```
 # currently dhcp
