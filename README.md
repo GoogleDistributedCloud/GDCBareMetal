@@ -43,7 +43,25 @@ see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
 ### KIND cluster for CAPI bootstrap
 - see https://github.com/ObrienlabsDev/blog/issues/112 and https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/14
-- 
+Kind on Lenovo SR250
+```
+ubuntu@sr250a:~$ kubectl config get-contexts
+CURRENT   NAME        CLUSTER     AUTHINFO    NAMESPACE
+*         kind-kind   kind-kind   kind-kind   
+
+ubuntu@sr250a:~$ kubectl cluster-info --context kind-kind
+Kubernetes control plane is running at https://127.0.0.1:33047
+CoreDNS is running at https://127.0.0.1:33047/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+ubuntu@sr250a:~$ kubectl get nodes
+NAME                 STATUS   ROLES           AGE    VERSION
+kind-control-plane   Ready    control-plane   6m9s   v1.36.1
+
+ubuntu@sr250a:~$ docker ps
+CONTAINER ID   IMAGE                  COMMAND                  CREATED         STATUS         PORTS                       NAMES
+a78307cc6dbc   kindest/node:v1.36.1   "/usr/local/bin/entr…"   6 minutes ago   Up 6 minutes   127.0.0.1:33047->6443/tcp   kind-control-plane
+```
 
 ## Google Distributed Cloud - Air-gapped Appliance
 This is the in-field version of GDC Air-gapped
