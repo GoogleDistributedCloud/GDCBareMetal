@@ -137,6 +137,7 @@ see the CCCS CDS (Cross Domain Solution) dscussing with Luie - https://www.cyber
 #### BRK2-194: Build Agentic AI with Gemini and developer platforms on GDC
 - https://www.googlecloudevents.com/next-vegas/session/3913076/build-agentic-ai-with-gemini-and-developer-platforms-on-gdc?i=BTMfFrY95Iz1H3FLca_yY8ItmKHJHIOm
 - https://content-cdn.sessionboard.com/content/jPZPYqhpSyWclfUi99XU_BRK2-194.pdf
+- https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/18
 
 #### Sovereign-ready infrastructure: Architecting workloads for the public sector
 - https://content-cdn.sessionboard.com/content/avVUf4YrSzyimc9pcWye_BRK2-193.pdf
@@ -335,7 +336,7 @@ Ingress | public/private LB | LB, ingress, gateway API | GDC Ingress gateway (is
 IPAM | . | . | . | . | . | .
 KMS | Symmetric/Asymmetric encryption | KMS | KMS | . | OpenSSL | .
 Logging | . | . | . | . | ELK | .
-Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | .
+Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/18
 Networking/eBPF/CNI | . | . | [GKE Dataplane 2](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2) | . | Cilium | . 
 Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
 Observability / Metrics / Time Series | . | . | Prometheus / Grafana (per project) <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
@@ -363,6 +364,7 @@ postgreSQL (check alloyDB Omni), Oracle byod
 
 ## Gemini Enterprise
 Gemini Enterprise models will run locally on GDC - see https://docs.cloud.google.com/distributed-cloud/gemini-on-gdcc/latest/docs/requirements#hardware
+- see https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/18
 
 ## CAPI - Cluster API
 - https://github.com/kubernetes-sigs/cluster-api
