@@ -39,7 +39,7 @@ Any combination of linux intel servers, appropriate NAS storage, Firewall, Switc
 
 see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
-
+<img width="1082" height="606" alt="Screenshot 2026-08-17 at 22 31 15" src="https://github.com/user-attachments/assets/37eea3a2-da23-41c4-99f7-134651ad9287" />
 
 
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/ad5f65ef-b742-4bdf-9387-62b155b4f922" />
