@@ -35,11 +35,15 @@ see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/16
 
 ### GDC Local Simulation
 
-Any combination of linux intel servers, appropriate NAS storage, Firewall, switches, routers, HSM, console concentrator in your own local rack.
+Any combination of linux intel servers, appropriate NAS storage, Firewall, Switches, Routers, HSM, console concentrator in your own 42U local rack will be able to partially simulate a Google Distributed Cloud Air-gapped environment - provided you get appropriate CRDs and OSS container images.
 
 see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
+
+
+
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/ad5f65ef-b742-4bdf-9387-62b155b4f922" />
+
 
 ### KIND cluster for CAPI bootstrap
 - see https://github.com/ObrienlabsDev/blog/issues/112 and https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/14
@@ -81,7 +85,7 @@ https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/adm
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
 TOR Switches 25-100G | [Mellanox](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture#physical_network) | [SN2010](https://network.nvidia.com/files/doc-2020/pb-sn2010.pdf) | 
-TOR Switches 100-400G | . | . | 
+TOR Cisco Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
 Storage | NetApp | NetApp ONTAP Select (OTS) | [QNAP TS-433eU-US](https://www.qnap.com/en-ca/product/ts-433eu) 2.5G NAS [QNAP-CSI](https://github.com/qnap-dev/QNAP-CSI-PlugIn) 
@@ -101,7 +105,7 @@ with rugged case https://ecommerce.ultralifecorporation.com/ECommerce/product/el
 
 
 ## Networking
-400Gb/s switches
+400-800Gb/s switches
 
 ### GDC Requirements
 ### GDC Air Gapped Requirements
@@ -115,6 +119,7 @@ Therefore, all the operational responsibilities, including facilitating, operati
 In ubuntu 22.04+
 
 #### HSM
+Thales
 #### PKI
 
 ### GDC Data Issues
@@ -163,7 +168,7 @@ Servers | HP | <img width="1158" height="646" alt="_next_26_gdcc_servers_Screens
 Servers | HPE | This looks to be HPE related - like the HPE ProLiant DL100 series - https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl100-servers/hpe-proliant-dl145-gen11/p/1014845266  <img width="1134" height="141" alt="_next_26_gdcc_question_Screenshot 2026-04-26 at 18 25 02" src="https://github.com/user-attachments/assets/bd0660dd-1568-4136-8061-acc1f1419357" /> | . 
 Servers | Dell | At the Intel booth at Next 26 - https://www.dell.com/en-ca/lp/dt/industry-telecom-xr8000 <img width="653" height="506" alt="_next_26_intel_Screenshot 2026-04-26 at 18 27 27" src="https://github.com/user-attachments/assets/607b5c21-95df-4c8e-9303-13a0afdd3a88" />
 GPUs | . | . | .
-Power Supply | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" /> | 
+Cisco TOR Switches | . | <img width="1189" height="720" alt="_next_26_gdcc_power_Screenshot 2026-04-26 at 18 24 23" src="https://github.com/user-attachments/assets/f33c6a96-e44a-40ad-98a5-4522ce1020bf" /> | 
 . | . | . | .
 
 
@@ -180,6 +185,7 @@ Storage | . | . | .
 Servers | . | . | . 
 GPUs | . | . | .
 Power Supply | . | . | 
+Console Concentrator | . | . | .
 . | . | . | .
 
 
@@ -513,13 +519,16 @@ Prometheus | . | PromQL
 ## GDC Base Hardware Simulation
 ### Personal GDC Rack
 
-Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini) and a 4 HD QNAP NAS rack - with associated older Cisco switches/routers and new TPLink switches/routers.
+Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini), an Opengear 7248 concole concentrator and a 4 HD QNAP NAS rack - with associated older Cisco 3850 switches/routers and new 10G TPLink switches/routers.
 I am missing a Palo Alto firewall and console concentrator
+
 
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/5ec04105-15ae-43c3-af2b-7e4dad54b0d7" />
 
 
 <img width="537" height="943" alt="Screenshot 2026-08-03 at 22 53 40" src="https://github.com/user-attachments/assets/e103c3c4-f51e-4861-9d45-f25b719592b0" />
+
+<img width="569" height="1012" alt="Screenshot 2026-08-17 at 22 26 31" src="https://github.com/user-attachments/assets/df8eafa6-a3c0-41ab-b749-ba31accdc969" />
 
 
 
