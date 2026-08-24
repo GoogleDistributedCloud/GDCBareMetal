@@ -604,7 +604,7 @@ Currently using TPLink 10gbps rack switches and routers.
 
 ### Kubernetes Installation
 - https://github.com/ObrienlabsDev/blog/wiki/Kubernetes
-#### docker desktoop
+#### docker desktop
 - single node with storage provisioner - only for testing out images and helm charts locally
 ### kubeadm
 - https://github.com/ObrienlabsDev/blog/issues/50
@@ -614,6 +614,9 @@ Currently using TPLink 10gbps rack switches and routers.
 #### GCP GKE
 - https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2 on top of Cilium
 
+##### GKE GPU Workloads
+- https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/containers/deploy-gpu-container-workloads
+- 
 #### Rancher RKE2 / K3S
 
 ##### VM test install
@@ -774,7 +777,7 @@ For example the LLM evaluation on GKE using L4s (these are close to the google s
 
 ## CEPF labs
 These are the CE labs that have a maxiumum of 3 tries, are timed at 2-10 hours and only available via specific account RBAC.  I would recommend pre-automating the labs using at least gcloud IaC first before using up one attempt. 80% is required as usual.
-GPU Bencharking for Inference - GKE Node pools - https://partner.skills.google/course_templates/1720/labs/629704
+GPU Bencharking for Inference - GKE Node pools - https://partner.skills.google/course_templates/1720/labs/629704 and https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/application/ao-user/containers/deploy-gpu-container-workloads
 
 ### Workarounds for GDC training specific to partner logins
 I am a GCP partner so I have access to all the L200/L300 GDC training (paths 1681/1033), however if you are in the middle of attaining partner status or do not yet have a login from your org - some of the content is available without a partner login - for example the L300 air gapped training (paths 1681/1034) does not need a partner login.
