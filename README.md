@@ -5,6 +5,9 @@ Consolidated sovereign private data center artifacts.
 This repo details various approaches to standing up an air gapped data center that optionally uses or replicates functionality in GDC (Google Distributed Cloud) - software only, connected, air-gapped and air gapped appliance (formerly edge) solutions.
 
 ## GDC - Google Distributed Cloud
+
+<img width="111" height="113" alt="GDC_datasheet_logo" src="https://github.com/user-attachments/assets/be2c8f3a-fd09-4639-926d-21dca95d8da6" />
+
 - https://github.com/ObrienlabsDev/blog/issues?q=state%3Aopen%20label%3A%22GDC%22
   
 GDC is Google's version of private or hybrid cloud within your own data center. 
