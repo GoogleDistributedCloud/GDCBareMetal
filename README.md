@@ -67,7 +67,7 @@ a78307cc6dbc   kindest/node:v1.36.1   "/usr/local/bin/entr…"   6 minutes ago  
 ```
 
 ## Google Distributed Cloud - Air-gapped Appliance
-This is the in-field version of GDC Air-gapped
+This is the in-field version of GDC Air-gapped or Google Tactical Edge.
 
 ### GDC Air Gapped Appliance - Hardware Component Mapping
 https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
