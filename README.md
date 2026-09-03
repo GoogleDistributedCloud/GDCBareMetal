@@ -26,12 +26,38 @@ In late 2025 GKE took over the functions of GKE Enterprise which was itself a re
 
 There was a historical variant of GDC Hosted (renamed GDC connected (edge) where a POC can be setup to install GDC software only on your own VMs to prep for eventual delivery and integration of the 4 minimum racks in a 300k/month GDC Hosted - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdch/resources/faq
 
+## Architecture
+### Architecture - GDC Air-Gapped
+There are 4 levels of kubernetes clusters.
+- single **root admin** bare metal OIRv2 cluster on one selected zone per universe
+- one or more **org-infra** bare metal clusters per zone that use min 3 blades across each zone in the 3 racks aa, ab, ac (
+- zero or more **shared** virtualized org level clusters running on vm nodepools
+- zero or more **standard** virtualized project level clusters rnning n vm nodepools
+
+The hierarchy of the GDC universe/region/organizations/zones can be the following example
+
+universe1
+- region
+- - zone 1
+- - - bootstrap **cluster** - _temp on AC-BM15_
+- - - root-admin **cluster**
+- - - organization 1
+- - - - org-infra-1 **cluster**
+- - - - shared **cluster** (0-n) org level
+- - - - project 1-1
+- - - - - standard **cluster** (0-n) project level
+- - - organization 2 .. n (n ~= 16)
+- - - - org-infra-2 **cluster**
+- - - - shared **cluster** (0-n) org level
+- - - - project 2-1
+- - - - - standard **cluster** (0-n) project level
+
 ## Hardware
 See https://cloud.google.com/sovereign-cloud?hl=en which includes Google Cloud Dedicated and Google Distributed Cloud
 Only Intel processors are supported by GDC as of mid 2026 - x86-64 CPUs at microarchitecture level v3 (x86-64-v3) or higher.  This excludes all ARM based machines including M series and the GB10 from NVidia in the DGX Spark. https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/minimal-infrastructure
 
 ## Google Cloud Distributed Air Gapped - 3 Rack - Hardware 3.0 (Feb 2024)
-There is also a 4th OIRv2 rack.
+There is also a 4th OIRv2 rack - see https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/release-notes-1161
 
 see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/1681/course_templates/1034/video/519973 or https://www.youtube.com/watch?v=uE7kC3IXqF0
 <img width="934" height="487" alt="Screenshot 2026-07-06 at 11 40 14" src="https://github.com/user-attachments/assets/54c48ba9-ea34-4111-8dac-67dd494067a6" />
@@ -219,12 +245,7 @@ organizations, projects (no folders), tags, kubernetes taints.
 This GDC software-only for BM is a rebrand of Anthos (Anthos clusters on-prem or bare metal) where on prem CPUs are billed back to the GCP Project.
 see 2022 post in https://cloud.google.com/blog/topics/anthos/anthos-on-prem-and-bare-metal-are-now-gdc-virtual
 
-##### Architecture 
-There are 4 levels of kubernetes clusters.
-- root admin bare metal OIRv2 cluster
-- one or more org-infra clusters per zone that use 3 bare metal blades across each zone in racks aa,ab,ac
-- zero or more shared org level clusters running on vm nodepools
-- zero or more standard project level clusters rnning n vm nodepools
+
 - 
 ```mermaid
 flowchart LR
@@ -994,7 +1015,7 @@ Virtual Routing and Forwarding (GDC provides separate VRFs for each organization
 ## Universe
 A GDC universe has 1 to 6 zones (10 to 100 km apart - with 50 km max separation between p2 primary zones) - (representing 2 regions each with an operations center).  Note: 2 zones in a universe can only do manual as opposed to automated recovery.  Therefore the addition of a separate GDC installation at least 10 km apart can be considered a 2nd zone for that particular region.  Normally 1 or more additional zones at a distance of at least 10 km apart can be considered a separate region if they are greater than 100 km apart.  Connecting multiple GDC universes is a TBD topic.
 
-There is only one OIRv2 rack per region - on one selected zone.  This OIR rack with associated root-admin bare metal GKE cluster manages all zones.
+There is only one OIRv2 rack per region - on one selected zone.  This OIRv2 rack (https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/release-notes-1161) with associated root-admin bare metal GKE cluster manages all zones.
 
 See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/video/519991 or the latest documentation on Zones, Regions and types of Universes in GDC at https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/multi-zone/mz-overview and https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/subnets-overview#subnet-labeling
 
