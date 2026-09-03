@@ -28,7 +28,8 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 
 ## Architecture
 ### Architecture - GDC Air-Gapped
-There are 4 levels of kubernetes clusters.
+There are 5 levels of kubernetes clusters.
+- temporary KIND **bootstrap** cluster usually on AC-bm15 that creates the root admin cluster
 - single **root admin** bare metal OIRv2 cluster on one selected zone per universe
 - one or more **org-infra** bare metal clusters per zone that use min 3 blades across each zone in the 3 racks aa, ab, ac (
 - zero or more **shared** virtualized org level clusters running on vm nodepools
