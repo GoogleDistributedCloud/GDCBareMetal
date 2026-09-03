@@ -994,7 +994,7 @@ Virtual Routing and Forwarding (GDC provides separate VRFs for each organization
 ## Universe
 A GDC universe has 1 to 6 zones (10 to 100 km apart - with 50 km max separation between p2 primary zones) - (representing 2 regions each with an operations center).  Note: 2 zones in a universe can only do manual as opposed to automated recovery.  Therefore the addition of a separate GDC installation at least 10 km apart can be considered a 2nd zone for that particular region.  Normally 1 or more additional zones at a distance of at least 10 km apart can be considered a separate region if they are greater than 100 km apart.  Connecting multiple GDC universes is a TBD topic.
 
-There is only ne OIRv2 rack per region - on one selected zone.  This OIR rack with associated root-admin bare metal GKE cluster manages all zones.
+There is only one OIRv2 rack per region - on one selected zone.  This OIR rack with associated root-admin bare metal GKE cluster manages all zones.
 
 See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/video/519991 or the latest documentation on Zones, Regions and types of Universes in GDC at https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/multi-zone/mz-overview and https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/subnets-overview#subnet-labeling
 
