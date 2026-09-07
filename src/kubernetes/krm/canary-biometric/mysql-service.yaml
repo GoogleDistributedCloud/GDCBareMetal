@@ -1,0 +1,18 @@
+# 2025 michael at obrienlabs.cloud
+# https://github.com/ObrienlabsDev/biometric-backend
+# depends on namespace, secret, storage, deployment
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+  namespace: mysql
+spec:
+  type: NodePort
+  # kubectl port-forward mysql-58b7767464-dgpf4 3306:3306
+  ports:
+  - protocol: TCP
+    port: 3306
+    targetPort: 3306
+    nodePort: 30306
+  selector:
+    app: mysql

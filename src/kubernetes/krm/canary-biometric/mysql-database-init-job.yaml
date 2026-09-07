@@ -1,0 +1,71 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: mysql-init
+  namespace: mysql
+spec:
+  backoffLimit: 4
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+      - name: mysql-init
+        image: mysql:8.0.38
+        env:
+        - name: MYSQL_PWD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-secret
+              key: password
+        command: ["/bin/bash", "-c"]
+        args:
+        - |
+          cat <<'SQL' >/tmp/init.sql
+          CREATE DATABASE IF NOT EXISTS biometric;
+          USE biometric;
+          CREATE TABLE IF NOT EXISTS gps_record (
+            IDENT_ID BIGINT AUTO_INCREMENT PRIMARY KEY,
+            version BIGINT,
+            userId BIGINT NOT NULL,
+            geohash VARCHAR(255),
+            RECV_SEQ BIGINT,
+            SEND_SEQ BIGINT,
+            LONGITUDE DECIMAL(19,10),
+            LATITUDE DECIMAL(19,10),
+            tsStart BIGINT,
+            tsStop BIGINT,
+            ACCURACY DECIMAL(19,10),
+            bearing INT,
+            ALTITUDE DECIMAL(19,10),
+            temp DOUBLE,
+            PRES DOUBLE,
+            teslaX VARCHAR(255),
+            teslaY VARCHAR(255),
+            teslaZ VARCHAR(255),
+            speed DOUBLE,
+            provider VARCHAR(255),
+            HRDEV1 VARCHAR(255),
+            HRDEV2 VARCHAR(255),
+            HEART1 INT,
+            HEART2 INT,
+            GRAVX VARCHAR(255),
+            GRAVY VARCHAR(255),
+            GRAVZ VARCHAR(255),
+            ACCELX VARCHAR(255),
+            ACCELY VARCHAR(255),
+            ACCELZ VARCHAR(255),
+            GYROX VARCHAR(255),
+            GYROY VARCHAR(255),
+            GYROZ VARCHAR(255),
+            light VARCHAR(255),
+            LINACCX VARCHAR(255),
+            LINACCY VARCHAR(255),
+            LINACCZ VARCHAR(255),
+            PROX VARCHAR(255),
+            humidity VARCHAR(255),
+            ROTVECX VARCHAR(255),
+            ROTVECY VARCHAR(255),
+            ROTVECZ VARCHAR(255)
+          );
+          SQL
+          mysql -h mysql -u root < /tmp/init.sql
