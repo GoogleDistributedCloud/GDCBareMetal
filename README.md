@@ -1021,7 +1021,7 @@ There is only one OIRv2 rack per region - on one selected zone.  This OIRv2 rack
 See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/video/519991 or the latest documentation on Zones, Regions and types of Universes in GDC at https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/multi-zone/mz-overview and https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/subnets-overview#subnet-labeling
 
 # Canary Applications
-- Biometric https://github.com/ObrienlabsDev/biometric-backend/tree/main/biometric-nbi/src/kubernetes moved to 
+- Biometric https://github.com/ObrienlabsDev/biometric-backend/tree/main/biometric-nbi/src/kubernetes moved to https://github.com/GoogleDistributedCloud/GDCBareMetal/blob/main/src/kubernetes/krm/canary-biometric/README.md
 
 # References
 - ONAP - https://onap.org/
