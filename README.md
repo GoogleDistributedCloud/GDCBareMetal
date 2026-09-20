@@ -851,6 +851,7 @@ I would recommend prioritizing the documentation over the training - as GDC and 
 - https://partner.skills.google/catalog?keywords=GDC
 - https://cloud.google.com/customers/rubin-observatory
 - Spanner Omni for GDC Airgapped - Next 2026 BRK1-075 - https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf
+- Feb 2026 - blog networking - https://cloud.google.com/blog/products/networking/google-distributed-cloud-gdc-air-gapped-1-15-networking
 
 # Errors
 - https://partner.skills.google/paths/1552/course_templates/1193/video/522174 3:35 obs bs system
