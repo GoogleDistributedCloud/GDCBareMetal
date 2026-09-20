@@ -354,24 +354,24 @@ A large portion of GDC specific functionality is implemented as kubernetes opera
  Component | Use Case | GCP | GDC  | Spec | OSS | Commercial
 --- | --- | --- | --- | --- | --- | ---
 Alerts | . | . | . | . | . | .
-API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API | Ingress | 
+API Gateway | L7 LB | Apigee | . | GKE dataplane 2 Gateway API (cilium) | Ingress | 
 Billing | . | . | . | . | . | .
 Configure (maintenance..) | . | . | Configure | . | . | .
 Connect Agent (GKE) | anthos fleet registration | . | [Connect Agent](https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/connect-agent) | . | . | .
 Database | . | Cloud SQL | DBaaS Database Service (PostgreSQL, oracle byol, AlloyDB Omni | . | . | .
 Distributed Database | . | Spanner | Spanner Omni (see [NEXT 26](https://content-cdn.sessionboard.com/content/XEVm6pmaTZSCTzJOClG9_BRK1-075.pdf) <img width="136" height="136" alt="Screenshot 2026-06-23 at 16 04 13" src="https://github.com/user-attachments/assets/13183470-ded4-464b-9ad4-74663b2997ad" /> | . | . | .
-DNS | private/public DNS, DNS peering/forwarding | DNS | [DNS](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/dns/dns-overview) | . | . | .
+DNS | private/public DNS, DNS peering/forwarding | DNS | [DNS](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/dns/dns-overview) Cilium | . | . | .
 GKE Cluster Management | . | . | Anthos | . | [CAPI](https://github.com/kubernetes-sigs/cluster-api) | .
 Git repos | . | Secure Source Repositories $1k/m or legacy CSR Cloud Source Repositories | GDC? [Gerrit](https://www.gerritcodereview.com/releases-readme.html), [Gitlab](https://about.gitlab.com/platform/) (anything either containerized or via CRD) | . | [Gerrit](https://www.gerritcodereview.com/releases-readme.html) | ADO, Bitbucket, Github, [Gitlab](https://about.gitlab.com/platform/)
 Identity/SSO | RBAC / Identity Federation / WIF | . | SAML 2.0 and Fake OIDC <img width="2519" height="1240" alt="Screenshot 2026-06-21 at 18 36 06" src="https://github.com/user-attachments/assets/d9820f00-8644-4f43-b1d9-89e23cd17d0e" /> <img width="955" height="542" alt="Screenshot 2026-06-21 at 18 32 17" src="https://github.com/user-attachments/assets/08aa5821-d624-47b6-8726-0b0dc99cd467" /> and Anthos Identity Service (WIF) | . | KeyCloak | AD (Active Directory), IBM Verify
 IDS/IPS | TLS Inspection | Palo Alto NGFW | Palo Alto | . | Falco | .
 Ingress | public/private LB | LB, ingress, gateway API | GDC Ingress gateway (is this K8S Gateway API?) | L4/L7 | MetalB | .
-IPAM | . | . | . | . | . | .
+IPAM | . | GKE Dataplane V2 (cilium via eBPF - no iptables or kube-proxy | . | . | . | .
 KMS | Symmetric/Asymmetric encryption | KMS | KMS | . | OpenSSL | .
-Logging | . | . | . | . | ELK | .
+Logging | . | Cilium hubble for network flow logs | . | . | ELK | .
 Machine Learning | . | Gemini Enterprise Agent Platform - audio file transcription | Vertex AI audio file transcription, Vertex pretrained APIs, Speech-to-text, OCR Vertex AI Workbench | . | . | https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/18
-Networking/eBPF/CNI | . | . | [GKE Dataplane 2](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2) | . | Cilium | . 
-Network Logging | . | IPS/IDS logs, VPC Flow Logs | Kubernetes Network Policies Audit Logging | . | . | . 
+Networking/eBPF/CNI | . | . | [GKE Dataplane 2](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2) | . | Cilium  from Cisco(Isovalent) | . 
+Network Logging | . | IPS/IDS logs, VPC Flow Logs (GKE Dataplane V2 (Cilium hubble) | Kubernetes Network Policies Audit Logging | . | . | . 
 Observability / Metrics / Time Series | . | . | Prometheus / Grafana (per project) <img width="981" height="985" alt="Screenshot 2026-06-21 at 22 36 25" src="https://github.com/user-attachments/assets/a08c48c9-659c-4058-97bf-3edd6413292f" /> | . | Prometheus / OpenTelemetry, PromQL,  [Open Metrics format](https://prometheus.io/docs/specs/om/open_metrics_spec/), [Cortex](https://cortexmetrics.io/docs/) storage (AlertManager), Loki (Ops and Audit logs instances), Fluentbit | .
 Open Policy Agent | . | . | OPA Gatekeeper | . | OPA | . 
 Monitoring | Loki spec | . | Grafana (per project) | . | Grafana . 
@@ -486,6 +486,7 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 
 ## Logging Sources
 - Kubernetes API
+- Hubble via Cilium CSI as part of GKE dataplane V2
 - Istio
 - Harbor
 - Cluster VMs
@@ -533,6 +534,7 @@ Chart | Site | notes
 --- | --- | ---
 Cortex | . | (AlertManager)
 Fluentbit sidecar | . | . 
+Cilium | . | .
 Git | [GitLab](https://docs.gitlab.com/install/install_methods/#helm-chart) | .
 Grafana | . | per project
 KeyCloak | . | .
@@ -546,8 +548,8 @@ Prometheus | . | PromQL
 ## GDC Base Hardware Simulation
 ### Personal GDC Rack
 
-Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini), an Opengear 7248 concole concentrator and a 4 HD QNAP NAS rack - with associated older Cisco 3850 switches/routers and new 10G TPLink switches/routers.
-I am missing a Palo Alto firewall and console concentrator
+Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini), an Opengear 7248 console concentrator and a 4 HD QNAP NAS rack - with associated older Cisco 3850 switches/routers and new 10G TPLink switches/routers.
+I am missing a Palo Alto firewall and Microchip NTP server
 
 
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/5ec04105-15ae-43c3-af2b-7e4dad54b0d7" />
@@ -563,7 +565,7 @@ I am missing a Palo Alto firewall and console concentrator
 #### GDC via Microsoft Hyper-V
 https://github.com/ObrienlabsDev/blog/issues/59
 
-We are deferring to Hyperv on windows OS machines primarily because VMWare no longer does nested virtualization on 13 and 14 generation Intel chips.  Hyperv is also a pseudo level 1 hypervisor over level 2 for workstation.  The best scenario is to install ubuntu directly on intel hardware - like the Lenovo SR250 blade, however the p1gen6 provides for a portable cluster on 1 machine.
+We are deferring to Hyperv on windows OS machines primarily because VMWare no longer does nested virtualization on 13 and 14 generation Intel chips.  HyperV is also a pseudo level 1 hypervisor over level 2 for workstation.  The best scenario is to install ubuntu directly on intel hardware - like the Lenovo SR250 blade, however the p1gen6 provides for a portable cluster on 1 machine.
 
 Spin up 3 generation 2 VMs on either a 128g 14900k desktop or a Lenovo P1gen6 96g laptop.  Make sure to disable secure boot when initially installing ubuntu.  Add an external network via one of the wired ethernet controllers by first creating a reference in virtual switch manager.
 
@@ -891,6 +893,7 @@ Anthos has a one time credit of 1000US - getting details for new accounts.
 ## Ubuntu Certified
 Details around various hardware configurations that support Ubuntu.
 https://ubuntu.com/certified
+
 ### QSFP56 NVIDIA DGX Spark
 - https://ca.store.ui.com/ca/en/category/switching-enterprise/collections/enterprise-campus-24/products/ecs-24s-poe
 
@@ -928,6 +931,7 @@ SLA/SLO/SLIs
 # Frameworks
 ## Open Source Frameworks / Specifications
 
+- Cilium
 - [Cortex](https://cortexmetrics.io/docs/) storage
 - Fluentbit
 - Grafana
@@ -956,6 +960,7 @@ SLA/SLO/SLIs
 - https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3850-series-switches/datasheet_c78-720918.html
 - 
 ## Cisco 10G switches
+
 ## Cisco 400G switches
 - https://www.cisco.com/site/us/en/products/networking/cloud-networking-switches/400g-switches/index.html
 - https://www.cisco.com/c/en/us/support/switches/nexus-9332d-gx2b-switch/model.html
@@ -977,18 +982,22 @@ SLA/SLO/SLIs
 - Console port concentrators
 - IM7248-2-DAC console/infrastructure manager - https://www.kvm-switches-online.com/im7248-2-dac-us.html
 - CM8000 https://opengear.com/products/cm8000-console-manager/
-- 
+
+## Microchip
+
 ## Palo Alto
 - PA-3410 - https://www.paloguard.com/firewall-pa-3410.asp
 - PA-5260
 - PA-5420 - https://docs.paloaltonetworks.com/hardware/pa-5400-hardware-reference/pa-5400-series-firewall-overview
 - PA-500 - https://docs.paloaltonetworks.com/hardware/pa-500-hardware-reference/pa-500-series-firewall-overview
 - PA-850 - https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet https://www.amazon.ca/Generation-Firewall-Security-Appliance-Renewed/dp/B0D76ZVK9W/ref=sr_1_8?crid=1DHEE2OAPG0K5&dib=eyJ2IjoiMSJ9.6GFvlmPJHpg27Oc3ckMtDDW5WmgbBly-Ld4QENnRXMOsV7MguGVSiZ1Pu6LBa334OMzP-474XiyjOfRhprabG2axU9ff_mtchT44V9yr5PCnQspbmV-szSIm_STdGqds3msB4Nx7vuEK1Uv6FsfEBfqsTtWoD3gzSYPxSEPMbtQgvniNc1nR2GAg5paweFXLayXGMaFTc7o7pGKGKoKBXfd1t8xtDy0FyB2F5fKZk084uFWDd0hb8q_NlGqUljJH8HSqJbqtUL4ovgqC6u8Rw9wwQ8LnUeCou4QduZjZPEc.NCg17FpTo1eqmBsJ-sS0dDiSUctM-CrLcYiqe3Wssa8&dib_tag=se&keywords=palo+alto+firewall&qid=1785257421&s=electronics&sprefix=palo+alto+firewall%2Celectronics%2C93&sr=1-8
+- 
 ## Thales
 - https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 
 ## NetApp
 - NetApp StorageGRID - https://www.netapp.com/newsroom/press-releases/news-rel-20260415-184580/
+- 
 ### NetApp File Block Storage
 - AFF-A250 - https://www.netapp.com/aff-a-series/aff-a250/
 - AFF-90 - https://docs.netapp.com/us-en/ontap-systems/a70-90/a90-key-specifications.html 
@@ -1004,7 +1013,7 @@ SLA/SLO/SLIs
 ## Anthos
 - https://github.com/GoogleDistributedCloud/GDCBareMetal/tree/main#anthos-bmctl-install
 ## eBPF
-Extended Berkeley Packet Filter - part of cilium ehich is part of GKE Enterprise -  https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2
+Extended Berkeley Packet Filter - part of cilium from Cisco(Isovalent) which is part of GKE Enterprise as GKE Dataplane V2 -  https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2
 ## GENEVE
 - https://docs.cloud.google.com/network-security-integration/docs/understand-geneve
 - GDC (and [Anthos](https://github.com/GoogleDistributedCloud/GDCBareMetal/tree/main#anthos-bmctl-install)) use GENEVE (Generic Network Encapsulation) with GKE and Anthos networking overlays between applications in the same VPC and [VXLAN](https://en.wikipedia.org/wiki/VXLAN) between VM nodes in the same org - where this traffic can use IPSEC.
@@ -1044,6 +1053,7 @@ See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/v
 
 # GDC Release Notes
 - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/resources/release-notes-1152
+- 
 # Links
 - 2025 - https://cloud.google.com/blog/topics/hybrid-cloud/using-gdc-sandbox-to-emulate-air-gapped-environments
 - 
