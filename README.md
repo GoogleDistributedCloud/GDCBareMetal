@@ -317,7 +317,6 @@ Terraform can be used to deploy VMs on GDC via the underlying KubeVirt CRD runni
 Service | Sub Service | GDC | GCP 
 --- | --- | --- | ---
 Vertex AI | Vision AI/ML | OCR BatchAnnotateFiles, BatchAnnotateImages | OCR, Image, facial, and crop hint recognition
-
 . | . | . | .
 
 
