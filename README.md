@@ -65,7 +65,7 @@ see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/16
 
 ### GDC Local Simulation
 
-Any combination of linux intel servers, appropriate NAS storage, Firewall, Switches, Routers, HSM, console concentrator in your own 42U local rack will be able to partially simulate a Google Distributed Cloud Air-gapped environment - provided you get appropriate CRDs and OSS container images.
+Any combination of linux intel servers, appropriate NAS storage, Firewall, Switches, Routers, HSM, console concentrator in your own 42U local rack will be able to partially simulate a Google Distributed Cloud Air-gapped environment - provided you get appropriate CRDs and OSS container images - ideally FIPS compliant from Chainguard for example https://images.chainguard.dev/directory/image/jdk-fips/versions.
 
 see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
@@ -516,7 +516,6 @@ KubeVirt is used ther the cover by VM Manager - https://docs.cloud.google.com/di
 ## Open Nebula
 - Open Nebula - https://en.wikipedia.org/wiki/OpenNebula
 
-##
 
 # Personas
 From GDC L300 - Physical Networking - https://partner.skills.google/paths/1681/course_templates/1034/video/519975
@@ -705,6 +704,8 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 ## CICD
 Git and build containers on GDC may differ from normal GCP public where Cloud Build, CSR, SSR or SaaS providers like ADO, Github Actions are used.
 Essentially anything that can be containerized or have a CRD developed around can be used for git storage and build systems 
+### Hardened Container Images
+- https://images.chainguard.dev/directory/image/jdk-fips/versions
 
 # Design Issues
 ## DI00: Differences between Hardware level 3.0 in 2024H1 and 2026H1
