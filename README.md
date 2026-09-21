@@ -599,7 +599,7 @@ https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/doc
 <img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
 
 #### Dell 7010 micro PCs ad GDC Simulators
-
+see - https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/25
 Reboot the pc and select the usb drive with Ubuntu 24.04.5 LTS server as the ISO
 ```
 systemctl reboot --firmware-setup
