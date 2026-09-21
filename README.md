@@ -598,6 +598,15 @@ https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/doc
 
 <img width="679" height="966" alt="_gdc_simulated_rackScreenshot 2026-04-30 at 12 30 20" src="https://github.com/user-attachments/assets/5ce286da-5c5e-4327-9360-888a6153c2e8" />
 
+#### Dell 7010 micro PCs ad GDC Simulators
+
+Reboot the pc and select the usb drive with Ubuntu 24.04.5 LTS server as the ISO
+```
+systemctl reboot --firmware-setup
+```
+Follow the instructions in https://docs.cloud.google.com/kubernetes-engine/distributed-cloud/bare-metal/docs/installing/minimal-infrastructure
+
+
 #### Lenovo m90q tiny PCs as GDC Simulators
 - reimaged with Ubuntu or Rocky Linux - https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M90q_Gen_6/ThinkCentre_M90q_Gen_6_Spec.PDF
 
