@@ -71,6 +71,12 @@ see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
 
 <img width="1082" height="606" alt="Screenshot 2026-08-17 at 22 31 15" src="https://github.com/user-attachments/assets/37eea3a2-da23-41c4-99f7-134651ad9287" />
 
+
+
+
+
+
+
 ### KIND cluster for CAPI bootstrap
 - see https://github.com/ObrienlabsDev/blog/issues/112 and https://github.com/GoogleDistributedCloud/GDCBareMetal/issues/14
 Kind on Lenovo SR250
