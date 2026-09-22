@@ -1,3 +1,5 @@
+
+
 Main blog - https://github.com/ObrienlabsDev/blog
 
 # Secure Private Data Center
@@ -68,6 +70,11 @@ see GCP partner L300 GDC AG course 3:42 - https://partner.skills.google/paths/16
 Any combination of linux intel servers, appropriate NAS storage, Firewall, Switches, Routers, HSM, console concentrator in your own 42U local rack will be able to partially simulate a Google Distributed Cloud Air-gapped environment - provided you get appropriate CRDs and OSS container images - ideally FIPS compliant from Chainguard for example https://images.chainguard.dev/directory/image/jdk-fips/versions.
 
 see: https://github.com/GoogleDistributedCloud/GDCBareMetal#gdc-simulation
+
+Latest - 4 Dell 7010s and 2 Lenovo m90Qs - 1 bootstrap, 3 control plane, 2 workers
+
+<img width="1596" height="746" alt="Screenshot 2026-09-22 at 07 27 01" src="https://github.com/user-attachments/assets/fbdcfaa8-a94e-448b-aca1-1ec04a36c203" />
+
 
 <img width="1082" height="606" alt="Screenshot 2026-08-17 at 22 31 15" src="https://github.com/user-attachments/assets/37eea3a2-da23-41c4-99f7-134651ad9287" />
 
