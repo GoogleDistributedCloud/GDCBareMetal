@@ -157,10 +157,11 @@ The differentiation between Google Distributed Cloud air-gapped and GDC connecte
 
 Therefore, all the operational responsibilities, including facilitating, operating the instances, managing the infrastructure, L1/L2 support cycle, and software lifecycle, need to be done by the Operator.
 #### Cgroupsv2
-In ubuntu 22.04+
+In ubuntu 22.04+ to 24.04 (not 26.04)
 
 #### HSM
-Thales
+Thales K570 - https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/gdcag/platform/pa-user/encryption-at-rest#manage-cmeks 
+
 #### PKI
 
 ### GDC Data Issues
@@ -1018,7 +1019,7 @@ SLA/SLO/SLIs
 - PA-850 - https://www.paloaltonetworks.com/apps/pan/public/downloadResource?pagePath=/content/pan/en_US/resources/datasheets/pa-800-series-datasheet https://www.amazon.ca/Generation-Firewall-Security-Appliance-Renewed/dp/B0D76ZVK9W/ref=sr_1_8?crid=1DHEE2OAPG0K5&dib=eyJ2IjoiMSJ9.6GFvlmPJHpg27Oc3ckMtDDW5WmgbBly-Ld4QENnRXMOsV7MguGVSiZ1Pu6LBa334OMzP-474XiyjOfRhprabG2axU9ff_mtchT44V9yr5PCnQspbmV-szSIm_STdGqds3msB4Nx7vuEK1Uv6FsfEBfqsTtWoD3gzSYPxSEPMbtQgvniNc1nR2GAg5paweFXLayXGMaFTc7o7pGKGKoKBXfd1t8xtDy0FyB2F5fKZk084uFWDd0hb8q_NlGqUljJH8HSqJbqtUL4ovgqC6u8Rw9wwQ8LnUeCou4QduZjZPEc.NCg17FpTo1eqmBsJ-sS0dDiSUctM-CrLcYiqe3Wssa8&dib_tag=se&keywords=palo+alto+firewall&qid=1785257421&s=electronics&sprefix=palo+alto+firewall%2Celectronics%2C93&sr=1-8
 - 
 ## Thales
-- https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
+- Cypher Trust Manager https://cpl.thalesgroup.com/about-us/newsroom/thales-introduces-imperva-for-google-cloud
 
 ## NetApp
 - NetApp StorageGRID - https://www.netapp.com/newsroom/press-releases/news-rel-20260415-184580/
