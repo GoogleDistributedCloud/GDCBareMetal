@@ -117,13 +117,15 @@ See https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance
 
 https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/admin/connect-the-device
 
+https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture
+
 - https://www.hpe.com/us/en/collaterals/collateral.a00067727enw.html
 
 <img width="842" height="766" alt="gdc_air_gapped_appliance_front_profile" src="https://github.com/user-attachments/assets/28560cab-1702-4d5c-9db3-251425d7e7e7" />
 
  Component | Vendor | Model | Alternate 
 --- | --- | --- | ---
-TOR Switches 25-100G | [Mellanox](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture#physical_network) | [SN2010](https://network.nvidia.com/files/doc-2020/pb-sn2010.pdf) | 
+TOR Switches 25-100G | [Mellanox](https://docs.cloud.google.com/distributed-cloud/hosted/docs/latest/appliance/resources/architecture#physical_network) | [SN2010](https://network.nvidia.com/files/doc-2020/pb-sn2010.pdf) [HPE Storage Switch M-series SN2010M](https://www.hpe.com/us/en/collaterals/collateral.a00043975enw.html) | 
 TOR Cisco Switches 100-400G | . | . | 
 HSM | | | 
 Identity | . | . | .
