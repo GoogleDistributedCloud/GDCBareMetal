@@ -715,6 +715,7 @@ Make sure to increase default quotas before running the 5 vm script - and don't 
 
 <img width="1964" height="485" alt="Screenshot 2026-06-14 at 20 22 04" src="https://github.com/user-attachments/assets/92064424-1130-4a6d-a828-0790c2715ef9" />
 
+VxLan (or Geneve - https://docs.cilium.io/en/latest/glossary/#term-Geneve) encapsulation over UDP is the default routing mode for Cilium - https://docs.cilium.io/en/latest/network/concepts/routing/
 ```
 |---------------------------------------------------------------------------------------------------------|
 | VM Name               | L2 Network IP (VxLAN) | INFO                                                    |
@@ -1043,6 +1044,8 @@ Extended Berkeley Packet Filter - part of cilium from Cisco(Isovalent) which is 
 ## GENEVE
 - https://docs.cloud.google.com/network-security-integration/docs/understand-geneve
 - GDC (and [Anthos](https://github.com/GoogleDistributedCloud/GDCBareMetal/tree/main#anthos-bmctl-install)) use GENEVE (Generic Network Encapsulation) with GKE and Anthos networking overlays between applications in the same VPC and [VXLAN](https://en.wikipedia.org/wiki/VXLAN) between VM nodes in the same org - where this traffic can use IPSEC.
+- VxLan (or Geneve - https://docs.cilium.io/en/latest/glossary/#term-Geneve) encapsulation over UDP is the default routing mode for Cilium - https://docs.cilium.io/en/latest/network/concepts/routing/
+
 ## GKE
 ## SIT/UAT
 ## VRF
@@ -1073,6 +1076,7 @@ See GDC-AG L300 https://partner.skills.google/paths/1681/course_templates/1034/v
 ## VRF
 
 ## VXLAN
+VxLan (or Geneve - https://docs.cilium.io/en/latest/glossary/#term-Geneve) encapsulation over UDP is the default routing mode for Cilium - https://docs.cilium.io/en/latest/network/concepts/routing/
 
 # Government References
 - Controlled Goods Regisration - https://www.canada.ca/en/public-services-procurement/services/industrial-security/controlled-goods/about-program/register.html
