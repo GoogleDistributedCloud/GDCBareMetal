@@ -1042,6 +1042,7 @@ SLA/SLO/SLIs
 ## eBPF
 Extended Berkeley Packet Filter - part of cilium from Cisco(Isovalent) which is part of GKE Enterprise as GKE Dataplane V2 -  https://docs.cloud.google.com/kubernetes-engine/docs/concepts/dataplane-v2
 ## GENEVE
+- IETF Generic Network Virtualization Encapsulation - https://www.rfc-editor.org/info/rfc8926/
 - https://docs.cloud.google.com/network-security-integration/docs/understand-geneve
 - GDC (and [Anthos](https://github.com/GoogleDistributedCloud/GDCBareMetal/tree/main#anthos-bmctl-install)) use GENEVE (Generic Network Encapsulation) with GKE and Anthos networking overlays between applications in the same VPC and [VXLAN](https://en.wikipedia.org/wiki/VXLAN) between VM nodes in the same org - where this traffic can use IPSEC.
 - VxLan (or Geneve - https://docs.cilium.io/en/latest/glossary/#term-Geneve) encapsulation over UDP is the default routing mode for Cilium - https://docs.cilium.io/en/latest/network/concepts/routing/
