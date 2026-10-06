@@ -1122,6 +1122,26 @@ Monitoring data flow
 <img width="908" height="479" alt="Screenshot 2026-07-04 at 17 57 21" src="https://github.com/user-attachments/assets/d11bfe97-9709-45a0-aed1-366e053c1101" />
 
 https://partner.skills.google/paths/1552/course_templates/1193/video/522175
+# Generic Data Center Specifications
+## Naming Conventions
+### Devices
+By 42U elevation.
+- region: ca (only in Canada)
+- zone: 2 letter - nw ne
+- rack: 2 letter - ie aa, ab
+- device type: abbr rep - ie bm, base, torsw, blsw, aggsw, mgmtaggsw, hsm, pfw, fw, ppl, ntp, serctr, mgmtsw
+- id: 2 digit - ie 02
+
+### Cables
+all interconnections for a directed graph
+
+### Networks
+- oobMgmt
+- infraCtrl
+- infraData
+- orgCtrl
+- orgData
+
 
 # TODO
 - lock down Google Cloud Dedicated and it's relationship or rename to Google Cloud Distributed (Air Gapped or Connected).  A: EU focused
