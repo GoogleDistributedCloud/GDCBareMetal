@@ -565,15 +565,11 @@ Prometheus | . | PromQL
 Based around 3 servers (32g SR250, 64g m90q and 16g Intel mac mini), an Opengear 7248 console concentrator and a 4 HD QNAP NAS rack - with associated older Cisco 3850 switches/routers and new 10G TPLink switches/routers.
 I am missing a Palo Alto firewall and Microchip NTP server
 
-
 <img width="1779" height="588" alt="Screenshot 2026-08-03 at 22 55 53" src="https://github.com/user-attachments/assets/5ec04105-15ae-43c3-af2b-7e4dad54b0d7" />
-
 
 <img width="537" height="943" alt="Screenshot 2026-08-03 at 22 53 40" src="https://github.com/user-attachments/assets/e103c3c4-f51e-4861-9d45-f25b719592b0" />
 
 <img width="569" height="1012" alt="Screenshot 2026-08-17 at 22 26 31" src="https://github.com/user-attachments/assets/df8eafa6-a3c0-41ab-b749-ba31accdc969" />
-
-
 
 ### GDC - Virtulized Hardware Simulation
 #### GDC via Microsoft Hyper-V
@@ -627,6 +623,7 @@ Follow the instructions in https://docs.cloud.google.com/kubernetes-engine/distr
 - reimaged with Ubuntu or Rocky Linux - https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_M90q_Gen_6/ThinkCentre_M90q_Gen_6_Spec.PDF
 
 #### Lenovo BMC Rack Servers as GDC Simulators
+- https://lenovopress.lenovo.com/lp1802-thinksystem-sr250-v3-server
 - https://www.lenovo.com/ca/lenovopro/en/p/servers-storage/servers/racks/thinksystem-sr250-v3-rack-server/7dcla053na
 - https://vmware.lenovo.com/content/recipe/SR250%20V3-Raptor%20lake-ESXi9.0.html
 - https://serverproven.lenovo.com/
