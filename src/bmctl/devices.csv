@@ -3,7 +3,7 @@ dell-cp-01,control-plane,alpha,10.3.0.101,10.1.0.101,AA:BB:CC:00:01:01,AA:BB:CC:
 dell-cp-02,control-plane,alpha,10.3.0.102,10.1.0.102,AA:BB:CC:00:02:01,AA:BB:CC:00:02:11,leaf-rack1-a,2,leaf-rack1-a,6,etcd+k8s,,,,,,,,,,,,
 dell-cp-03,control-plane,alpha,10.3.0.103,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,3,leaf-rack1-a,7,etcd+k8s,,,,,,,,,,,,
 lenovo-w-01,worker,alpha,10.3.0.104,10.1.0.104,AA:BB:CC:00:04:01,AA:BB:CC:00:04:11,leaf-rack1-a,4,leaf-rack1-a,8,non-GPU,,,,,,,,,,,,
-asus-gpu-01,gpu-worker,alpha,10.3.0.105,10.1.0.105,AA:BB:CC:00:05:01,AA:BB:CC:00:05:11,leaf-rack2-a,1,leaf-rack2-a,5,RTX-A6000,GA102,RTX-A6000,48,10240,300,1,,,,,,,
+asus-gpu-01,gpu-worker,alpha,10.3.0.105,10.1.0.105,AA:BB:CC:00:05:01,AA:BB:CC:00:05:11,leaf-rack2-a,1,leaf-rack2-a,5,RTX-A6000,GA102,RTX-A6000,48,10240,300,1,,,,,,
 asus-gpu-02,gpu-worker,alpha,10.3.0.106,10.1.0.106,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,2,leaf-rack2-a,6,RTX-A4500 NVLink,GA102,RTX-A4500,20,7k,200,2,GA102,RTX-A4500,20,7k,200,2
 sr250,oob,mgmt,10.3.0.10,10.4.0.10,AA:BB:CC:00:10:01,AA:BB:CC:00:10:11,leaf-mgmt,1,leaf-mgmt,2,Harbor+Velero+DNS,,,,,,,,,,,,
 qnap,storage,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,4,NFS target,,,,,,,,,,,,
