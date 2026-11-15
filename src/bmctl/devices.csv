@@ -12,9 +12,9 @@ id,hostname,role,cpu,cpu-family,cpu-mhz,cpu-vcores,cpu-p,cpu-e,cpu-ram,cluster,m
 31,asus-gpu-02,gpu-worker,,,,,,,128,alpha,10.3.0.106,10.1.0.202,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,2,leaf-rack2-a,6,RTX-A4500 NVLink,GA102,RTX-A4500,20,7k,200,2,GA102,RTX-A4500,20,7k,200,2
 31,asus-gpu-03,gpu-worker,,,,,,,128,alpha,10.3.0.106,10.1.0.203,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,7,RTX-A4000,GA104,RTX-A4000,16,6144,160,0,,,,,,
 31,asus-gpu-04,gpu-worker,,,,,,,192,alpha,10.3.0.106,10.1.0.204,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,8,GTX-4090,AD102,GTX-4090,24,16384,450,0,AD102,GTX-4090,24,16384,450,0
-40,sr250,oob,6332,,,,,,32,mgmt,10.3.0.10,10.4.0.10,AA:BB:CC:00:10:01,AA:BB:CC:00:10:11,leaf-mgmt,1,leaf-mgmt,2,Harbor+Velero+DNS,,,,,,,,,,,,
+40,sr250,oob,Xeon 6325P,,5600,8,4,0,32,mgmt,10.3.0.10,10.4.0.10,AA:BB:CC:00:10:01,AA:BB:CC:00:10:11,leaf-mgmt,1,leaf-mgmt,2,Harbor+Velero+DNS,,,,,,,,,,,,
 50,qnap,storage,,,,,,,,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,4,NFS target,,,,,,,,,,,,
-60,p17,compute,W10855M,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p17,RTX-5000,TU104,RTX-5000,16,120,0,,,,,,
+60,p17,compute,Xeon W10855M,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p17,RTX-5000,TU104,RTX-5000,16,120,0,,,,,,
 61,p15,compute,8750H,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p15,P1000,GP107,P1000,4,,0,,,,,,
 70,dgx-spark,compute,GB10,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,DGX-Spark,GB10,DGX-Spark,128,5120,100,,,,,,,
 71,mac,compute,m2ultra48,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra2,,,,,,,,,,,,
