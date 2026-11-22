@@ -34,7 +34,7 @@ There was a historical variant of GDC Hosted (renamed GDC connected (edge) where
 - GDC runs local gemini racks using NVIDIA blackwell or rubin processors (not google TPUs) - https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/
 - https://cloud.google.com/blog/topics/hybrid-cloud/google-distributed-cloud-at-next26
 - https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search
-- as of Oct 2026 - gemini rins on HGX B300 boards
+- as of Oct 2026 - gemini runs on HGX B300 boards
 ### Architecture - GDC Air-Gapped
 There are 5 levels of kubernetes clusters.
 - temporary KIND **bootstrap** cluster usually on AC-bm15 that creates the root admin cluster
