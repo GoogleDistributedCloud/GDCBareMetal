@@ -17,6 +17,6 @@ id,hostname,role,manufacturer,type,cpu,cpu-family,cpu-mhz,cpu-vcores,cpu-p,cpu-e
 60,p17,compute,Lenovo,,Xeon W10855M,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p17,RTX-5000,TU104,RTX-5000,16,120,0,,,,,,
 61,p15,compute,Lenovo,,8750H,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p15,P1000,GP107,P1000,4,,0,,,,,,
 62,p1gen6,compute,Lenovo,,13800H,,,,,,96,mgmt,,,,,,,,,p1gen6,RTX-3500-ada,AD104,RTX-3400-ada,12,,0,,,,,,
-70,dgx-spark,compute,NVIDIA,,GB10,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,DGX-Spark,GB10,DGX-Spark,128,5120,100,,,,,
+70,dgx-spark,compute,NVIDIA,,GB10,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,DGX-Spark,GB10,DGX-Spark,128,5120,100,,,,,,,
 71,mac,compute,Apple,,m2ultra48,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra2,,,,,,,,,,,,
 72,mac,compute,Apple,,m3ultra48,,,,,,96,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra3,,,,,,,,,,,,
