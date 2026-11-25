@@ -1,22 +1,22 @@
-id,hostname,role,manufacturer,type,cpu,cpu-family,cpu-mhz,cpu-vcores,cpu-p,cpu-e,cpu-ht,cpu-ram,cluster,mgmt_ip,data_ip,mgmt_mac,data_mac,switch_mgmt,port_mgmt,switch_data,port_data,notes,gpu0_proc_id,gpu0_model,gpu0_vram,gpu0_cores,gpu0_watts,gpu0_nvlink,gpu1_proc_id,gpu1_model,gpu1_vram,gpu1_cores,gpu1_watts,gpu1_nvlink,hd0,hd1,hd2,hd3,hd4,hd5
-1,dell-cp-01,control-plane,Dell,,i5-13500T,,,14,6,8,0,16,alpha,10.3.0.101,10.1.0.101,AA:BB:CC:00:01:01,AA:BB:CC:00:01:11,leaf-rack1-a,1,leaf-rack1-a,5,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-2,dell-cp-02,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.102,10.1.0.102,AA:BB:CC:00:02:01,AA:BB:CC:00:02:11,leaf-rack1-a,2,leaf-rack1-a,6,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-3,dell-cp-03,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.103,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,3,leaf-rack1-a,7,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-3,dell-cp-04,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.104,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,1,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-3,dell-cp-05,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.105,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,2,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-3,dell-cp-06,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.106,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,3,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-3,dell-cp-07,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.107,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,4,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0
-20,lenovo-w-01,worker,Lenovo,M90q-gen6,Ultra7-265T,,,,,,,64,alpha,10.3.0.104,10.1.0.104,AA:BB:CC:00:04:01,AA:BB:CC:00:04:11,leaf-rack1-a,4,leaf-rack1-a,8,non-GPU,,,,,,,,,,,,,0,0,0,0,0,0
-20,lenovo-w-02,worker,Lenovo,M90q-gen6,Ultra7-265,,,,,,,32,alpha,10.3.0.104,10.1.0.105,AA:BB:CC:00:04:01,AA:BB:CC:00:04:11,leaf-rack1-a,4,leaf-rack1-a,8,non-GPU,,,,,,,,,,,,,1,0.25,0.25,,,
-30,asus-gpu-01,gpu-worker,Obrienlabs,,14900K,,,,,,,128,alpha,10.3.0.105,10.1.0.201,AA:BB:CC:00:05:01,AA:BB:CC:00:05:11,leaf-rack2-a,1,leaf-rack2-a,5,RTX-A6000,GA102,RTX-A6000,48,10752,300,0,,,,,,,0,0,0,0,0,0
-31,asus-gpu-02,gpu-worker,Obrienlabs,,,,,,,,,128,alpha,10.3.0.106,10.1.0.202,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,2,leaf-rack2-a,6,RTX-A4500 NVLink,GA102,RTX-A4500,20,7168,200,2,GA102,RTX-A4500,20,7168,200,2,0,0,0,0,0,0
-31,asus-gpu-03,gpu-worker,Obrienlabs,,,,,,,,,128,alpha,10.3.0.106,10.1.0.203,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,7,RTX-A4000,GA104,RTX-A4000,16,6144,140,0,,,,,,,0,0,0,0,0,0
-31,asus-gpu-04,gpu-worker,Obrienlabs,,13900K,,,,,,,192,alpha,10.3.0.106,10.1.0.204,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,8,RTX-4090,AD102,RTX-4090,24,16384,480,0,AD102,RTX-4090,24,16384,480,0,2,2,,,,
-40,sr250,oob,Lenovo,SR250v3,Xeon 6325P,,5600,8,4,0,,32,mgmt,10.3.0.10,10.4.0.10,AA:BB:CC:00:10:01,AA:BB:CC:00:10:11,leaf-mgmt,1,leaf-mgmt,0,RTX-A1000,GA107,RTX-A1000,8,2304,50,0,,,,,,,0,0,0,0,0,0
-50,qnap,storage,QNAP,,,,,,,,,,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,4,NFS target,,,,,,,,,,,,,0,0,0,0,0,0
-60,p17,compute,Lenovo,,Xeon W10855M,,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p17,RTX-5000,TU104,16,,120,0,,,,,,,0,0,0,0,0,0
-61,p15,compute,Lenovo,,8750H,,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p15,P1000,GP107,4,,,0,,,,,,,0,0,0,0,0,0
-62,p1gen6,compute,Lenovo,,13800H,,,,,,,96,mgmt,,,,,,,,,p1gen6,RTX-3500-ada,AD104,12,5120,,0,,,,,,,0,0,0,0,0,0
-70,dgx-spark,compute,NVIDIA,,GB10,,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,DGX-Spark,GB10,DGX-Spark,128,5120,100,,,,,,,,0,0,0,0,0,0
-71,mac,compute,Apple,,m2ultra48,,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra2,,,,,,,,,,,,,0,0,0,0,0,0
-72,mac,compute,Apple,,m3ultra48,,,,,,,96,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra3,,,,,,,,,,,,,0,0,0,0,0,0
+id,hostname,role,manufacturer,type,cpu,cpu-family,cpu-mhz,cpu-vcores,cpu-p,cpu-e,cpu-ht,cpu-ram,cluster,mgmt_ip,data_ip,mgmt_mac,data_mac,switch_mgmt,port_mgmt,switch_data,port_data,notes,gpu0_proc_id,gpu0_model,gpu0_vram,gpu0_cores,gpu0_watts,gpu0_nvlink,gpu1_proc_id,gpu1_model,gpu1_vram,gpu1_cores,gpu1_watts,gpu1_nvlink,hd0,hd1,hd2,hd3,hd4,hd5,ip0
+1,dell-cp-01,control-plane,Dell,,i5-13500T,,,14,6,8,0,16,alpha,10.3.0.101,10.1.0.101,AA:BB:CC:00:01:01,AA:BB:CC:00:01:11,leaf-rack1-a,1,leaf-rack1-a,5,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+2,dell-cp-02,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.102,10.1.0.102,AA:BB:CC:00:02:01,AA:BB:CC:00:02:11,leaf-rack1-a,2,leaf-rack1-a,6,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+3,dell-cp-03,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.103,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,3,leaf-rack1-a,7,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+3,dell-cp-04,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.104,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,1,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+3,dell-cp-05,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.105,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,2,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+3,dell-cp-06,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.106,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,3,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+3,dell-cp-07,control-plane,Dell,,13500T,,,,,,,16,alpha,10.3.0.107,10.1.0.103,AA:BB:CC:00:03:01,AA:BB:CC:00:03:11,leaf-rack1-a,0,leaf-rack1-a,4,etcd+k8s,,,,,,,,,,,,,0,0,0,0,0,0,
+20,lenovo-w-01,worker,Lenovo,M90q-gen6,Ultra7-265T,,,,,,,64,alpha,10.3.0.104,10.1.0.104,AA:BB:CC:00:04:01,AA:BB:CC:00:04:11,leaf-rack1-a,4,leaf-rack1-a,8,non-GPU,,,,,,,,,,,,,0,0,0,0,0,0,
+20,lenovo-w-02,worker,Lenovo,M90q-gen6,Ultra7-265,,,,,,,32,alpha,10.3.0.104,10.1.0.105,AA:BB:CC:00:04:01,AA:BB:CC:00:04:11,leaf-rack1-a,4,leaf-rack1-a,8,non-GPU,,,,,,,,,,,,,1,0.25,0.25,,,,
+30,14900c,gpu-worker,Obrienlabs,,14900K,,,,,,,128,alpha,10.3.0.105,10.1.0.201,AA:BB:CC:00:05:01,AA:BB:CC:00:05:11,leaf-rack2-a,1,leaf-rack2-a,5,RTX-A6000,GA102,RTX-A6000,48,10752,300,0,,,,,,,0,0,0,0,0,0,
+31,13000KSD,gpu-worker,Obrienlabs,,,,,,,,,128,alpha,10.3.0.106,10.1.0.202,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,2,leaf-rack2-a,6,RTX-A4500 NVLink,GA102,RTX-A4500,20,7168,200,2,GA102,RTX-A4500,20,7168,200,2,0,0,0,0,0,0,
+31,13900a,gpu-worker,Obrienlabs,,13900k,,,,,,,128,alpha,10.3.0.106,10.1.0.203,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,7,RTX-A4000,GA104,RTX-A4000,16,6144,140,0,,,,,,,2,2,2,0,0,0,
+31,13900b,gpu-worker,Obrienlabs,,13900K,,,,,,,192,alpha,10.3.0.106,10.1.0.204,AA:BB:CC:00:06:01,AA:BB:CC:00:06:11,leaf-rack2-a,0,leaf-rack2-a,8,RTX-4090,AD102,RTX-4090,24,16384,480,0,AD102,RTX-4090,24,16384,480,0,2,2,,,,,
+40,sr250,oob,Lenovo,SR250v3,Xeon 6325P,,5600,8,4,0,,32,mgmt,10.3.0.10,10.4.0.10,AA:BB:CC:00:10:01,AA:BB:CC:00:10:11,leaf-mgmt,1,leaf-mgmt,0,RTX-A1000,GA107,RTX-A1000,8,2304,50,0,,,,,,,0,0,0,0,0,0,
+50,qnap,storage,QNAP,,,,,,,,,,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,4,NFS target,,,,,,,,,,,,,0,0,0,0,0,0,
+60,p17,compute,Lenovo,,Xeon W10855M,,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p17,RTX-5000,TU104,16,,120,0,,,,,,,0,0,0,0,0,0,
+61,p15,compute,Lenovo,,8750H,,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,p15,P1000,GP107,4,,,0,,,,,,,0,0,0,0,0,0,
+62,p1gen6,compute,Lenovo,,13800H,,,,,,,96,mgmt,,,,,,,,,p1gen6,RTX-3500-ada,AD104,12,5120,,0,,,,,,,0,0,0,0,0,0,0.136
+70,dgx-spark,compute,NVIDIA,,GB10,,,,,,,128,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,DGX-Spark,GB10,DGX-Spark,128,5120,100,,,,,,,,0,0,0,0,0,0,
+71,mac,compute,Apple,,m2ultra48,,,,,,,64,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra2,,,,,,,,,,,,,0,0,0,0,0,0,
+72,mac,compute,Apple,,m3ultra48,,,,,,,96,mgmt,10.3.0.20,10.4.0.20,AA:BB:CC:00:20:01,AA:BB:CC:00:20:11,leaf-mgmt,3,leaf-mgmt,0,ultra3,,,,,,,,,,,,,0,0,0,0,0,0,
